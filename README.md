@@ -10,7 +10,7 @@ Queensland is one starting context, not the project boundary. Each place may sha
 
 ## Project status
 
-This repository is at the source-audit and design stage.
+This repository now holds the source audit and the first public homepage. Connected topic pages are being shaped in regular reviewable releases.
 
 It is not a registered co-operative, an operating clinic, a certified treatment service or a finished medical device. The public site will keep established information, working proposals, future research and unresolved questions visibly separate.
 
@@ -50,6 +50,8 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 ## Source work
 
 The supplied planning papers, submissions, research PDFs and album lyrics were reviewed before public copy was written. The [source register](docs/source-register.md) lists the supplied material, while the [source audit](docs/source-audit.md) records the shared ground, conflicts and open choices shaping the first release.
+
+The first generated hero image, its preserved original and its full prompt are recorded in [image prompts](docs/image-prompts.md).
 
 ## Licence
 
