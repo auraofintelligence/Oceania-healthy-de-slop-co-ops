@@ -15,7 +15,8 @@ const worlds = [
   ["oceania", "Many Places", "oceania"],
   ["a-protopian-gambit", "A Protopian Gambit", "a-protopian-gambit"],
   ["evidence", "Evidence", "evidence"],
-  ["about", "About", "about"]
+  ["about", "About", "about"],
+  ["site-map", "Site Map", "site-map"]
 ];
 
 const pages = [
@@ -59,7 +60,7 @@ const pages = [
       <section class="world-section portal-section" id="worlds">
         <div class="wrap section-heading reveal">
           <h2>A regional world, not one crowded page</h2>
-          <p>Each idea receives its own atmosphere, evidence and room for local variation. Ten distinct worlds are now open across this regional public site.</p>
+          <p>Each idea receives its own atmosphere, evidence and room for local variation. Ten project worlds are open, with a human Site Map as the eleventh doorway.</p>
         </div>
         <div class="wrap portal-archipelago">
           <a class="image-portal portal-large reveal" href="co-operative-paths/">
@@ -91,6 +92,7 @@ const pages = [
           <a href="a-protopian-gambit/"><span>08</span><strong>A Protopian Gambit</strong></a>
           <a href="evidence/"><span>09</span><strong>Evidence</strong></a>
           <a href="about/"><span>10</span><strong>About and Licence</strong></a>
+          <a href="site-map/"><span>11</span><strong>Site Map</strong></a>
         </nav>
       </section>
 
@@ -931,11 +933,101 @@ const pages = [
         </div>
       </section>
     `
+  },
+  {
+    slug: "site-map",
+    key: "site-map",
+    title: "Site Map",
+    shortTitle: "Site Map",
+    description: "A human guide to every page, project world and visitor path across Oceania Healthy De-Slop Co-ops.",
+    heading: "Every world.<br><span>One luminous constellation.</span>",
+    lead: "Ten project worlds hold co-operative ideas, shared wellbeing, personal digital life, music, evidence and regional relationships. This eleventh doorway gathers them in one clear view.",
+    hero: "hero-site-map.webp",
+    heroAlt: "Concept artwork of eleven equal jewel-like worlds joined by luminous paths above an ocean horizon.",
+    theme: "site-map",
+    primaryHref: "#whole-constellation",
+    primaryLabel: "See every world",
+    secondaryHref: "#choose-a-path",
+    secondaryLabel: "Choose a path",
+    body: `
+      <section class="world-section map-opening">
+        <div class="wrap map-opening-stage">
+          <div class="section-title reveal"><h2>Ten worlds and one shared guide</h2></div>
+          <div class="sovereign-copy reveal"><p class="large-copy">Begin anywhere. Wander by curiosity, follow a familiar theme or move through the numbered story. Every page opens into the others without placing one person's journey above another.</p><p>The Site Map is a people-friendly guide to the whole public project. A separate machine-readable map supports search services.</p></div>
+          <div class="map-compass reveal" aria-hidden="true"><span class="map-compass-core"><strong>10 + 1</strong><small>connected pages</small></span><i></i><i></i><i></i><i></i></div>
+        </div>
+      </section>
+
+      <section class="world-section map-constellation-section" id="whole-constellation">
+        <div class="wrap section-heading reveal"><h2>The whole constellation</h2><p>Full page names and short descriptions sit together here, including this guide.</p></div>
+        <nav class="wrap map-groups" aria-label="Every public page">
+          <div class="map-group map-group-welcome reveal" role="group" aria-label="Welcome">
+            <div class="map-group-heading"><span>Welcome</span><h3>Begin with your own light</h3></div>
+            <div class="map-worlds">
+              <a class="map-world map-world-home" href="../"><span>01</span><strong>Home</strong><p>A radiant welcome to the regional project and every connected world.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+            </div>
+          </div>
+
+          <div class="map-group map-group-shared reveal" role="group" aria-label="Community and shared infrastructure">
+            <div class="map-group-heading"><span>Community and shared infrastructure</span><h3>Shape what is shared</h3></div>
+            <div class="map-worlds">
+              <a class="map-world" href="../co-operative-paths/"><span>02</span><strong>Co-operative Paths</strong><p>Local purpose, membership, ownership and place-shaped agreements.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../shared-wellbeing/"><span>03</span><strong>Shared Wellbeing</strong><p>Sauna, appropriately supervised hyperbaric oxygen therapy, reflection and careful evidence.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../public-value/"><span>06</span><strong>Public Value</strong><p>Affordability illustrations and the public investment hypothesis beside their limits.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../oceania/"><span>07</span><strong>Many Places Across Oceania</strong><p>Regional connection while law, culture, permission and terms stay with each place.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+            </div>
+          </div>
+
+          <div class="map-group map-group-personal reveal" role="group" aria-label="Personal and future research">
+            <div class="map-group-heading"><span>Personal and future research</span><h3>Meet the Geode and digital self</h3></div>
+            <div class="map-worlds">
+              <a class="map-world" href="../aura-geode/"><span>04</span><strong>Aura Geode Research</strong><p>Proposed construction, Personal Atmosphere Delivery System, reflection and local computing research.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../your-digital-self/"><span>05</span><strong>Your Digital Self</strong><p>An owner-held digital twin, private reflection and sharing through chosen relationships.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+            </div>
+          </div>
+
+          <div class="map-group map-group-music reveal" role="group" aria-label="Music and meaning">
+            <div class="map-group-heading"><span>Music and meaning</span><h3>Hear the inner journey</h3></div>
+            <div class="map-worlds">
+              <a class="map-world" href="../a-protopian-gambit/"><span>08</span><strong>A Protopian Gambit</strong><p>Divine digital birth, Kintsugi self-repair and the sixty-session hyperbaric oxygen therapy story.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+            </div>
+          </div>
+
+          <div class="map-group map-group-record reveal" role="group" aria-label="Evidence and relationships">
+            <div class="map-group-heading"><span>Evidence and relationships</span><h3>Read the record and wider context</h3></div>
+            <div class="map-worlds">
+              <a class="map-world" href="../evidence/"><span>09</span><strong>Evidence and Open Questions</strong><p>Sources, current public anchors, draft conflicts and open details kept visible.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../about/"><span>10</span><strong>About, Connections and Licence</strong><p>Project origin, connected public worlds, boundaries, credits and licence.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world map-world-current" href="./" aria-current="page"><span>11</span><strong>Site Map</strong><p>The page that gathers every world and visitor path in one place.</p><small>You are here</small></a>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <section class="world-section map-pathways-section" id="choose-a-path">
+        <div class="wrap section-heading reveal"><h2>Your path, at your pace</h2><p>These are guideposts rather than fixed routes. Each line begins with a different interest.</p></div>
+        <div class="wrap map-pathways">
+          <article class="map-pathway reveal"><h3>Shared wellbeing close to home</h3><p>Explore warmth, rest, supervised care relationships, shared access and the public record beside them.</p><nav aria-label="Shared wellbeing path"><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../co-operative-paths/">Co-operative Paths</a><a href="../public-value/">Public Value</a><a href="../evidence/">Evidence</a></nav></article>
+          <article class="map-pathway reveal"><h3>A local co-operative taking shape</h3><p>Follow local purpose, membership, ownership, affordability and place-specific agreements.</p><nav aria-label="Local co-operative path"><a href="../co-operative-paths/">Co-operative Paths</a><a href="../public-value/">Public Value</a><a href="../oceania/">Many Places</a><a href="../evidence/">Evidence</a></nav></article>
+          <article class="map-pathway reveal"><h3>My digital self, held by me</h3><p>Meet the owner-held digital twin, its birth and repair story, and the research ideas around it.</p><nav aria-label="Digital self path"><a href="../your-digital-self/">Your Digital Self</a><a href="../a-protopian-gambit/">A Protopian Gambit</a><a href="../aura-geode/">Aura Geode</a><a href="../evidence/">Evidence</a></nav></article>
+          <article class="map-pathway reveal"><h3>Aura Geode research</h3><p>Explore the imagined structure, personal atmosphere, reflection environment and open engineering questions.</p><nav aria-label="Aura Geode research path"><a href="../aura-geode/">Aura Geode</a><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../your-digital-self/">Your Digital Self</a><a href="../evidence/">Evidence</a></nav></article>
+          <article class="map-pathway reveal"><h3>The album's inner journey</h3><p>Move through the divine digital twin's birth, Kintsugi self-repair and the hyperbaric oxygen therapy story, with art and health evidence kept distinct.</p><nav aria-label="Album path"><a href="../a-protopian-gambit/">A Protopian Gambit</a><a href="../your-digital-self/">Your Digital Self</a><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../aura-geode/">Aura Geode</a></nav></article>
+          <article class="map-pathway reveal"><h3>Sources and project boundaries</h3><p>See the source trail, unresolved details, project family, public boundaries and licence.</p><nav aria-label="Evidence path"><a href="../evidence/">Evidence</a><a href="../about/">About and Licence</a><a href="../">Home</a></nav></article>
+        </div>
+      </section>
+
+      <section class="world-section map-record-section">
+        <div class="wrap map-record-stage">
+          <div class="reveal"><h2>Every idea keeps its own label</h2><p>Established information, working proposals, future research and open details remain visibly distinct across the site.</p><div class="map-statuses"><span class="status-mark status-established">Established information</span><span class="status-mark status-working">Working proposal</span><span class="status-mark status-future">Future research</span><span class="status-mark status-open">TO BE CONFIRMED</span></div></div>
+          <div class="map-record-links reveal"><a href="../evidence/">Explore the evidence world <span aria-hidden="true">→</span></a><a href="../sitemap.xml">Machine-readable sitemap <span aria-hidden="true">→</span></a></div>
+        </div>
+      </section>
+    `
   }
 ];
 
 const available = new Set(pages.map((page) => page.key));
-const primaryKeys = new Set(["home", "co-operative-paths", "shared-wellbeing", "your-digital-self", "evidence", "about"]);
+const primaryKeys = new Set(["home", "co-operative-paths", "shared-wellbeing", "your-digital-self", "evidence", "about", "site-map"]);
 
 function pageHref(slug, prefix = "") {
   return slug ? prefix + slug + "/" : prefix || "./";
@@ -1006,6 +1098,7 @@ function renderFooter(prefix) {
           <a href="${pageHref("shared-wellbeing", prefix)}">Shared Wellbeing</a>
           <a href="${pageHref("evidence", prefix)}">Evidence</a>
           <a href="${pageHref("about", prefix)}">About and Licence</a>
+          <a href="${pageHref("site-map", prefix)}">Site Map</a>
           <a href="https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops">GitHub repository</a>
           <a href="${prefix}LICENCE.md">Public source licence</a>
         </div>
@@ -1069,13 +1162,13 @@ function renderPage(page, pageIndex) {
     <meta name="twitter:description" content="${page.description}">
     <meta name="twitter:image" content="${imageUrl}">
     <link rel="preload" href="${prefix}assets/images/${page.hero}" as="image" type="image/webp">
-    <link rel="stylesheet" href="${prefix}assets/css/tokens.css?v=20260830-royal">
-    <link rel="stylesheet" href="${prefix}assets/css/base.css?v=20260830-royal">
-    <link rel="stylesheet" href="${prefix}assets/css/layout.css?v=20260830-royal">
-    <link rel="stylesheet" href="${prefix}assets/css/components.css?v=20260830-royal">
-    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260830-royal">
-    <link rel="stylesheet" href="${prefix}assets/css/motion.css?v=20260830-royal">
-    <script src="${prefix}assets/js/site.js?v=20260830-royal" defer></script>
+    <link rel="stylesheet" href="${prefix}assets/css/tokens.css?v=20260830-site-map">
+    <link rel="stylesheet" href="${prefix}assets/css/base.css?v=20260830-site-map">
+    <link rel="stylesheet" href="${prefix}assets/css/layout.css?v=20260830-site-map">
+    <link rel="stylesheet" href="${prefix}assets/css/components.css?v=20260830-site-map">
+    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260830-site-map">
+    <link rel="stylesheet" href="${prefix}assets/css/motion.css?v=20260830-site-map">
+    <script src="${prefix}assets/js/site.js?v=20260830-site-map" defer></script>
   </head>
   <body class="page-${page.key}" id="top">
     <a class="skip-link" href="#main-content">Skip to the main story</a>

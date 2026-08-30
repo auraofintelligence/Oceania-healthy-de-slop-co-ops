@@ -14,7 +14,8 @@ const expectedPages = [
   path.join("oceania", "index.html"),
   path.join("a-protopian-gambit", "index.html"),
   path.join("evidence", "index.html"),
-  path.join("about", "index.html")
+  path.join("about", "index.html"),
+  path.join("site-map", "index.html")
 ];
 
 function walk(directory) {
@@ -134,6 +135,7 @@ const requiredAssets = [
   "assets/images/hero-a-protopian-gambit.webp",
   "assets/images/hero-evidence.webp",
   "assets/images/hero-about.webp",
+  "assets/images/hero-site-map.webp",
   "sitemap.xml",
   "robots.txt"
 ];

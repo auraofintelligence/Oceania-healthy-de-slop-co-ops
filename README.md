@@ -10,7 +10,7 @@ Queensland is one starting context, not the project boundary. Each place may sha
 
 ## Project status
 
-This repository now holds the source audit and a ten-page future ceremonial public site. The site is growing through regular reviewable releases.
+This repository now holds the source audit and an eleven-page future ceremonial public site. Ten project worlds are joined by a people-friendly Site Map. The site is growing through regular reviewable releases.
 
 It is not a registered co-operative, an operating clinic, a certified treatment service or a finished medical device. The public site will keep established information, working proposals, future research and unresolved questions visibly separate.
 
@@ -41,6 +41,7 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 - [A Protopian Gambit](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/a-protopian-gambit/)
 - [Evidence and Open Questions](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/evidence/)
 - [About, Connections and Licence](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/about/)
+- [Site Map](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/site-map/)
 
 ## Public boundaries
 
