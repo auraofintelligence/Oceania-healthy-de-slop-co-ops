@@ -10,7 +10,7 @@ Queensland is one starting context, not the project boundary. Each place may sha
 
 ## Project status
 
-This repository now holds the source audit and the first five-page future ceremonial release. The wider site is growing through regular reviewable releases.
+This repository now holds the source audit and a ten-page future ceremonial public site. The site is growing through regular reviewable releases.
 
 It is not a registered co-operative, an operating clinic, a certified treatment service or a finished medical device. The public site will keep established information, working proposals, future research and unresolved questions visibly separate.
 
@@ -36,6 +36,11 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 - [Shared Wellbeing](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/shared-wellbeing/)
 - [Aura Geode Research](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/aura-geode/)
 - [Your Digital Self](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/your-digital-self/)
+- [Public Value](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/public-value/)
+- [Many Places Across Oceania](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/oceania/)
+- [A Protopian Gambit](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/a-protopian-gambit/)
+- [Evidence and Open Questions](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/evidence/)
+- [About, Connections and Licence](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/about/)
 
 ## Public boundaries
 

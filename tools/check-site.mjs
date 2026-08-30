@@ -9,7 +9,12 @@ const expectedPages = [
   path.join("co-operative-paths", "index.html"),
   path.join("shared-wellbeing", "index.html"),
   path.join("aura-geode", "index.html"),
-  path.join("your-digital-self", "index.html")
+  path.join("your-digital-self", "index.html"),
+  path.join("public-value", "index.html"),
+  path.join("oceania", "index.html"),
+  path.join("a-protopian-gambit", "index.html"),
+  path.join("evidence", "index.html"),
+  path.join("about", "index.html")
 ];
 
 function walk(directory) {
@@ -124,6 +129,11 @@ const requiredAssets = [
   "assets/images/hero-shared-wellbeing.webp",
   "assets/images/hero-aura-geode.webp",
   "assets/images/hero-your-digital-self.webp",
+  "assets/images/hero-public-value.webp",
+  "assets/images/hero-oceania.webp",
+  "assets/images/hero-a-protopian-gambit.webp",
+  "assets/images/hero-evidence.webp",
+  "assets/images/hero-about.webp",
   "sitemap.xml",
   "robots.txt"
 ];

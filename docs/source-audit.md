@@ -23,7 +23,7 @@ Several ideas remain steady even where the figures and structures change:
 
 | Topic | What the supplied material says | Public treatment while the choice remains open |
 | --- | --- | --- |
-| Roughly A$1,000 access | The business model reaches about A$1,000 per participant only in an illustrative 35-member scenario. Seven founding members are modelled around a different A$5,000 contribution and finance pathway. | Present the amount as an affordability hypothesis, not a price, promise or complete operating budget. |
+| Roughly A$1,000 access | One source table labels A$1,000 as an indicative per-member protocol cost at 35 members. The same table also shows an A$5,000 initial loan per member and a separate A$500 operating fee. | Keep the three categories visible. A$1,000 is not treated as the total price of entry, a public offer or a complete operating budget. |
 | PADS | PADS means Personal Atmosphere Delivery System. The proposed design uses mask-fed breathing gas in a chamber pressurised with normal air. Other passages blur mask pressure and chamber pressure. No supplied source identifies a certified PADS product category. | Keep PADS inside Aura Geode research. Separately identify each existing chamber, accessory and intended use through its own current record. |
 | Hyperbaric location | Several early drafts describe home use. A later aged-care plan moves access into suitably equipped facilities with trained professionals. | The launch wording awaits a choice between supervised existing services and a home-use proposal. |
 | Aura Geode construction | One model uses a steel frame. Another imagines a pressure-rated geopolymer and local mineral shell. No completed engineering, pressure testing or certification is evidenced. | Present the Geode as a construction and research journey, separate from currently available equipment. |
@@ -83,5 +83,5 @@ The supplied lyric file contains no video addresses. Preferred versions and publ
 ## Open choices before the visual build
 
 1. Existing registered hyperbaric and sauna equipment could lead the access story, with PADS and the Aura Geode held as a separate research and construction path. The alternative is a launch centred on the proposed Geode itself.
-2. The affordability story could show A$1,000 as a 35-member working scenario beside an editable co-operative calculator. Local owner-held digital twins could form the default, with cloud or research sharing offered separately.
+2. The affordability story could show the A$1,000 indicative protocol cost beside the A$5,000 initial loan and A$500 operating fee in the same 35-member source table. A separate editable thought experiment may explore shared-cost arithmetic. Local owner-held digital twins could form the default, with cloud or research sharing offered separately.
 3. Cultural material and music embeds need the preferred public versions, links and any relevant family, cultural or organisational review already available.

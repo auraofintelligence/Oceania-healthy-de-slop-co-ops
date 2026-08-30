@@ -132,7 +132,7 @@
       ],
       membership: [
         "Who belongs, and how?",
-        "Membership may hold different kinds of participation, contribution, access and voice without pretending every person's circumstances are identical.",
+        "Membership may hold different kinds of participation, contribution, access and voice while respecting that people's circumstances differ.",
         "What would help people feel welcomed, respected and free to leave?"
       ],
       ownership: [
@@ -181,6 +181,34 @@
         target.style.transform = "";
       });
     });
+  }
+
+  const affordability = document.querySelector("[data-affordability]");
+  if (affordability) {
+    const membersInput = affordability.querySelector("[data-value-members]");
+    const totalInput = affordability.querySelector("[data-value-total]");
+    const supportInput = affordability.querySelector("[data-value-support]");
+    const result = affordability.querySelector("[data-value-result]");
+    const formatter = new Intl.NumberFormat("en-AU", {
+      style: "currency",
+      currency: "AUD",
+      maximumFractionDigits: 0
+    });
+
+    function updateAffordability() {
+      const members = Math.max(Number(membersInput.value) || 1, 1);
+      const total = Math.max(Number(totalInput.value) || 0, 0);
+      const support = Math.max(Number(supportInput.value) || 0, 0);
+      const sharedAmount = Math.max(total - support, 0);
+      const formatted = formatter.format(sharedAmount / members);
+      result.textContent = formatted.startsWith("$") ? "A" + formatted : formatted;
+    }
+
+    [membersInput, totalInput, supportInput].forEach((input) => {
+      input.addEventListener("input", updateAffordability);
+    });
+    affordability.querySelector("form")?.addEventListener("submit", (event) => event.preventDefault());
+    updateAffordability();
   }
 
   const canvas = document.querySelector("[data-constellation]");

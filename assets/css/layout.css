@@ -149,6 +149,22 @@
   font-weight: 740;
 }
 
+.world-menu-button.is-current-world {
+  color: var(--night-950);
+  background: var(--opal-metal);
+  border-color: rgba(255, 255, 255, 0.72);
+}
+
+@media (max-width: 1080px) {
+  .primary-nav {
+    display: none;
+  }
+
+  .header-shell {
+    grid-template-columns: 1fr auto;
+  }
+}
+
 .world-menu-button i,
 .world-menu-button i::before {
   display: block;
