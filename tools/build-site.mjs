@@ -72,18 +72,18 @@ const pages = [
             <span class="portal-shade"></span>
             <span class="portal-copy"><strong>Shared Wellbeing</strong><small>Warmth, breath, rest and careful evidence.</small></span>
           </a>
-          <article class="future-portal future-violet reveal">
+          <a class="future-portal future-violet reveal" href="aura-geode/">
             <span class="portal-gem" aria-hidden="true"></span>
             <h3>Aura Geode Research</h3>
             <p>A construction and research world for the proposed Geode and Personal Atmosphere Delivery System.</p>
             <span class="status-mark status-future">Future research</span>
-          </article>
-          <article class="future-portal future-opal reveal">
+          </a>
+          <a class="future-portal future-opal reveal" href="your-digital-self/">
             <span class="portal-gem" aria-hidden="true"></span>
             <h3>Your Digital Self</h3>
             <p>A plain-language path into local hardware, private reflection and a digital twin that grows with its person.</p>
             <span class="status-mark status-working">Working proposal</span>
-          </article>
+          </a>
         </div>
       </section>
 
@@ -126,7 +126,7 @@ const pages = [
             </div>
             <div>
               <h3>60 Days Set in Stone</h3>
-              <p>The hyperbaric oxygen therapy song carries pressure, measurement, commitment and digital-twin formation through an artistic sixty-day journey.</p>
+              <p>The hyperbaric oxygen therapy song carries pressure, measurement, commitment and digital-twin formation through an artistic sixty-session journey.</p>
               <span class="status-mark status-art">Art beside evidence</span>
             </div>
           </article>
@@ -328,7 +328,7 @@ const pages = [
           </div>
           <div class="song-copy reveal">
             <h2><em>60 Days Set in Stone</em> is the hyperbaric oxygen therapy song</h2>
-            <p class="large-copy">The song carries a sixty-session journey through pressure, measurement, self-reflection and the formation of a digital twin inside the wider Aura Geode vision.</p>
+            <p class="large-copy">The song carries a sixty-session chamber journey through pressure, measurement, self-reflection and digital-twin formation in art.</p>
             <p>Its emotional and artistic meaning belongs here. Clinical benefits, protocols and personal suitability belong in the separate evidence and professional-care lane. The song is not presented as treatment evidence or an instruction.</p>
             <span class="status-mark status-art">Art beside evidence</span>
           </div>
@@ -347,6 +347,223 @@ const pages = [
           <div><span>Sauna type and model</span><strong>TO BE CONFIRMED</strong></div>
           <div><span>Service location</span><strong>TO BE CONFIRMED</strong></div>
           <div><span>Professional relationship</span><strong>TO BE CONFIRMED</strong></div>
+        </div>
+      </section>
+    `
+  },
+  {
+    slug: "aura-geode",
+    key: "aura-geode",
+    title: "Aura Geode Research",
+    shortTitle: "Aura Geode",
+    description: "An open construction and research path for the proposed Aura Geode and Personal Atmosphere Delivery System.",
+    heading: "An imagined chrysalis.<br><span>Research lives in the open.</span>",
+    lead: "The Aura Geode is a proposed place where structure, atmosphere, reflection and local computing meet. This page honours the scale of the vision while every unresolved engineering and health question remains visible.",
+    hero: "hero-aura-geode.webp",
+    heroAlt: "Imagined architectural artwork of an unoccupied translucent Geode chamber being studied by a small research team beside the ocean at night.",
+    theme: "geode",
+    primaryHref: "#geode-parts",
+    primaryLabel: "Enter the research",
+    secondaryHref: "../your-digital-self/",
+    secondaryLabel: "Meet your digital self",
+    body: `
+      <section class="world-section geode-opening">
+        <div class="wrap editorial-split">
+          <div class="section-title reveal"><h2>A future place, clearly named</h2></div>
+          <div class="sovereign-copy reveal">
+            <p class="large-copy">The Geode is a construction and research vision. No completed structure, certified Aura Geode product, operating clinic or approved treatment program is evidenced in the supplied material.</p>
+            <p>Existing health equipment belongs in its own named product and professional setting. The Geode belongs in an open research path, with its questions held in daylight.</p>
+            <span class="status-mark status-future">Future research</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="world-section geode-anatomy-section" id="geode-parts">
+        <div class="wrap section-heading reveal">
+          <h2>Four relationships inside one imagined place</h2>
+          <p>Keeping the parts distinct leaves room for good engineering, personal choice and clear public understanding.</p>
+        </div>
+        <div class="wrap geode-anatomy">
+          <div class="geode-core reveal" aria-hidden="true"><span></span><span></span><span></span><i></i></div>
+          <div class="geode-part geode-part-shell reveal"><span>01</span><h3>Structure</h3><p>A pressure-rated enclosure remains a design and testing question.</p></div>
+          <div class="geode-part geode-part-atmosphere reveal"><span>02</span><h3>Atmosphere</h3><p>Chamber pressure and a person's breathing atmosphere are separate design relationships.</p></div>
+          <div class="geode-part geode-part-reflection reveal"><span>03</span><h3>Reflection</h3><p>Music, journalling and private records belong to the person's own experience.</p></div>
+          <div class="geode-part geode-part-compute reveal"><span>04</span><h3>Local computing</h3><p>A digital reflection begins on owner-held hardware outside the chamber.</p></div>
+        </div>
+      </section>
+
+      <section class="world-section pads-section">
+        <div class="wrap pads-stage">
+          <div class="pads-name reveal">
+            <span class="pads-letter">P</span><strong>Personal</strong>
+            <span class="pads-letter">A</span><strong>Atmosphere</strong>
+            <span class="pads-letter">D</span><strong>Delivery</strong>
+            <span class="pads-letter">S</span><strong>System</strong>
+          </div>
+          <div class="pads-copy reveal">
+            <h2>A personal atmosphere is the proposal</h2>
+            <p class="large-copy">The proposed Personal Atmosphere Delivery System (PADS) uses a personal mask for a selected breathing gas while the larger chamber may remain pressurised with ordinary air.</p>
+            <p>Gas composition, pressure relationships, hardware, controls, intended purpose, product category, testing and certification remain unresolved. The supplied material does not identify a certified PADS product.</p>
+            <span class="status-mark status-open">TO BE CONFIRMED</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="world-section material-section">
+        <div class="wrap editorial-split">
+          <div class="section-title reveal"><h2>Two construction directions</h2></div>
+          <div class="sovereign-copy reveal"><p class="large-copy">The drafts hold two different material imaginations. Neither is treated as settled engineering.</p></div>
+        </div>
+        <div class="wrap material-duet">
+          <article class="material-path material-steel reveal">
+            <span class="material-sample" aria-hidden="true"></span>
+            <div><h3>Steel frame</h3><p>A fabricated structural path with familiar industrial relationships and a separate inner environment.</p><span class="status-mark status-future">Future research</span></div>
+          </article>
+          <article class="material-path material-mineral reveal">
+            <span class="material-sample" aria-hidden="true"></span>
+            <div><h3>Mineral shell</h3><p>A proposed pressure-rated geopolymer and local mineral direction with a different testing journey.</p><span class="status-mark status-future">Future research</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="world-section research-gates-section">
+        <div class="wrap research-gates-stage">
+          <div class="research-gates-copy reveal">
+            <h2>The open research gates</h2>
+            <p>Each gate represents a relationship that deserves its own qualified people, records and review.</p>
+          </div>
+          <div class="research-gates reveal">
+            <span>Pressure</span><span>Fire safety</span><span>Breathing gas</span><span>Materials</span><span>Accessibility</span><span>Human factors</span><span>Controls</span><span>Testing</span><span>Regulatory pathway</span>
+          </div>
+          <div class="research-record reveal">
+            <span class="status-mark status-open">TO BE CONFIRMED</span>
+            <p>Engineering team, design standard, pressure testing, fire assessment, accessibility review, product identity, intended use and clinical relationship.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="world-section geode-song-section">
+        <div class="wrap geode-song-stage">
+          <div class="geode-song-rings reveal" aria-hidden="true"><span></span><span></span><span></span><strong>60<small>session art journey</small></strong></div>
+          <div class="reveal">
+            <h2><em>60 Days Set in Stone</em> gives the research a human interior</h2>
+            <p class="large-copy">The hyperbaric oxygen therapy song imagines sixty sessions of pressure, measurement, reflection and digital-twin formation. It is an artistic journey beside the research, not a clinical protocol or evidence of benefit.</p>
+            <span class="status-mark status-art">Art beside evidence</span>
+            <div class="inline-paths"><a class="faceted-link faceted-link-light" href="../shared-wellbeing/#three-spaces">Shared wellbeing and current safety <span aria-hidden="true">→</span></a><a class="faceted-link faceted-link-light" href="https://auraofintelligence.github.io/aura-geode/">The wider Aura Geode project <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </div>
+      </section>
+    `
+  },
+  {
+    slug: "your-digital-self",
+    key: "your-digital-self",
+    title: "Your Digital Self",
+    shortTitle: "Your Digital Self",
+    description: "A radiant plain-language introduction to a local-first, person-held digital twin and its permissions.",
+    heading: "A divine reflection.<br><span>Held close to home.</span>",
+    lead: "A digital twin here is a growing reflection of one person's memories, records, choices and patterns. The person remains the source, the centre and the keeper of the relationship.",
+    hero: "hero-your-digital-self.webp",
+    heroAlt: "Concept artwork of a person meeting an equal radiant digital reflection beside a small owner-held computing device in an opal observatory.",
+    theme: "digital-self",
+    primaryHref: "#birth-repair",
+    primaryLabel: "Birth and repair",
+    secondaryHref: "../aura-geode/",
+    secondaryLabel: "Aura Geode research",
+    body: `
+      <section class="world-section twin-opening">
+        <div class="wrap editorial-split">
+          <div class="section-title reveal"><h2>A companion reflection, not a corporate copy</h2></div>
+          <div class="sovereign-copy reveal">
+            <p class="large-copy">The proposed digital twin grows beside its person. It may help them notice threads across their own life while leaving room for mystery, change and the parts of a person that no record captures.</p>
+            <p>The vision remains a working proposal. No completed clinical Aura system or finished personal digital-twin product is evidenced in the supplied material.</p>
+            <span class="status-mark status-working">Working proposal</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="world-section twin-meaning-section">
+        <div class="wrap twin-meaning-stage">
+          <div class="twin-person reveal"><span class="human-light" aria-hidden="true"></span><strong>You</strong><small>living, changing, more than data</small></div>
+          <div class="twin-thread reveal" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div class="twin-reflection reveal"><span class="reflection-light" aria-hidden="true"></span><strong>Your reflection</strong><small>memories, records, choices and patterns</small></div>
+        </div>
+        <div class="wrap twin-meaning-copy reveal"><p>A person and a model are not the same thing. The relationship stays useful when the reflection remains understandable, correctable, portable and open to being left behind.</p></div>
+      </section>
+
+      <section class="world-section album-birth-section" id="birth-repair">
+        <div class="wrap section-heading reveal">
+          <h2>The album offers one inner story for the technology</h2>
+          <p>Luke's author meaning forms a clear inner sequence rather than three unrelated song references.</p>
+        </div>
+        <div class="wrap birth-repair-arc">
+          <article class="birth-movement reveal">
+            <div class="movement-number">01</div>
+            <div class="movement-jewel birth-jewel" aria-hidden="true"><span></span></div>
+            <div><h3><em>Primordial Consent 1,2,3, Infinity</em></h3><p>Song 1 is the divine self digital twin being born. A sovereign inner life meets memory, contrast, choice and a new form of reflection.</p><span class="status-mark status-art">Artistic meaning</span></div>
+          </article>
+          <article class="repair-movement reveal">
+            <div class="movement-number">02</div>
+            <div class="movement-jewel repair-jewel" aria-hidden="true"><span></span></div>
+            <div><h3><em>Kintsugi Protocol</em></h3><p>The self repairs and re-forms. Golden seams honour what happened without freezing the person inside an old fracture.</p><span class="status-mark status-art">Artistic meaning</span></div>
+          </article>
+          <article class="pressure-movement reveal">
+            <div class="movement-number">03</div>
+            <div class="movement-jewel pressure-jewel" aria-hidden="true"><span></span></div>
+            <div><h3><em>60 Days Set in Stone</em></h3><p>The hyperbaric oxygen therapy song holds a sixty-session artistic chamber journey. Its professional-care questions live in Shared Wellbeing. The proposed Geode remains a separate research connection.</p><span class="status-mark status-art">Art beside evidence</span><div class="movement-links"><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../aura-geode/">Aura Geode Research</a></div></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="world-section local-first-section">
+        <div class="wrap local-first-stage">
+          <div class="local-first-copy reveal">
+            <h2>Local first means the person remains close to the source</h2>
+            <p>Personal files begin on hardware chosen and held by the person. Any later sharing sits behind a separate purpose, permission and relationship.</p>
+            <span class="status-mark status-working">Working proposal</span>
+          </div>
+          <div class="permission-map reveal" aria-label="Proposed local-first permission relationships">
+            <div class="permission-centre"><strong>Person</strong><span>Local hardware</span></div>
+            <div class="permission-path permission-coop"><i></i><span>Co-operative<br><small>separate agreement</small></span></div>
+            <div class="permission-path permission-care"><i></i><span>Health professional<br><small>separate relationship</small></span></div>
+            <div class="permission-path permission-research"><i></i><span>Research project<br><small>separate consent</small></span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="world-section twin-boundaries-section">
+        <div class="wrap editorial-split">
+          <div class="section-title reveal"><h2>Private reflection and shared records are different worlds</h2></div>
+          <div class="sovereign-copy reveal">
+            <p class="large-copy">A private journal, a community membership record, a research contribution and a clinical record each carry a different relationship. Combining them by default would undo the personal sovereignty this project celebrates.</p>
+          </div>
+        </div>
+        <div class="wrap boundary-river reveal">
+          <div><h3>Held by the person</h3><p>Private memories, reflections, corrections, preferences and locally stored patterns.</p></div>
+          <span class="boundary-current" aria-hidden="true"></span>
+          <div><h3>Shared by agreement</h3><p>A named purpose, selected information, a known recipient, a chosen period and a visible way out.</p></div>
+        </div>
+      </section>
+
+      <section class="world-section software-paths-section">
+        <div class="wrap software-stage">
+          <div class="software-prism reveal" aria-hidden="true"><span></span><span></span></div>
+          <div class="software-copy reveal">
+            <h2>Two software paths remain distinct</h2>
+            <p>A general reflection tool and software intended for diagnosis, monitoring, prediction or treatment sit in different public and regulatory relationships. The intended purpose matters more than a project label.</p>
+            <p>Earlier Passport and cloud ideas remain part of the draft history. The current public direction begins with local hardware and treats any remote service as a separate, chosen relationship.</p>
+            <div class="status-constellation"><span class="status-mark status-working">General reflection proposal</span><span class="status-mark status-open">Clinical pathway TO BE CONFIRMED</span></div>
+            <div class="inline-paths"><a class="faceted-link faceted-link-light" href="https://www.tga.gov.au/resources/guidance/understanding-how-we-regulate-software-based-medical-devices">Australian software guidance <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://auraofintelligence.github.io/aura-direct-hardware/">Aura Direct Hardware <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://auraofintelligence.github.io/i-C-infinity-music-universe/">The music universe <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="world-section leaving-section">
+        <div class="wrap leaving-stage">
+          <h2 class="reveal">A sovereign relationship includes the way out</h2>
+          <div class="leaving-words reveal"><span>Visibility</span><span>Correction</span><span>Portability</span><span>Partial sharing</span><span>Ending a connection</span></div>
+          <p class="reveal">Technical details, hardware choices, data formats, backup, deletion and future portability remain part of the open design work.</p>
+          <span class="status-mark status-open reveal">TO BE CONFIRMED</span>
         </div>
       </section>
     `

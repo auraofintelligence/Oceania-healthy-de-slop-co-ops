@@ -671,7 +671,7 @@
 
   .portal-tall {
     min-height: 580px;
-    grid-column: 6 / span 7;
+    grid-column: 7 / span 6;
     margin-top: 0;
   }
 
@@ -823,5 +823,1149 @@
 
   .equipment-ledger {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Aura Geode research world */
+.hero-geode .hero-image {
+  object-position: 58% center;
+}
+
+.geode-opening {
+  color: var(--opal-100);
+  background:
+    linear-gradient(128deg, rgba(169, 109, 255, 0.1), transparent 34%),
+    linear-gradient(304deg, rgba(33, 217, 212, 0.08), transparent 38%),
+    #04050f;
+}
+
+.geode-opening .sovereign-copy p:not(.large-copy) {
+  color: rgba(248, 247, 242, 0.7);
+}
+
+.geode-anatomy-section {
+  color: var(--ink-900);
+  background:
+    linear-gradient(142deg, transparent 0 46%, rgba(83, 54, 138, 0.06) 46.2%, transparent 46.5%),
+    linear-gradient(145deg, #fbfaf4, #d9e9e8 54%, #e5dcef);
+}
+
+.geode-anatomy-section .section-heading > p {
+  color: rgba(7, 19, 38, 0.68);
+}
+
+.geode-anatomy {
+  display: grid;
+  min-height: 820px;
+  align-items: center;
+  gap: 1.2rem;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(270px, auto));
+}
+
+.geode-core {
+  position: relative;
+  z-index: 2;
+  width: min(400px, 32vw);
+  aspect-ratio: 1;
+  grid-column: 5 / span 5;
+  grid-row: 1 / span 2;
+  justify-self: center;
+  background: conic-gradient(from 18deg, #f7f0ff, #66f3e7, #798cff, #b171ff, #ff91b6, #ffe18a, #f7f0ff);
+  clip-path: polygon(50% 0, 83% 8%, 100% 40%, 91% 76%, 62% 100%, 23% 92%, 0 60%, 8% 22%);
+  filter: drop-shadow(0 40px 50px rgba(14, 28, 62, 0.28));
+}
+
+.geode-core::before {
+  position: absolute;
+  inset: 3%;
+  background:
+    radial-gradient(circle at 48% 44%, rgba(181, 255, 249, 0.78), rgba(71, 80, 152, 0.4) 28%, rgba(6, 9, 31, 0.96) 67%),
+    var(--black-pearl);
+  clip-path: inherit;
+  content: "";
+}
+
+.geode-core::after {
+  position: absolute;
+  inset: 13%;
+  border: 1px solid rgba(255, 238, 187, 0.7);
+  clip-path: inherit;
+  content: "";
+  box-shadow: inset 0 0 70px rgba(33, 217, 212, 0.16);
+}
+
+.geode-core span {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  width: 43%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(255, 232, 170, 0.8), transparent);
+  transform-origin: left;
+}
+
+.geode-core span:nth-child(1) { transform: rotate(-76deg); }
+.geode-core span:nth-child(2) { transform: rotate(4deg); }
+.geode-core span:nth-child(3) { transform: rotate(127deg); }
+
+.geode-core i {
+  position: absolute;
+  z-index: 3;
+  inset: 34%;
+  background: radial-gradient(circle, #eaffff, #7cf1e8 22%, rgba(141, 103, 255, 0.34) 54%, transparent 70%);
+  clip-path: inherit;
+  filter: drop-shadow(0 0 32px rgba(134, 255, 242, 0.7));
+}
+
+.geode-part {
+  position: relative;
+  min-height: 240px;
+  align-self: stretch;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.54);
+  border-top: 1px solid rgba(7, 19, 38, 0.22);
+  clip-path: polygon(18px 0, 100% 0, 100% calc(100% - 18px), calc(100% - 18px) 100%, 0 100%, 0 18px);
+}
+
+.geode-part::after {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 35%;
+  height: 3px;
+  background: var(--aurora);
+  content: "";
+}
+
+.geode-part::before {
+  position: absolute;
+  top: 50%;
+  width: clamp(30px, 5vw, 70px);
+  height: 1px;
+  background: linear-gradient(90deg, rgba(7, 19, 38, 0.12), rgba(169, 109, 255, 0.7));
+  content: "";
+}
+
+.geode-part > span {
+  color: var(--ruby-600);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.geode-part h3 {
+  margin-top: 3rem;
+  font-size: clamp(2rem, 3.5vw, 3.2rem);
+}
+
+.geode-part p {
+  color: rgba(7, 19, 38, 0.68);
+}
+
+.geode-part-shell,
+.geode-part-reflection {
+  grid-column: 1 / span 4;
+}
+
+.geode-part-atmosphere,
+.geode-part-compute {
+  grid-column: 10 / span 3;
+}
+
+.geode-part-reflection,
+.geode-part-compute {
+  align-self: start;
+}
+
+.geode-part-shell::before,
+.geode-part-reflection::before {
+  right: calc(clamp(30px, 5vw, 70px) * -1);
+}
+
+.geode-part-atmosphere::before,
+.geode-part-compute::before {
+  left: calc(clamp(30px, 5vw, 70px) * -1);
+  transform: rotate(180deg);
+}
+
+.geode-part-atmosphere {
+  background: linear-gradient(145deg, rgba(214, 250, 247, 0.75), rgba(255, 255, 255, 0.45));
+}
+
+.geode-part-reflection {
+  background: linear-gradient(145deg, rgba(235, 219, 251, 0.76), rgba(255, 255, 255, 0.45));
+}
+
+.geode-part-compute {
+  background: linear-gradient(145deg, rgba(255, 236, 193, 0.72), rgba(255, 255, 255, 0.45));
+}
+
+.pads-section {
+  color: var(--opal-100);
+  background:
+    linear-gradient(105deg, rgba(33, 217, 212, 0.1), transparent 38%),
+    linear-gradient(290deg, rgba(244, 196, 92, 0.09), transparent 34%),
+    #060815;
+}
+
+.pads-stage {
+  display: grid;
+  align-items: center;
+  gap: clamp(4rem, 10vw, 11rem);
+  grid-template-columns: minmax(320px, 0.8fr) minmax(0, 1.2fr);
+}
+
+.pads-name {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  overflow: hidden;
+  background: var(--line-dark);
+  border: 1px solid var(--line-dark);
+  clip-path: polygon(var(--facet-large) 0, 100% 0, 100% calc(100% - var(--facet-large)), calc(100% - var(--facet-large)) 100%, 0 100%, 0 var(--facet-large));
+  box-shadow: var(--royal-shadow);
+}
+
+.pads-name > * {
+  display: flex;
+  min-height: 102px;
+  align-items: center;
+  padding: 1rem 1.4rem;
+  background: rgba(8, 11, 29, 0.94);
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.pads-letter {
+  justify-content: center;
+  color: transparent;
+  background:
+    var(--opal-metal) padding-box,
+    rgba(8, 11, 29, 0.94) border-box !important;
+  -webkit-background-clip: text, border-box;
+  background-clip: text, border-box;
+  font-family: var(--display);
+  font-size: 4rem;
+}
+
+.pads-name strong {
+  color: var(--opal-100);
+  font-family: var(--display);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 500;
+}
+
+.pads-copy p {
+  max-width: 760px;
+  color: rgba(248, 247, 242, 0.72);
+}
+
+.material-section {
+  color: var(--ink-900);
+  background: var(--opal-100);
+}
+
+.material-section .sovereign-copy p {
+  color: rgba(7, 19, 38, 0.68);
+}
+
+.material-duet {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: clamp(4rem, 8vw, 8rem);
+  background: var(--line-ink);
+  border: 1px solid var(--line-ink);
+}
+
+.material-path {
+  display: grid;
+  min-height: 510px;
+  align-content: space-between;
+  padding: clamp(2rem, 5vw, 4rem);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.8), rgba(222, 234, 236, 0.72));
+}
+
+.material-mineral {
+  background: linear-gradient(145deg, #e9e0ec, #d5e4e2 52%, #f1e3d0);
+}
+
+.material-sample {
+  position: relative;
+  display: block;
+  width: min(230px, 65%);
+  aspect-ratio: 1;
+  background: conic-gradient(from 20deg, #dfe8ed, #748492, #f4f7f8, #46515d, #dfe8ed);
+  clip-path: polygon(50% 0, 90% 20%, 100% 65%, 69% 100%, 21% 88%, 0 39%, 17% 8%);
+  filter: drop-shadow(0 28px 35px rgba(7, 19, 38, 0.22));
+}
+
+.material-mineral .material-sample {
+  background: conic-gradient(from 20deg, #fff0c7, #6ee5da, #9a7adb, #e98cab, #fff0c7);
+}
+
+.material-sample::after {
+  position: absolute;
+  inset: 7%;
+  background: linear-gradient(145deg, #172235, #637484);
+  clip-path: inherit;
+  content: "";
+}
+
+.material-mineral .material-sample::after {
+  background:
+    linear-gradient(125deg, transparent 43%, #f7ce73 43.5% 45%, transparent 45.5%),
+    linear-gradient(145deg, #4b4164, #b0cec7);
+}
+
+.material-path h3 {
+  margin-top: 3rem;
+}
+
+.material-path p {
+  max-width: 580px;
+  color: rgba(7, 19, 38, 0.68);
+}
+
+.research-gates-section {
+  color: var(--opal-100);
+  background:
+    linear-gradient(132deg, transparent 0 54%, rgba(255, 232, 170, 0.06) 54.2%, transparent 54.5%),
+    linear-gradient(145deg, #071326, #15133a 56%, #2a1238);
+}
+
+.research-gates-stage {
+  display: grid;
+  gap: clamp(2.5rem, 6vw, 6rem);
+  grid-template-columns: minmax(250px, 0.7fr) minmax(0, 1.3fr);
+}
+
+.research-gates-copy p,
+.research-record p {
+  color: rgba(248, 247, 242, 0.7);
+}
+
+.research-gates {
+  position: relative;
+  display: grid;
+  gap: 0.8rem 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding-left: 1.5rem;
+}
+
+.research-gates::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  background: var(--aurora);
+  clip-path: polygon(50% 0, 100% 12px, 100% calc(100% - 12px), 50% 100%, 0 calc(100% - 12px), 0 12px);
+  content: "";
+  box-shadow: 0 0 24px rgba(134, 255, 242, 0.28);
+}
+
+.research-gates span {
+  position: relative;
+  display: grid;
+  min-height: 92px;
+  align-items: center;
+  padding: 1rem 1.3rem 1rem 2.7rem;
+  background: linear-gradient(110deg, rgba(255, 255, 255, 0.08), rgba(5, 6, 17, 0.32));
+  border: 1px solid var(--line-dark);
+  clip-path: polygon(13px 0, 100% 0, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 13px);
+  font-family: var(--display);
+  font-size: clamp(1.05rem, 2vw, 1.45rem);
+  text-align: left;
+}
+
+.research-gates span::before {
+  position: absolute;
+  left: 1rem;
+  width: 9px;
+  aspect-ratio: 1;
+  background: currentColor;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  content: "";
+  box-shadow: 0 0 14px currentColor;
+}
+
+.research-gates span:nth-child(even) {
+  transform: translateY(1.4rem);
+}
+
+.research-gates span:nth-child(3n + 1) { color: var(--lagoon-300); }
+.research-gates span:nth-child(3n + 2) { color: #d8c4ff; }
+.research-gates span:nth-child(3n) { color: var(--solar-300); }
+
+.research-record {
+  display: grid;
+  align-items: start;
+  gap: 1.4rem;
+  grid-column: 2;
+  grid-template-columns: auto 1fr;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line-dark);
+}
+
+.research-record p {
+  margin: 0;
+}
+
+.geode-song-section {
+  color: var(--opal-100);
+  background:
+    radial-gradient(circle at 24% 50%, rgba(33, 217, 212, 0.16), transparent 30%),
+    #03040d;
+}
+
+.geode-song-stage {
+  display: grid;
+  align-items: center;
+  gap: clamp(4rem, 11vw, 12rem);
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
+}
+
+.geode-song-rings {
+  position: relative;
+  display: grid;
+  width: min(420px, 80vw);
+  aspect-ratio: 1;
+  place-items: center;
+  justify-self: center;
+  border: 1px solid rgba(134, 255, 242, 0.42);
+  border-radius: 50%;
+  box-shadow: inset 0 0 90px rgba(33, 217, 212, 0.12), 0 0 80px rgba(33, 217, 212, 0.12);
+}
+
+.geode-song-rings span {
+  position: absolute;
+  border: 1px solid rgba(255, 232, 170, 0.34);
+  border-radius: 50%;
+}
+
+.geode-song-rings span:nth-child(1) { inset: 13%; }
+.geode-song-rings span:nth-child(2) { inset: 27%; }
+.geode-song-rings span:nth-child(3) { inset: 41%; background: rgba(169, 109, 255, 0.16); }
+
+.geode-song-rings strong {
+  position: relative;
+  z-index: 2;
+  color: transparent;
+  background: var(--opal-metal);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: var(--display);
+  font-size: clamp(6rem, 14vw, 11rem);
+  font-weight: 500;
+  letter-spacing: -0.09em;
+  text-align: center;
+}
+
+.geode-song-rings strong small {
+  display: block;
+  margin-top: -0.2rem;
+  color: rgba(248, 247, 242, 0.7);
+  background: none;
+  -webkit-text-fill-color: rgba(248, 247, 242, 0.7);
+  font-family: var(--body);
+  font-size: 0.7rem;
+  font-weight: 760;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.geode-song-stage p {
+  max-width: 760px;
+  color: rgba(248, 247, 242, 0.72);
+}
+
+/* Your Digital Self world */
+.hero-digital-self .hero-image {
+  object-position: 58% center;
+}
+
+.twin-opening {
+  color: var(--ink-900);
+  background:
+    linear-gradient(126deg, transparent 0 56%, rgba(169, 109, 255, 0.07) 56.2%, transparent 56.5%),
+    linear-gradient(145deg, #faf9f4, #dcebea 56%, #e9e0f2);
+}
+
+.twin-opening .sovereign-copy p:not(.large-copy) {
+  color: rgba(7, 19, 38, 0.68);
+}
+
+.twin-meaning-section {
+  color: var(--opal-100);
+  background:
+    radial-gradient(circle at 50% 50%, rgba(169, 109, 255, 0.12), transparent 34%),
+    #04050f;
+}
+
+.twin-meaning-stage {
+  display: grid;
+  min-height: 560px;
+  align-items: center;
+  gap: clamp(1rem, 4vw, 4rem);
+  grid-template-columns: minmax(240px, 1.12fr) minmax(140px, 0.55fr) minmax(210px, 0.88fr);
+}
+
+.twin-person,
+.twin-reflection {
+  position: relative;
+  display: grid;
+  min-height: 410px;
+  align-content: end;
+  overflow: hidden;
+  padding: 2rem;
+  background: linear-gradient(145deg, #0c1936, #090817 62%, #2d1749);
+  border: 1px solid var(--line-dark);
+  clip-path: polygon(var(--facet-large) 0, 100% 0, 100% calc(100% - var(--facet-large)), calc(100% - var(--facet-large)) 100%, 0 100%, 0 var(--facet-large));
+  box-shadow: var(--royal-shadow);
+}
+
+.twin-reflection {
+  min-height: 370px;
+  background: linear-gradient(145deg, #20174d, #092536 54%, #4e1a42);
+  opacity: 0.9;
+}
+
+.twin-person strong,
+.twin-reflection strong {
+  position: relative;
+  z-index: 2;
+  font-family: var(--display);
+  font-size: clamp(2.8rem, 5vw, 5.2rem);
+  font-weight: 500;
+}
+
+.twin-person small,
+.twin-reflection small {
+  position: relative;
+  z-index: 2;
+  color: rgba(248, 247, 242, 0.68);
+}
+
+.human-light,
+.reflection-light {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  width: 180px;
+  aspect-ratio: 0.55;
+  background: radial-gradient(ellipse, #ffe8aa, rgba(33, 217, 212, 0.4) 34%, transparent 70%);
+  border-radius: 50% 50% 36% 36%;
+  filter: drop-shadow(0 0 38px rgba(134, 255, 242, 0.35));
+  transform: translateX(-50%);
+}
+
+.reflection-light {
+  background:
+    linear-gradient(120deg, transparent 43%, #ffe8aa 44% 46%, transparent 47%),
+    radial-gradient(ellipse, #f9f1ff, rgba(169, 109, 255, 0.56) 34%, rgba(33, 217, 212, 0.12) 58%, transparent 70%);
+}
+
+.twin-thread {
+  position: relative;
+  height: 260px;
+}
+
+.twin-thread span {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  height: 2px;
+  background: var(--opal-metal);
+  box-shadow: 0 0 24px rgba(134, 255, 242, 0.35);
+}
+
+.twin-thread span:nth-child(1) { transform: translateY(-40px) rotate(9deg); }
+.twin-thread span:nth-child(2) { transform: rotate(-6deg); }
+.twin-thread span:nth-child(3) { transform: translateY(40px) rotate(5deg); }
+
+.twin-meaning-copy {
+  max-width: 780px;
+  margin-top: 2rem;
+  color: rgba(248, 247, 242, 0.72);
+  font-family: var(--display);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  text-align: center;
+}
+
+.album-birth-section {
+  color: var(--ink-900);
+  background: linear-gradient(145deg, #faf9f3, #e4eceb 52%, #eadff1);
+}
+
+.album-birth-section .section-heading > p {
+  color: rgba(7, 19, 38, 0.68);
+}
+
+.birth-repair-arc {
+  position: relative;
+  display: grid;
+  gap: 0;
+}
+
+.birth-repair-arc::before {
+  position: absolute;
+  top: 8%;
+  bottom: 8%;
+  left: 44px;
+  width: 2px;
+  background: linear-gradient(var(--lagoon-500), var(--solar-500), var(--orchid-500));
+  content: "";
+  box-shadow: 0 0 18px rgba(134, 255, 242, 0.3);
+}
+
+.birth-movement,
+.repair-movement,
+.pressure-movement {
+  display: grid;
+  min-height: 350px;
+  align-items: center;
+  gap: clamp(1.5rem, 5vw, 4rem);
+  grid-template-columns: 90px minmax(170px, 0.55fr) minmax(0, 1.45fr);
+  padding: clamp(2rem, 5vw, 4rem) 0;
+  border-top: 1px solid var(--line-ink);
+}
+
+.pressure-movement {
+  border-bottom: 1px solid var(--line-ink);
+}
+
+.movement-number {
+  position: relative;
+  z-index: 1;
+  align-self: start;
+  padding-top: 0.6rem;
+  color: var(--ruby-600);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.movement-number::after {
+  position: absolute;
+  top: 0.45rem;
+  right: 25px;
+  width: 12px;
+  aspect-ratio: 1;
+  background: var(--opal-100);
+  border: 2px solid currentColor;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  content: "";
+}
+
+.movement-jewel {
+  position: relative;
+  width: min(240px, 100%);
+  aspect-ratio: 1;
+  background: conic-gradient(from 25deg, #8ffff0, #a583ff, #ff91b9, #ffe593, #8ffff0);
+  clip-path: polygon(50% 0, 87% 16%, 100% 54%, 73% 100%, 22% 89%, 0 40%, 18% 7%);
+  filter: drop-shadow(0 25px 35px rgba(24, 29, 64, 0.25));
+}
+
+.movement-jewel::before {
+  position: absolute;
+  inset: 6%;
+  background: radial-gradient(circle at 50% 48%, #eaffff, #4c72a0 38%, #111730 70%);
+  clip-path: inherit;
+  content: "";
+}
+
+.movement-jewel span {
+  position: absolute;
+  z-index: 1;
+  inset: 24%;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  clip-path: inherit;
+}
+
+.repair-jewel::before {
+  background:
+    linear-gradient(132deg, transparent 40%, #ffd978 40.5% 43%, transparent 43.5%),
+    linear-gradient(52deg, transparent 52%, #ffd978 52.5% 54%, transparent 54.5%),
+    radial-gradient(circle at 50% 48%, #fbeaff, #8b496b 38%, #241329 72%);
+}
+
+.repair-jewel {
+  clip-path: polygon(50% 0, 88% 10%, 100% 42%, 83% 74%, 100% 100%, 54% 89%, 21% 100%, 0 62%, 14% 24%);
+}
+
+.pressure-jewel::before {
+  background:
+    radial-gradient(circle, transparent 0 18%, rgba(134, 255, 242, 0.65) 18.5% 19%, transparent 19.5% 34%, rgba(255, 232, 170, 0.56) 34.5% 35%, transparent 35.5%),
+    radial-gradient(circle at 50% 48%, #c9ffff, #1b5c72 42%, #111730 74%);
+}
+
+.pressure-jewel {
+  border-radius: 50%;
+  clip-path: none;
+}
+
+.birth-repair-arc h3 {
+  font-size: clamp(2rem, 4vw, 3.8rem);
+}
+
+.birth-repair-arc p {
+  max-width: 760px;
+  color: rgba(7, 19, 38, 0.7);
+}
+
+.movement-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.4rem;
+}
+
+.movement-links a {
+  padding: 0.65rem 0.9rem;
+  color: var(--ink-900);
+  border: 1px solid rgba(7, 19, 38, 0.25);
+  clip-path: polygon(9px 0, 100% 0, 100% calc(100% - 9px), calc(100% - 9px) 100%, 0 100%, 0 9px);
+  font-size: 0.82rem;
+  font-weight: 760;
+  text-decoration: none;
+}
+
+.movement-links a:hover,
+.movement-links a:focus-visible {
+  color: var(--night-950);
+  background: var(--opal-metal);
+  outline-offset: -3px;
+}
+
+.local-first-section {
+  color: var(--opal-100);
+  background:
+    linear-gradient(120deg, rgba(169, 109, 255, 0.12), transparent 38%),
+    linear-gradient(300deg, rgba(33, 217, 212, 0.1), transparent 42%),
+    #050611;
+}
+
+.local-first-stage {
+  display: grid;
+  align-items: center;
+  gap: clamp(4rem, 10vw, 11rem);
+  grid-template-columns: minmax(0, 0.85fr) minmax(420px, 1.15fr);
+}
+
+.local-first-copy p {
+  color: rgba(248, 247, 242, 0.72);
+}
+
+.permission-map {
+  position: relative;
+  min-height: 600px;
+}
+
+.permission-centre {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  width: 220px;
+  aspect-ratio: 1;
+  align-content: center;
+  padding: 2rem;
+  text-align: center;
+  background: var(--opal-metal);
+  clip-path: polygon(50% 0, 90% 18%, 100% 62%, 69% 100%, 20% 89%, 0 42%, 17% 8%);
+  filter: drop-shadow(0 0 45px rgba(134, 255, 242, 0.34));
+  transform: translate(-50%, -50%);
+}
+
+.permission-centre strong {
+  color: var(--night-950);
+  font-family: var(--display);
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+
+.permission-centre span {
+  color: rgba(7, 19, 38, 0.72);
+  font-size: 0.8rem;
+  font-weight: 760;
+}
+
+.permission-path {
+  position: absolute;
+  display: grid;
+  width: 210px;
+  min-height: 120px;
+  align-content: center;
+  padding: 1.2rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--line-dark);
+  clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px);
+  text-align: center;
+}
+
+.permission-path i {
+  position: absolute;
+  top: 50%;
+  width: 110px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--lagoon-300), transparent);
+  transform-origin: left;
+}
+
+.permission-path small {
+  color: rgba(248, 247, 242, 0.54);
+}
+
+.permission-coop { top: 4%; left: 50%; transform: translateX(-50%); }
+.permission-care { right: 0; bottom: 4%; }
+.permission-research { bottom: 4%; left: 0; }
+.permission-coop i { top: auto; bottom: -84px; left: 50%; transform: rotate(90deg); }
+.permission-care i { top: -42px; left: -28px; transform: rotate(215deg); }
+.permission-research i { top: -42px; right: -28px; transform: rotate(-35deg); }
+
+.twin-boundaries-section {
+  color: var(--ink-900);
+  background: var(--opal-100);
+}
+
+.twin-boundaries-section .sovereign-copy p {
+  color: rgba(7, 19, 38, 0.7);
+}
+
+.boundary-river {
+  display: grid;
+  align-items: center;
+  gap: clamp(2rem, 5vw, 5rem);
+  grid-template-columns: minmax(0, 1fr) minmax(90px, 0.35fr) minmax(0, 1fr);
+  margin-top: clamp(4rem, 8vw, 8rem);
+}
+
+.boundary-river > div {
+  min-height: 280px;
+  padding: 2rem;
+  border-top: 1px solid var(--line-ink);
+}
+
+.boundary-river p {
+  color: rgba(7, 19, 38, 0.68);
+}
+
+.boundary-current {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 14px;
+  background: var(--aurora);
+  clip-path: polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%);
+}
+
+.boundary-current::before,
+.boundary-current::after {
+  position: absolute;
+  top: 50%;
+  width: 64px;
+  height: 64px;
+  border: 1px solid rgba(7, 19, 38, 0.25);
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  content: "";
+  transform: translateY(-50%);
+}
+
+.boundary-current::before { left: -10px; }
+.boundary-current::after { right: -10px; }
+
+.software-paths-section {
+  color: var(--opal-100);
+  background:
+    linear-gradient(122deg, rgba(33, 217, 212, 0.08), transparent 33%),
+    linear-gradient(300deg, rgba(255, 79, 134, 0.08), transparent 36%),
+    #050714;
+}
+
+.software-stage {
+  display: grid;
+  align-items: center;
+  gap: clamp(4rem, 10vw, 11rem);
+  grid-template-columns: minmax(280px, 0.7fr) minmax(0, 1.3fr);
+}
+
+.software-prism {
+  position: relative;
+  width: min(420px, 80vw);
+  aspect-ratio: 1;
+  justify-self: center;
+  background: conic-gradient(from 30deg, var(--lagoon-500), var(--orchid-500), var(--hibiscus-500), var(--solar-500), var(--lagoon-500));
+  clip-path: polygon(50% 0, 88% 16%, 100% 54%, 72% 100%, 20% 89%, 0 42%, 17% 8%);
+  filter: drop-shadow(0 35px 70px rgba(0, 0, 0, 0.58));
+}
+
+.software-prism::before {
+  position: absolute;
+  inset: 5%;
+  background: linear-gradient(120deg, #082535 0 49%, #221344 50% 100%);
+  clip-path: inherit;
+  content: "";
+}
+
+.software-prism span {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  bottom: 12%;
+  left: 50%;
+  width: 1px;
+  background: rgba(255, 238, 187, 0.72);
+}
+
+.software-prism span:nth-child(2) {
+  top: 18%;
+  bottom: 50%;
+}
+
+.software-copy p {
+  max-width: 780px;
+  color: rgba(248, 247, 242, 0.72);
+}
+
+.inline-paths {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.leaving-section {
+  color: var(--ink-900);
+  background:
+    linear-gradient(132deg, transparent 0 64%, rgba(169, 109, 255, 0.06) 64.2%, transparent 64.5%),
+    linear-gradient(145deg, #f8f7f2, #dceceb);
+}
+
+.leaving-stage {
+  text-align: center;
+}
+
+.leaving-stage h2 {
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.leaving-stage > p {
+  max-width: 760px;
+  margin: 3rem auto 1.5rem;
+  color: rgba(7, 19, 38, 0.68);
+}
+
+.leaving-words {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1px;
+  margin-top: 4rem;
+  background: var(--line-ink);
+  border: 1px solid var(--line-ink);
+}
+
+.leaving-words span {
+  display: grid;
+  min-width: 190px;
+  min-height: 130px;
+  flex: 1 1 190px;
+  place-items: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: var(--display);
+  font-size: 1.3rem;
+}
+
+@media (max-width: 980px) {
+  .geode-anatomy {
+    min-height: auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto;
+  }
+
+  .geode-core {
+    width: min(460px, 76vw);
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+
+  .geode-part-shell,
+  .geode-part-atmosphere,
+  .geode-part-reflection,
+  .geode-part-compute {
+    grid-column: auto;
+  }
+
+  .pads-stage,
+  .geode-song-stage,
+  .local-first-stage,
+  .software-stage {
+    grid-template-columns: 1fr;
+  }
+
+  .research-gates-stage {
+    grid-template-columns: 1fr;
+  }
+
+  .research-record {
+    grid-column: auto;
+  }
+
+  .permission-map {
+    width: min(680px, 100%);
+    justify-self: center;
+  }
+}
+
+@media (max-width: 760px) {
+  .page-aura-geode .hero-image,
+  .page-your-digital-self .hero-image {
+    object-position: 68% center;
+  }
+
+  .geode-anatomy {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .geode-core {
+    width: min(320px, 86vw);
+  }
+
+  .geode-part {
+    min-height: 220px;
+  }
+
+  .pads-name > * {
+    min-height: 78px;
+  }
+
+  .pads-letter {
+    font-size: 3rem;
+  }
+
+  .material-duet {
+    grid-template-columns: 1fr;
+  }
+
+  .research-gates {
+    gap: 0.6rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .research-gates span {
+    min-height: 82px;
+    padding: 0.8rem 0.75rem 0.8rem 2.1rem;
+    font-size: 1rem;
+  }
+
+  .research-gates span::before {
+    left: 0.75rem;
+  }
+
+  .research-gates span:nth-child(even) {
+    transform: translateY(0.7rem);
+  }
+
+  .material-path {
+    min-height: 450px;
+  }
+
+  .research-record {
+    grid-template-columns: 1fr;
+  }
+
+  .twin-meaning-stage {
+    grid-template-columns: 1fr;
+  }
+
+  .twin-person,
+  .twin-reflection {
+    min-height: 350px;
+  }
+
+  .twin-thread {
+    width: 70%;
+    height: 120px;
+    justify-self: center;
+    transform: rotate(90deg);
+  }
+
+  .birth-movement,
+  .repair-movement,
+  .pressure-movement {
+    grid-template-columns: 54px 1fr;
+  }
+
+  .movement-jewel {
+    width: min(190px, 100%);
+    grid-column: 2;
+  }
+
+  .birth-repair-arc article > div:last-child {
+    grid-column: 2;
+  }
+
+  .permission-map {
+    display: grid;
+    min-height: auto;
+    gap: 0.8rem;
+  }
+
+  .permission-centre,
+  .permission-path {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    min-height: 120px;
+    aspect-ratio: auto;
+    transform: none;
+  }
+
+  .permission-centre {
+    min-height: 210px;
+    clip-path: polygon(var(--facet-medium) 0, 100% 0, 100% calc(100% - var(--facet-medium)), calc(100% - var(--facet-medium)) 100%, 0 100%, 0 var(--facet-medium));
+  }
+
+  .permission-path i {
+    display: none;
+  }
+
+  .boundary-river {
+    grid-template-columns: 1fr;
+  }
+
+  .boundary-river > div {
+    min-height: auto;
+  }
+
+  .boundary-current {
+    width: 14px;
+    height: 100px;
+    justify-self: center;
+  }
+
+  .boundary-current::before,
+  .boundary-current::after {
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .boundary-current::before { top: -10px; }
+  .boundary-current::after { right: auto; bottom: -10px; }
+
+  .software-prism {
+    width: min(320px, 82vw);
+  }
+
+  .inline-paths {
+    align-items: stretch;
+    flex-direction: column;
   }
 }

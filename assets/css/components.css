@@ -34,6 +34,13 @@
   transform: translateY(-4px);
 }
 
+.faceted-button:focus-visible,
+.faceted-link:focus-visible,
+.image-portal:focus-visible,
+.future-portal:focus-visible {
+  outline-offset: -5px;
+}
+
 .faceted-button:hover::before,
 .faceted-button:focus-visible::before,
 .faceted-link:hover::before,
@@ -315,6 +322,14 @@
   border: 1px solid var(--line-dark);
   clip-path: polygon(var(--facet-medium) 0, 100% 0, 100% calc(100% - var(--facet-medium)), calc(100% - var(--facet-medium)) 100%, 0 100%, 0 var(--facet-medium));
   box-shadow: var(--royal-shadow);
+  text-decoration: none;
+  transition: filter 300ms ease, transform 300ms var(--ease-royal);
+}
+
+.future-portal:hover,
+.future-portal:focus-visible {
+  filter: brightness(1.08) drop-shadow(0 30px 46px rgba(0, 0, 0, 0.45));
+  transform: translateY(-8px);
 }
 
 .future-violet {
