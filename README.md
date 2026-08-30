@@ -10,7 +10,7 @@ Queensland is one starting context, not the project boundary. Each place may sha
 
 ## Project status
 
-This repository now holds the source audit and the first public homepage. Connected topic pages are being shaped in regular reviewable releases.
+This repository now holds the source audit and the first three-page future ceremonial release. The wider site is growing through regular reviewable releases.
 
 It is not a registered co-operative, an operating clinic, a certified treatment service or a finished medical device. The public site will keep established information, working proposals, future research and unresolved questions visibly separate.
 
@@ -28,6 +28,12 @@ The first release is being shaped as a regional gateway with connected paths for
 - the Strange But True Public Source Licence and project relationships.
 
 This map is a guidepost. It leaves room for specialist sites where a topic needs its own evidence, design or community process.
+
+## Public pages
+
+- [Home](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/)
+- [Co-operative Paths](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/co-operative-paths/)
+- [Shared Wellbeing](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/shared-wellbeing/)
 
 ## Public boundaries
 

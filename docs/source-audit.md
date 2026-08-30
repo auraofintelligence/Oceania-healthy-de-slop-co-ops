@@ -60,16 +60,23 @@ One possible braid gives each source of value a distinct role:
 
 The larger A$42.35 billion regional model, 600,000 chambers, 600,000 saunas and 235,000 kiosks remain planning scenarios. They are not a present funding commitment or an established health outcome.
 
-## Music paths from A Protopian Gambit
+## The album journey inside A Protopian Gambit
 
-The lyric audit found several strong paths for portrait video frames:
+Luke's author clarification of 30 August 2026 adds an important relationship that the first lyric audit missed. The album has an internal journey:
 
-- *The Circle and the Solitary* for many different personal journeys;
-- *Adaptable Yes* for consent, thresholds and agreements that move with people;
-- *Every Border a Bridge* for Oceania connection, once the preferred version is chosen;
-- *Not Gods But Architects* for community stewardship and making;
-- *60 Days Set in Stone* as an artistic Geode vision, held apart from treatment evidence;
-- *We Go Beyond* for the clearly labelled Earth and solar-system horizon.
+- Song 1, *Primordial Consent 1,2,3, Infinity*, is the birth of the divine self digital twin.
+- *Kintsugi Protocol* is the repair of the self, where cracks become part of the map rather than proof of failure.
+- *60 Days Set in Stone* is specifically the hyperbaric oxygen therapy song. It carries a sixty-session chamber journey, measurement, reflection and digital-twin formation through art.
+
+The website treats birth, repair and the embodied hyperbaric journey as a central three-part arc. Artistic meaning is held beside clinical evidence rather than presented as clinical proof or a treatment instruction.
+
+Other songs remain connected:
+
+- *The Circle and the Solitary* holds many different personal journeys;
+- *Adaptable Yes* holds consent, thresholds and agreements that move with people;
+- *Every Border a Bridge* holds Oceania connection, once the preferred version is chosen;
+- *Not Gods But Architects* holds community stewardship and making;
+- *We Go Beyond* holds the clearly labelled Earth and solar-system horizon.
 
 The supplied lyric file contains no video addresses. Preferred versions and published recordings remain to be connected.
 
