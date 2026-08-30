@@ -4,6 +4,10 @@ A regional public project exploring community-shaped co-operative pathways for a
 
 Queensland is one starting context, not the project boundary. Each place may shape its own membership, ownership, cultural review, clinical relationships, equipment choices and sharing agreements.
 
+## Public page
+
+[Visit Oceania Healthy De-Slop Co-ops](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/).
+
 ## Project status
 
 This repository is at the source-audit and design stage.
@@ -29,7 +33,7 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 
 - Personal health records, private reflections, scans and digital-twin files stay outside this public repository.
 - Hyperbaric equipment, sauna equipment and software claims will be tied to identifiable products, intended uses, current records and local requirements before being presented as operational choices.
-- The proposed Personalised Atmosphere Delivery System is being reviewed as a research concept. It is not being presented here as an established certification category.
+- The proposed Personal Atmosphere Delivery System is being reviewed as a research concept. It is not being presented here as an established certification category.
 - Health, care and software pathways will show where qualified clinical, engineering, privacy, cultural and community review belongs.
 - No site or regional model is treated as permission, partnership or cultural authority for another place.
 - Unresolved details will be marked `TO BE CONFIRMED`.
@@ -45,9 +49,8 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 
 ## Source work
 
-The supplied planning papers, submissions, research PDFs and album lyrics are being reviewed before public copy is written. The initial register is in [docs/source-register.md](docs/source-register.md).
+The supplied planning papers, submissions, research PDFs and album lyrics were reviewed before public copy was written. The [source register](docs/source-register.md) lists the supplied material, while the [source audit](docs/source-audit.md) records the shared ground, conflicts and open choices shaping the first release.
 
 ## Licence
 
 Original project material is shared under the [Strange But True Public Source Licence](LICENCE.md). Personal, educational, artistic, research, community and other non-commercial exploration is welcomed with attribution. Commercial rights remain reserved to Luke Nathan Hayes.
-
