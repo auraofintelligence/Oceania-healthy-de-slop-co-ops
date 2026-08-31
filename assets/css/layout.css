@@ -59,37 +59,20 @@
 }
 
 .brand-gem {
-  position: relative;
   display: block;
-  width: 48px;
-  height: 48px;
-  overflow: hidden;
-  clip-path: polygon(30% 0, 75% 4%, 100% 35%, 88% 82%, 52% 100%, 12% 78%, 0 36%);
-  background: conic-gradient(from 15deg, var(--lagoon-300), var(--orchid-500), var(--hibiscus-500), var(--solar-300), var(--lagoon-300));
-  box-shadow: 0 0 30px rgba(33, 217, 212, 0.3);
+  width: 54px;
+  height: 54px;
+  flex: 0 0 auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 15px rgba(33, 217, 212, 0.24)) drop-shadow(0 0 22px rgba(244, 196, 92, 0.14));
+  transition: filter 260ms ease, transform 260ms var(--ease-royal);
 }
 
-.brand-gem::before {
-  position: absolute;
-  inset: 3px;
-  background: var(--black-pearl);
-  clip-path: inherit;
-  content: "";
+.brand:hover .brand-gem,
+.brand:focus-visible .brand-gem {
+  filter: drop-shadow(0 0 18px rgba(33, 217, 212, 0.42)) drop-shadow(0 0 28px rgba(244, 196, 92, 0.28));
+  transform: rotate(4deg) scale(1.05);
 }
-
-.brand-gem i {
-  position: absolute;
-  z-index: 1;
-  width: 8px;
-  height: 8px;
-  background: var(--opal-100);
-  border-radius: 50%;
-  box-shadow: 0 0 15px currentColor;
-}
-
-.brand-gem i:nth-child(1) { top: 11px; left: 20px; color: var(--lagoon-300); }
-.brand-gem i:nth-child(2) { top: 26px; left: 11px; color: var(--hibiscus-500); background: var(--hibiscus-500); }
-.brand-gem i:nth-child(3) { top: 28px; left: 29px; color: var(--solar-300); background: var(--solar-300); }
 
 .primary-nav {
   display: flex;
@@ -581,8 +564,8 @@ a.world-link:focus-visible > span {
   }
 
   .brand-gem {
-    width: 42px;
-    height: 42px;
+    width: 44px;
+    height: 44px;
   }
 
   .brand-words {

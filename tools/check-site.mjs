@@ -74,6 +74,10 @@ htmlFiles.forEach((file) => {
   iconLinks.forEach(([label, pattern]) => {
     if (!pattern.test(html)) errors.push(relative + ": missing or incomplete " + label + " link.");
   });
+  if (!/<img class="brand-gem" src="(?:\.\.\/)?assets\/icons\/favicon-192\.png\?v=20260831-header-gems" alt="" width="54" height="54" decoding="async">/i.test(html)) {
+    errors.push(relative + ": missing connected-gems header mark.");
+  }
+  if (/<span class="brand-gem"/i.test(html)) errors.push(relative + ": still contains the retired three-dot header mark.");
   if (/[\u2013\u2014]/.test(html)) errors.push(relative + ": contains an en dash or em dash.");
   if (/\.svg(?:["'#?])/i.test(html)) errors.push(relative + ": contains an SVG reference.");
 

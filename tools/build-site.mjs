@@ -1036,7 +1036,7 @@ function pageHref(slug, prefix = "") {
 function renderBrand(prefix) {
   return `
     <a class="brand" href="${pageHref("", prefix)}" aria-label="Oceania Healthy De-Slop Co-ops home">
-      <span class="brand-gem" aria-hidden="true"><i></i><i></i><i></i></span>
+      <img class="brand-gem" src="${prefix}assets/icons/favicon-192.png?v=20260831-header-gems" alt="" width="54" height="54" decoding="async">
       <span class="brand-words">Oceania Healthy<br>De-Slop Co-ops</span>
     </a>`;
 }
@@ -1169,7 +1169,7 @@ function renderPage(page, pageIndex) {
     <link rel="preload" href="${prefix}assets/images/${page.hero}" as="image" type="image/webp">
     <link rel="stylesheet" href="${prefix}assets/css/tokens.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/base.css?v=20260830-site-map">
-    <link rel="stylesheet" href="${prefix}assets/css/layout.css?v=20260830-site-map">
+    <link rel="stylesheet" href="${prefix}assets/css/layout.css?v=20260831-header-gems">
     <link rel="stylesheet" href="${prefix}assets/css/components.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/motion.css?v=20260830-site-map">
