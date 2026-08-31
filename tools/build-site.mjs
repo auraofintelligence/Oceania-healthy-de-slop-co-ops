@@ -1151,6 +1151,11 @@ function renderPage(page, pageIndex) {
     <title>${page.title}${page.slug ? " | Oceania Healthy De-Slop Co-ops" : ""}</title>
     <meta name="description" content="${page.description}">
     <meta name="theme-color" content="#050611">
+    <link rel="icon" href="${prefix}assets/icons/favicon.ico?v=20260831-connected-gems" type="image/x-icon" sizes="16x16 32x32 48x48">
+    <link rel="icon" href="${prefix}assets/icons/favicon-32x32.png?v=20260831-connected-gems" type="image/png" sizes="32x32">
+    <link rel="icon" href="${prefix}assets/icons/favicon-16x16.png?v=20260831-connected-gems" type="image/png" sizes="16x16">
+    <link rel="icon" href="${prefix}assets/icons/favicon-192.png?v=20260831-connected-gems" type="image/png" sizes="192x192">
+    <link rel="apple-touch-icon" href="${prefix}assets/icons/apple-touch-icon.png?v=20260831-connected-gems" type="image/png" sizes="180x180">
     <link rel="canonical" href="${canonical}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="${page.title}">

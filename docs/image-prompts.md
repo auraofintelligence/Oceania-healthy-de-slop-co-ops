@@ -155,3 +155,21 @@ Preserved original: `assets/images/source/hero-site-map-original.png`
 Prompt:
 
 > Create a cinematic full-width website hero image, 16:9 landscape, for the human-facing Site Map page of a futuristic Oceania community health co-operative and self-sovereign local computing project. Show an open luminous navigation constellation across a deep ocean horizon: eleven distinct glowing worlds or faceted geodes connected by fine arcs of light, each unique yet equal, with no centre of authority and no hierarchy. The visual feeling is royal and divine for every person through dignity, radiance, welcome and shared abundance, never monarchy. Materials and colour: black pearl, opal, polished obsidian, faceted glass, solar gold, lagoon aqua, orchid violet and hibiscus pink. Include subtle Pacific ocean atmosphere and a ceremonial editorial quality without borrowing, imitating or stereotyping any Indigenous or Pacific cultural motifs. Composition: generous dark clean negative space across the left third for large white website headline; the brightest constellation gathers through the centre and right; wide horizon, dimensional depth, intricate but uncluttered, award-winning interactive website aesthetic, high-end motion-ready layers and glints. No people. No buildings. No medical equipment. No maps with political borders. No crowns, thrones, flags, religious or sacred symbols. No logos. No interface mock-up. Absolutely no text, letters, words, numbers, labels, watermarks or signatures.
+
+## Connected gems favicon
+
+Generated 31 August 2026 with OpenAI image generation, using the Site Map hero as a visual reference.
+
+Public icon assets:
+
+- `assets/icons/favicon.ico`
+- `assets/icons/favicon-16x16.png`
+- `assets/icons/favicon-32x32.png`
+- `assets/icons/favicon-192.png`
+- `assets/icons/apple-touch-icon.png`
+
+Preserved original: `assets/icons/source/favicon-connected-gems-original.png`
+
+Prompt:
+
+> Use case: logo-brand. Asset type: square master artwork for a website favicon and touch icon. Input image: the supplied Site Map hero is a visual reference for its connected faceted gems, black-pearl depth, opal colour, solar-gold light and luminous equal-world feeling. Primary request: distil that connected-gem constellation into one extremely clear, memorable favicon mark. Subject: six equally sized, large faceted jewel spheres arranged in an open circular constellation with no central ruler, linked by a few bold luminous solar-gold arcs; gems use lagoon aqua, opal white, orchid violet, hibiscus pink, emerald-teal and warm gold. Style/medium: premium polished 3D jewel emblem simplified for strong recognition at 16 by 16 pixels, with crisp edges and a bold silhouette. Composition/framing: perfectly centred square icon, the constellation fills about 82 percent of the canvas, generous safe margin, balanced from every direction, no horizon and no scene. Background: a simple near-black black-pearl circular medallion with transparent space outside the circle. Lighting/mood: luminous, joyful, precious and welcoming. Constraints: genuine transparent background outside the medallion; all six gems remain visually equal; connecting lines stay thick enough to survive tiny scaling; no fine filigree; no tiny satellite dots; no text, letters, numbers, labels, logos, crowns, thrones, flags, religious symbols, cultural motifs, borders, watermark or signature. Avoid: complex landscape, ocean scene, central hierarchy, corporate network icon, flat clip art, thin hairline connections, excessive glow, busy detail.

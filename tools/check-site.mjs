@@ -64,6 +64,16 @@ htmlFiles.forEach((file) => {
   if (!/<link\s+rel="canonical"\s+href="https:\/\/auraofintelligence\.github\.io\/Oceania-healthy-de-slop-co-ops\//i.test(html)) errors.push(relative + ": missing public canonical address.");
   if (!/<meta\s+property="og:image"\s+content="https:\/\/auraofintelligence\.github\.io\/Oceania-healthy-de-slop-co-ops\/assets\/images\/hero-[^"]+\.webp">/i.test(html)) errors.push(relative + ": missing page-specific social image.");
   if (!/<meta\s+name="twitter:card"\s+content="summary_large_image">/i.test(html)) errors.push(relative + ": missing large social-card metadata.");
+  const iconLinks = [
+    ["multi-size favicon", /<link rel="icon" href="(?:\.\.\/)?assets\/icons\/favicon\.ico\?v=20260831-connected-gems" type="image\/x-icon" sizes="16x16 32x32 48x48">/i],
+    ["32px favicon", /<link rel="icon" href="(?:\.\.\/)?assets\/icons\/favicon-32x32\.png\?v=20260831-connected-gems" type="image\/png" sizes="32x32">/i],
+    ["16px favicon", /<link rel="icon" href="(?:\.\.\/)?assets\/icons\/favicon-16x16\.png\?v=20260831-connected-gems" type="image\/png" sizes="16x16">/i],
+    ["192px favicon", /<link rel="icon" href="(?:\.\.\/)?assets\/icons\/favicon-192\.png\?v=20260831-connected-gems" type="image\/png" sizes="192x192">/i],
+    ["Apple touch icon", /<link rel="apple-touch-icon" href="(?:\.\.\/)?assets\/icons\/apple-touch-icon\.png\?v=20260831-connected-gems" type="image\/png" sizes="180x180">/i]
+  ];
+  iconLinks.forEach(([label, pattern]) => {
+    if (!pattern.test(html)) errors.push(relative + ": missing or incomplete " + label + " link.");
+  });
   if (/[\u2013\u2014]/.test(html)) errors.push(relative + ": contains an en dash or em dash.");
   if (/\.svg(?:["'#?])/i.test(html)) errors.push(relative + ": contains an SVG reference.");
 
@@ -125,6 +135,11 @@ const requiredAssets = [
   "assets/css/pages.css",
   "assets/css/motion.css",
   "assets/js/site.js",
+  "assets/icons/favicon.ico",
+  "assets/icons/favicon-16x16.png",
+  "assets/icons/favicon-32x32.png",
+  "assets/icons/favicon-192.png",
+  "assets/icons/apple-touch-icon.png",
   "assets/images/hero-home-v2.webp",
   "assets/images/hero-co-operative-paths.webp",
   "assets/images/hero-shared-wellbeing.webp",
@@ -143,6 +158,47 @@ const requiredAssets = [
 requiredAssets.forEach((relative) => {
   if (!fs.existsSync(path.join(root, relative))) errors.push("Missing required asset: " + relative + ".");
 });
+
+function readPngDimensions(relative) {
+  const file = path.join(root, relative);
+  if (!fs.existsSync(file)) return null;
+  const data = fs.readFileSync(file);
+  const signature = "89504e470d0a1a0a";
+  if (data.length < 24 || data.subarray(0, 8).toString("hex") !== signature) return null;
+  return [data.readUInt32BE(16), data.readUInt32BE(20)];
+}
+
+const pngDimensions = new Map([
+  ["assets/icons/favicon-16x16.png", [16, 16]],
+  ["assets/icons/favicon-32x32.png", [32, 32]],
+  ["assets/icons/favicon-192.png", [192, 192]],
+  ["assets/icons/apple-touch-icon.png", [180, 180]]
+]);
+
+pngDimensions.forEach((expected, relative) => {
+  const actual = readPngDimensions(relative);
+  if (!actual || actual[0] !== expected[0] || actual[1] !== expected[1]) {
+    errors.push(relative + ": expected " + expected.join("x") + " PNG dimensions.");
+  }
+});
+
+const icoPath = path.join(root, "assets/icons/favicon.ico");
+if (fs.existsSync(icoPath)) {
+  const ico = fs.readFileSync(icoPath);
+  const count = ico.length >= 6 ? ico.readUInt16LE(4) : 0;
+  const sizes = [];
+  for (let index = 0; index < count; index += 1) {
+    const offset = 6 + index * 16;
+    if (offset + 16 > ico.length) break;
+    sizes.push([ico[offset] || 256, ico[offset + 1] || 256]);
+  }
+  const expectedIcoSizes = [16, 32, 48];
+  expectedIcoSizes.forEach((size) => {
+    if (!sizes.some(([width, height]) => width === size && height === size)) {
+      errors.push("assets/icons/favicon.ico: missing " + size + "x" + size + " frame.");
+    }
+  });
+}
 
 cssFiles.forEach((file) => {
   const css = fs.readFileSync(file, "utf8");
