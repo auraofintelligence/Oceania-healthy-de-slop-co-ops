@@ -4,6 +4,16 @@ A regional public project exploring community-shaped co-operative pathways for a
 
 Queensland is one starting context, not the project boundary. Each place may shape its own membership, ownership, cultural review, clinical relationships, equipment choices and sharing agreements.
 
+<!-- github-organisation:start -->
+
+## Project links and history
+
+- First substantive website build: 30 August 2026, beginning with the source-led site foundation at commit [`c829205`](https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops/commit/c829205).
+- GitHub repository: [Oceania Healthy De-Slop Co-ops](https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops).
+- Public site: [visit the regional gateway](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/).
+
+<!-- github-organisation:end -->
+
 ## Public page
 
 [Visit Oceania Healthy De-Slop Co-ops](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/).
