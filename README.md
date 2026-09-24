@@ -56,10 +56,11 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 ## Research and personal choice
 
 - Personal health records, private reflections, scans and digital-twin files stay outside this public repository.
-- Product comparisons name the equipment, maker, intended use, relevant current records and local setting.
+- Future product comparisons will name the equipment, maker, intended use, relevant current records and local setting.
 - The Personal Atmosphere Delivery System is an engineering and device research direction. Existing equipment has its own named product pathway.
 - The Geode research path connects pressure design, breathing atmosphere, sensory experiences, owner-held records, participant choice and clinical study design.
-- The Geode work is a declared research direction. Individual studies make their measures and results visible, including oxygen delivery, selected wound healing, blood-cell telomere signals, sensory combinations and self-reflection.
+- The Geode work is a declared research direction, while its trial remains a plan. Proposed study measures include oxygen delivery, sensory combinations and self-reflection; wound-healing and blood-cell telomere questions draw on separate published studies and would need suitable future protocols and participant groups.
+- The draft A$35,000 price target belongs to a proposed mass-produced shared-access chamber, not the bespoke Aura Geode. The Geode explores high-purity Minjerribah quartz sand, crystal and mineral blends, and research into claimed resonance and etheric effects. Its price and trial results remain open.
 - De-slop also includes food, chosen elixirs, movement, stretching, rest, fasting, hot and cold experiences, altitude and personal digital reflection. A more involved programme is an option for people who want it.
 - Local people and institutions shape their own partnerships, agreements and cultural relationships.
 - Open details stay visible for the people involved to resolve together.
@@ -67,6 +68,7 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 ## Connected public projects
 
 - [Aura Geode](https://auraofintelligence.github.io/aura-geode/) explores the proposed chamber, reflection journey and personal digital-twin relationship.
+- [Extreme Matter Atlas](https://auraofintelligence.github.io/extreme-matter-atlas/) explores crystal structures and materials discovery, including [Google DeepMind's GNoME predictions](https://auraofintelligence.github.io/extreme-matter-atlas/gnome.html).
 - [Straddie Vitality Network Builders](https://auraofintelligence.github.io/straddie-vitality-network-builders/) provides local wellbeing co-op planning and evidence builders.
 - [Aura Direct Hardware](https://auraofintelligence.github.io/aura-direct-hardware/) explores local-first hardware and distributed public-interest compute.
 - [Aura of Dementia](https://auraofintelligence.github.io/aura-dementia/) presents an early privacy-first care and research concept.

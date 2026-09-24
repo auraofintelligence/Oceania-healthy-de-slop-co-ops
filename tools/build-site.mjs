@@ -152,7 +152,7 @@ const pages = [
           </div>
           <div class="value-copy reveal">
             <h2>What shared access could bring within reach</h2>
-            <p>One source table shows an indicative A$1,000 protocol cost per member at 35 members. It also shows a separate A$5,000 initial loan and A$500 operating fee. Together, those figures offer a starting model for testing fairer access and clearer public investment.</p>
+            <p>One draft source table shows an indicative A$1,000 protocol cost per member at 35 members. It also shows a separate A$5,000 initial loan per member and A$500 operating fee per 60-day protocol. A proposed A$35,000 mass-produced chamber is a different model from the bespoke Aura Geode. The member-financing details still invite revision.</p>
             <span class="status-mark status-working">Working proposal</span>
           </div>
         </div>
@@ -297,7 +297,7 @@ const pages = [
           <article class="reveal"><h3>New surroundings</h3><p>Altitude, nature and travel offer other ways to notice the body and mind, with the care each setting deserves.</p></article>
           <article class="reveal"><h3>Inner reflection</h3><p>Music, quiet, journalling and a self-held digital twin help someone notice patterns in their own words.</p></article>
         </div>
-        <div class="wrap deslop-deep-dive reveal"><h3>A deeper dive for the willing</h3><p>Some people will enjoy a more involved programme combining food, fasting, hot and cold, movement, altitude, chamber sessions, sensing and reflection. The research direction studies how those elements interact while each participant shapes what belongs in their own journey. There is room for a gentle day and room for an ambitious exploration.</p></div>
+        <div class="wrap deslop-deep-dive reveal"><h3>A deeper dive for the willing</h3><p>Some people will enjoy a more involved programme combining food, fasting, hot and cold, movement, altitude, chamber sessions, sensing and reflection. The research plan sets out ways to study how those elements interact, with each future participant shaping what belongs in their own journey. There is room for a gentle day and room for an ambitious exploration.</p></div>
       </section>
 
       <section class="world-section three-spaces-section" id="three-spaces">
@@ -315,13 +315,13 @@ const pages = [
           <article class="space-panel hbot-panel reveal">
             <span class="space-light" aria-hidden="true"></span>
             <h3>Hyperbaric oxygen therapy</h3>
-            <p>Professionally supervised chamber sessions offer a strong starting platform for access and research. One small randomised study in healthy older adults found improvements in attention and processing speed, inviting larger and more varied studies.</p>
-            <span class="status-mark status-established">Established information</span>
+            <p>Existing professionally supervised chamber services offer a starting platform for future access and research plans. A separate, small randomised study in healthy older adults reported improvements in attention and processing speed, inviting larger and more varied studies.</p>
+            <span class="status-mark status-established">Published study lead</span>
           </article>
           <article class="space-panel reflection-panel reveal">
             <span class="space-light" aria-hidden="true"></span>
             <h3>Private reflection</h3>
-            <p>Music, journalling and a personal digital reflection could help someone notice what a session means in their own life. Their records begin on hardware they hold.</p>
+            <p>Music, journalling and a personal digital reflection could help someone notice what a session means in their own life. In this proposal, their records would begin on hardware they hold.</p>
             <span class="status-mark status-working">Working proposal</span>
           </article>
         </div>
@@ -333,7 +333,7 @@ const pages = [
           <div class="safety-copy reveal">
             <h2>Professional care gives the research a home</h2>
             <p>Qualified, trained health professionals and appropriately equipped clinics offer a practical Australian starting point for hyperbaric oxygen therapy. Product records, session design and clear participant information create a foundation for learning together.</p>
-            <p>That pathway opens two complementary tracks: shared access to existing services now, and an engineering and clinical study path for the Aura Geode and Personal Atmosphere Delivery System.</p>
+            <p>That pathway opens two complementary proposals: a near-term connection to existing services, and an engineering and clinical study path for the Aura Geode and Personal Atmosphere Delivery System. Both await the people, equipment and agreements that would bring them into practice.</p>
             <div class="inline-paths"><a class="faceted-link faceted-link-light" href="https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/risk-fire-during-use-hyperbaric-chambers">Australian chamber guidance <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://pubmed.ncbi.nlm.nih.gov/32589613/">Healthy-ageing study <span aria-hidden="true">↗</span></a></div>
           </div>
         </div>
@@ -401,15 +401,15 @@ const pages = [
         <div class="wrap editorial-split">
           <div class="section-title reveal"><h2>A joined-up research direction</h2></div>
           <div class="sovereign-copy reveal">
-            <p class="large-copy">This programme brings professionally supported oxygen therapy together with chosen light, sound, sensing and private reflection. The Geode gives the experience a physical form, while an owner-held digital twin helps each person notice patterns over time.</p>
-            <p>The planned design path starts with suitable existing chambers and named equipment. Pressure-rated Geode prototypes, human studies and device evidence add depth as the work develops.</p>
+            <p class="large-copy">The planned Geode programme joins professionally supported oxygen therapy with chosen light, sound, sensing and private reflection. The Geode concept gives that experience a physical form, while an owner-held digital twin is designed to help each person notice patterns over time.</p>
+            <p>The shared-access baseline explores a mass-produced chamber built with established hyperbaric materials and methods, at a draft A$35,000 target. The Aura Geode is the sportscar concept: a distinct, higher-spec mineral-shell design with its own materials, research programme and price still to be worked out.</p>
             <span class="status-mark status-future">Research plan</span>
           </div>
         </div>
       </section>
 
       <section class="world-section geode-discovery-section" id="geode-research">
-        <div class="wrap section-heading reveal"><h2>Oxygen, repair and the living cell</h2><p>The research direction is set. Each study then makes its measurements, comparisons and results visible.</p></div>
+        <div class="wrap section-heading reveal"><h2>Oxygen, repair and the living cell</h2><p>The research direction is set; the Geode trial remains in planning. Future studies would make their measurements, comparisons and results visible.</p></div>
         <div class="wrap geode-discovery-grid">
           <article class="geode-discovery-card reveal"><img src="../assets/images/geode-plasma-wound-research.webp" alt="Concept biomedical artwork of oxygen carried in blood plasma toward a healing patch of skin." width="1600" height="900" loading="lazy" decoding="async"><div><h3>Oxygen carried through plasma</h3><p>Under pressure, more oxygen dissolves directly into blood plasma. That physical effect helps explain why hyperbaric oxygen therapy has a place in care for selected difficult wounds. The Geode trial is still a plan. It proposes measuring oxygen delivery and comfort; wound-healing outcomes would depend on the future study group and protocol.</p><a href="https://uhms.org/resources/featured-resources/hbo-indications.html">Oxygen physiology and selected wound uses <span aria-hidden="true">↗</span></a><a href="https://pubmed.ncbi.nlm.nih.gov/20427683/">A separate, completed wound-healing trial <span aria-hidden="true">↗</span></a></div></article>
           <article class="geode-discovery-card reveal"><img src="../assets/images/geode-telomere-research.webp" alt="Concept laboratory artwork of chromosome ends and a blood sample used to explore telomere research." width="1600" height="900" loading="lazy" decoding="async"><div><h3>Telomeres as a research signal</h3><p>In a small, separate study of older adults, blood-cell telomere measurements changed after sixty oxygen sessions. That intriguing result opens a larger question about how different people respond over time. The planned Geode research proposes timed samples, comparison groups and follow-up to learn which changes hold.</p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7746357/">Read the separate, completed telomere study <span aria-hidden="true">↗</span></a></div></article>
@@ -423,7 +423,7 @@ const pages = [
         </div>
         <div class="wrap geode-anatomy">
           <figure class="geode-anatomy-image reveal"><img src="../assets/images/geode-prototype-mineral-session.webp" alt="Concept design of a person inside a faceted mineral-shell Geode, using a personal screen during a supported chamber session." width="1600" height="900" loading="lazy" decoding="async"><figcaption>Mineral-shell session concept. The person has room to choose and engage with their own sensory setting.</figcaption></figure>
-          <div class="geode-part geode-part-shell reveal"><span>01</span><h3>Structure</h3><p>Compare a fabricated frame and a mineral-composite shell through modelling, material tests and pressure-rated prototypes.</p></div>
+          <div class="geode-part geode-part-shell reveal"><span>01</span><h3>Structure</h3><p>Shape and test a mineral-composite shell using proposed high-purity quartz sand from Minjerribah, blended with selected crystals and other materials.</p></div>
           <div class="geode-part geode-part-atmosphere reveal"><span>02</span><h3>Atmosphere</h3><p>Study chamber pressure and a separately controlled breathing supply as two coordinated systems.</p></div>
           <div class="geode-part geode-part-reflection reveal"><span>03</span><h3>Sensory space</h3><p>Explore music, light, scent and touch cues one by one, using equipment suited to its chamber setting and the person's preferences.</p></div>
           <div class="geode-part geode-part-compute reveal"><span>04</span><h3>Local computing</h3><p>Build the personal record on owner-held hardware. Session feedback and any chamber interface invite their own design and equipment review.</p></div>
@@ -449,19 +449,20 @@ const pages = [
 
       <section class="world-section material-section">
         <div class="wrap editorial-split">
-          <div class="section-title reveal"><h2>Two construction directions</h2></div>
-          <div class="sovereign-copy reveal"><p class="large-copy">The drafts offer two valuable starting points for a design comparison. Modelling, material samples and independent testing show where each shines.</p></div>
+          <div class="section-title reveal"><h2>Two chamber paths</h2></div>
+          <div class="sovereign-copy reveal"><p class="large-copy">The drafts now resolve into two distinct chamber paths, each with its own design and price story. The mass-produced baseline draws on established pressure-vessel materials and methods. The bespoke Aura Geode explores a mineral-composite shell with Minjerribah quartz sand and selected crystal blends.</p></div>
         </div>
         <div class="wrap material-duet">
           <article class="material-path material-steel reveal">
             <img class="material-image" src="../assets/images/geode-prototype-steel-entry.webp" alt="Concept design of an adult entering a faceted steel-frame pressure chamber while a professional waits nearby." width="1600" height="900" loading="lazy" decoding="async">
-            <div><h3>Steel frame</h3><p>A fabricated structural path with familiar industrial methods, inspectable joints and a separately designed inner environment.</p><span class="status-mark status-future">Compare and test</span></div>
+            <div><h3>Shared-access baseline</h3><p>A mass-produced chamber concept using established hyperbaric materials and manufacturing methods, including approaches seen in Chinese-made chambers. A$35,000 is its draft unit-price target for design and manufacturing work.</p><span class="status-mark status-future">Draft price target</span></div>
           </article>
           <article class="material-path material-mineral reveal">
             <img class="material-image" src="../assets/images/geode-prototype-mineral-session.webp" alt="Concept design of a person inside a mineral-composite chamber using an integrated personal screen." width="1600" height="900" loading="lazy" decoding="async">
-            <div><h3>Mineral shell</h3><p>A geopolymer-composite direction that invites strength, durability and manufacturing trials using locally relevant materials.</p><span class="status-mark status-future">Compare and test</span></div>
+            <div><h3>Aura Geode</h3><p>A higher-spec geopolymer-composite concept with proposed high-purity Minjerribah quartz sand, chosen crystals and other materials. Material provenance, pressure performance and a locally agreed supply path belong in its own design study. Its price is open.</p><span class="status-mark status-future">Bespoke research concept</span></div>
           </article>
         </div>
+        <div class="wrap material-research-note reveal"><h3>What might the materials add?</h3><p>Crystal resonance and etheric effects are part of the declared Geode research direction. A future study could document each mineral blend, compare otherwise matched shells and session conditions, and bring physical measurements together with participants' own reports. That approach would show what changes in material behaviour and personal experience, with a clear record for the next design.</p><p>Materials discovery has a new horizon too. Google DeepMind's Graph Networks for Materials Exploration (GNoME) predicted about 2.2 million inorganic crystal structures, with about 380,000 promising candidates for making and testing. The <a href="https://auraofintelligence.github.io/extreme-matter-atlas/gnome.html">Extreme Matter Atlas explains the discovery</a> in everyday language. It offers inspiration for future material searches alongside the Geode's own quartz-composite testing.</p></div>
       </section>
 
       <section class="world-section research-gates-section">
@@ -481,16 +482,16 @@ const pages = [
       </section>
 
       <section class="world-section geode-method-section">
-        <div class="wrap section-heading reveal"><h2>How the joined-up study learns</h2><p>Clear comparisons, meaningful measures and participant choice turn the declared direction into useful shared learning.</p></div>
+        <div class="wrap section-heading reveal"><h2>How a future study would learn</h2><p>The study plan connects clear comparisons, meaningful measures and participant choice with the declared research direction.</p></div>
         <div class="wrap geode-method-grid">
-          <article class="geode-method-card reveal"><span>01</span><h3>Start with a baseline</h3><p>Record what matters to participants before sessions: attention, sleep, day-to-day function, comfort and their own sense of restoration. Agree on established measures and follow-up times.</p></article>
-          <article class="geode-method-card reveal"><span>02</span><h3>Compare the ingredients</h3><p>The proposed study design, shaped with participants, clinicians and ethics reviewers, compares suitable controls with professionally supervised oxygen sessions. It then explores whether added light, sound and chosen reflection change the experience or measured outcomes.</p></article>
-          <article class="geode-method-card reveal"><span>03</span><h3>Learn person by person</h3><p>Optional, owner-held records show which session features suit which people. Group results sit beside comfort, accessibility and unwanted effects, then inform the next design.</p></article>
+          <article class="geode-method-card reveal"><span>01</span><h3>Start with a baseline</h3><p>The proposed study begins with measures that matter to participants: attention, sleep, day-to-day function, comfort and their own sense of restoration. Measures and follow-up times would be agreed before sessions.</p></article>
+          <article class="geode-method-card reveal"><span>02</span><h3>Compare the ingredients</h3><p>The proposed design lays out comparisons between suitable controls and professionally supervised oxygen sessions, followed by light, sound and chosen reflection. Participants, clinicians and ethics reviewers would shape the final study methods.</p></article>
+          <article class="geode-method-card reveal"><span>03</span><h3>Learn person by person</h3><p>Optional, owner-held records would help explore which session features suit which people. Future group results would sit beside comfort, accessibility and unwanted effects, then inform the next design.</p></article>
         </div>
         <div class="wrap geode-method-links reveal"><a class="faceted-link faceted-link-light" href="https://www.tga.gov.au/resources/guidance/understanding-evidence-requirements-market-authorisation-medical-devices">Medical-device evidence pathway <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://www.tga.gov.au/resources/resource/guidance/australian-clinical-trial-handbook">Australian clinical trial handbook <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://www.nhmrc.gov.au/research-policy/ethics/national-statement-ethical-conduct-human-research">Human research ethics <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://pubmed.ncbi.nlm.nih.gov/32589613/">A healthy-ageing research lead <span aria-hidden="true">↗</span></a></div>
         <div class="wrap geode-session-arc reveal">
           <h3>The source's sixty-session research arc</h3>
-          <p>The Aura Geode draft sketches three movements. Participants, clinicians and researchers shape their length and methods together: learn what a person experiences, test a tailored combination, then check whether the change holds.</p>
+          <p>The Aura Geode draft sketches three movements. Their length and methods remain for future participants, clinicians and researchers to shape together: learn what a person experiences, test a tailored combination, then check whether the change holds.</p>
           <div class="geode-arc-phases">
             <div><strong>Sessions 1-20</strong><span>Explore how each person responds to different sensory and atmosphere settings.</span></div>
             <div><strong>Sessions 21-40</strong><span>Study combinations chosen from that person's earlier feedback and agreed measures.</span></div>
@@ -500,10 +501,23 @@ const pages = [
         </div>
       </section>
 
+      <section class="world-section geode-field-section" id="geode-wider-fields">
+        <div class="wrap section-heading reveal"><h2>A wider field of healing research</h2><p>Better measurement is bringing movement, tissue repair, sound, food, light and personal expectation into clearer view. Each study below offers its own question for the wider de-slop landscape and future Geode work.</p></div>
+        <div class="wrap geode-field-grid">
+          <article class="geode-field-card reveal"><span>01</span><h3>Oxygen and tissue repair</h3><p>A review of eighteen trials found signs of benefit from hyperbaric oxygen therapy for selected late radiation tissue injuries. A future Geode study could define a suitable group, then follow repair and comfort over time.</p><a href="https://pubmed.ncbi.nlm.nih.gov/37585677/">Read the completed trial review <span aria-hidden="true">↗</span></a></article>
+          <article class="geode-field-card reveal"><span>02</span><h3>Movement beyond the chamber</h3><p>A completed trial of 889 people reported longer disease-free survival after a structured exercise programme following colon cancer chemotherapy. Chosen movement has a meaningful place in the broader wellbeing story.</p><a href="https://pubmed.ncbi.nlm.nih.gov/40450658/">Read the completed exercise trial <span aria-hidden="true">↗</span></a></article>
+          <article class="geode-field-card reveal"><span>03</span><h3>Sound and felt experience</h3><p>In a small randomised crossover study, a vibroacoustic music session improved immediate wellbeing compared with rest for people with cancer. The Geode plan could compare chosen sound and gentle vibration alongside comfort and sensor readings.</p><a href="https://pubmed.ncbi.nlm.nih.gov/30219444/">Read the completed sound study <span aria-hidden="true">↗</span></a></article>
+          <article class="geode-field-card reveal"><span>04</span><h3>Food and gut ecology</h3><p>A small combined-treatment study in colorectal cancer adds an early human lead for the microbiome. Food, gut measures and personal routines could become distinct questions in the wider wellbeing programme, alongside specialist care where relevant.</p><a href="https://pubmed.ncbi.nlm.nih.gov/38024475/">Read the early clinical study <span aria-hidden="true">↗</span></a></article>
+          <article class="geode-field-card reveal"><span>05</span><h3>Light with a defined purpose</h3><p>Clinical photodynamic therapy joins a light-sensitive medicine with targeted light for selected conditions. The Geode's ambient light is a different research question, inviting clear settings and measures of comfort, attention and experience.</p><a href="https://www.cancer.gov/about-cancer/treatment/types/photodynamic-therapy">Explore clinical light treatment <span aria-hidden="true">↗</span></a></article>
+          <article class="geode-field-card reveal"><span>06</span><h3>Expectation and self-reflection</h3><p>In a completed trial of 262 adults with irritable bowel syndrome, an openly described placebo group reported greater symptom improvement than a no-pill group. That offers a thoughtful model for studying personal meaning and expectation openly.</p><a href="https://pubmed.ncbi.nlm.nih.gov/33605656/">Read the completed mind-body trial <span aria-hidden="true">↗</span></a></article>
+        </div>
+        <div class="wrap geode-field-next reveal"><p>The Geode-to-MACRO draft imagines many combinations of materials, atmosphere, light, sound and reflection. A future programme could begin with one well-described ingredient at a time, then study selected combinations with chosen participants and clear measures.</p><a class="faceted-link faceted-link-light" href="../docs/research-deep-dive.md">Read the deeper source review <span aria-hidden="true">→</span></a></div>
+      </section>
+
       <section class="world-section geode-sensing-section" id="geode-sensing">
         <div class="wrap geode-sensing-stage">
           <div class="reveal"><h2>Sensing what matters to the person</h2><p class="large-copy">The research plan brings together the chamber, the body and the person's own experience. Each proposed measure has a purpose and a place in a future study.</p><p>Planned engineering tests cover chamber pressure, breathing-gas flow and composition, temperature, humidity, oxygen levels and alarms. Proposed participant measures include heart rate, breathing, movement, sleep, optional brain-wave readings, biological samples and the person's own account. Equipment placement and use remain part of chamber design and study review.</p><h3>A proposed mind-over-matter coefficient</h3><p>Luke's proposed coefficient puts the relationship between expectation, personal meaning and observed change into a future study design. The plan is to record expectations beforehand, compare suitable groups and look at measured and self-reported outcomes together, building an evidence base for the new measure.</p></div>
-          <figure class="reveal"><img src="../assets/images/geode-local-twin.webp" alt="Concept artwork of a person reflecting at an owner-held computer after a chamber session, with a visual personal digital twin on screen." width="1600" height="900" loading="lazy" decoding="async"><figcaption>After the session, reflection and selected records stay with the person on their own hardware.</figcaption></figure>
+          <figure class="reveal"><img src="../assets/images/geode-local-twin.webp" alt="Concept artwork of a person reflecting at an owner-held computer after a chamber session, with a visual personal digital twin on screen." width="1600" height="900" loading="lazy" decoding="async"><figcaption>Concept scene: reflection and selected post-session records would stay with the person on their own hardware.</figcaption></figure>
         </div>
       </section>
 
@@ -527,7 +541,7 @@ const pages = [
     shortTitle: "Your Digital Self",
     description: "A radiant plain-language introduction to a local-first, person-held digital twin and its permissions.",
     heading: "A divine reflection.<br><span>Held close to home.</span>",
-    lead: "A digital twin here is a growing reflection of one person's memories, records, choices and patterns. The person remains the source, the centre and the keeper of the relationship.",
+    lead: "A digital twin is proposed here as a growing reflection of one person's memories, records, choices and patterns. The person remains the source, the centre and the keeper of the relationship.",
     hero: "hero-your-digital-self.webp",
     heroAlt: "Concept artwork of a person meeting an equal radiant digital reflection beside a small owner-held computing device in an opal observatory.",
     theme: "digital-self",
@@ -540,7 +554,7 @@ const pages = [
         <div class="wrap editorial-split">
           <div class="section-title reveal"><h2>A companion reflection held by its person</h2></div>
           <div class="sovereign-copy reveal">
-            <p class="large-copy">The proposed digital twin grows beside its person. It may help them notice threads across their own life while leaving room for mystery, change and everything that reaches beyond a record.</p>
+            <p class="large-copy">The proposed digital twin would grow beside its person. It is designed to help them notice threads across their own life while leaving room for mystery, change and everything that reaches beyond a record.</p>
             <p>The working design begins with owner-held files, understandable patterns and the person's choice about what becomes part of their reflection. A clinical version would follow its own research and device pathway.</p>
             <span class="status-mark status-working">Working proposal</span>
           </div>
@@ -553,7 +567,7 @@ const pages = [
           <div class="twin-thread reveal" aria-hidden="true"><span></span><span></span><span></span></div>
           <div class="twin-reflection reveal"><span class="reflection-light" aria-hidden="true"></span><strong>Your reflection</strong><small>memories, records, choices and patterns</small></div>
         </div>
-        <div class="wrap twin-meaning-copy reveal"><p>The person brings lived experience; the model offers one evolving reflection. Understanding, correction and portability keep that relationship in the person's hands.</p></div>
+        <div class="wrap twin-meaning-copy reveal"><p>The person brings lived experience; the proposed model offers one evolving reflection. Understanding, correction and portability keep that relationship in the person's hands.</p></div>
       </section>
 
       <section class="world-section album-birth-section" id="birth-repair">
@@ -585,7 +599,7 @@ const pages = [
         <div class="wrap local-first-stage">
           <div class="local-first-copy reveal">
             <h2>Local first means the person remains close to the source</h2>
-            <p>Personal files begin on hardware chosen and held by the person. Any later sharing sits behind a separate purpose, permission and relationship.</p>
+            <p>In the working design, personal files begin on hardware chosen and held by the person. Any later sharing sits behind a separate purpose, permission and relationship.</p>
             <span class="status-mark status-working">Working proposal</span>
           </div>
           <div class="permission-map reveal" aria-label="Proposed local-first permission relationships">
@@ -658,7 +672,7 @@ const pages = [
         <div class="wrap editorial-split">
           <div class="section-title reveal"><h2>Beautiful access, visible arithmetic</h2></div>
           <div class="sovereign-copy reveal">
-            <p class="large-copy">One source table places an indicative protocol cost near A$1,000 per member at 35 members. It also shows a separate A$5,000 initial loan per member and A$500 operating fee.</p>
+            <p class="large-copy">One draft source table places an indicative protocol cost near A$1,000 per member at 35 members. It also shows a separate A$5,000 initial loan per member and A$500 operating fee per 60-day protocol.</p>
             <p>These figures invite a fuller local model: named equipment, staffing, energy, insurance, professional care, repayments and public support. A clear version could show where shared ownership makes the biggest difference.</p>
             <span class="status-mark status-working">Working proposal</span>
           </div>
@@ -669,18 +683,18 @@ const pages = [
         <div class="wrap affordability-stage" data-affordability>
           <div class="affordability-copy reveal">
             <h2>A separate shared-cost thought experiment</h2>
-            <p>These editable fields begin with A$35,000 shared across 35 people to make the arithmetic visible. The A$35,000 comes from the source's indicative A$1,000 protocol figure; each local group could add its real capital, membership and operating numbers.</p>
+            <p>These editable fields divide the draft A$35,000 mass-produced chamber target among 35 people. This baseline is separate from the higher-spec Aura Geode, whose price is still open. The result is an illustrative hardware share, not the source table's A$1,000 protocol cost, A$5,000 initial loan per member or A$500 operating fee per 60-day protocol. The full financing model remains open for revision.</p>
             <span class="status-mark status-working">Separate thought experiment</span>
           </div>
           <form class="affordability-controls reveal" aria-label="Editable affordability illustration">
             <label><span>People sharing the asset</span><input type="number" inputmode="numeric" min="1" step="1" value="35" data-value-members></label>
-            <label><span>Shared asset amount</span><span class="money-input"><b>A$</b><input type="number" inputmode="decimal" min="0" step="100" value="35000" data-value-total></span></label>
-            <label><span>Grant, guarantee or other support</span><span class="money-input"><b>A$</b><input type="number" inputmode="decimal" min="0" step="100" value="0" data-value-support></span></label>
+            <label><span>Mass-produced baseline asset amount</span><span class="money-input"><b>A$</b><input type="number" inputmode="decimal" min="0" step="100" value="35000" data-value-total></span></label>
+            <label><span>Grant or direct capital contribution</span><span class="money-input"><b>A$</b><input type="number" inputmode="decimal" min="0" step="100" value="0" data-value-support></span></label>
           </form>
           <div class="affordability-result reveal" aria-live="polite">
-            <span>Illustrative shared amount per person</span>
+            <span>Illustrative hardware share per person</span>
             <strong data-value-result>A$1,000</strong>
-            <small>One shared-cost illustration; local terms may differ</small>
+            <small>Equipment arithmetic only; finance and operating costs remain separate</small>
           </div>
         </div>
       </section>
@@ -877,7 +891,7 @@ const pages = [
       <section class="world-section evidence-opening">
         <div class="wrap editorial-split">
           <div class="section-title reveal"><h2>Good questions deserve a visible path</h2></div>
-          <div class="sovereign-copy reveal"><p class="large-copy">Twenty supplied files bring public submissions, business plans, research pathways, architectural ideas, lyrics and supporting data into one conversation. Their different strengths help shape experiments, practical partnerships and clearer public choices.</p><p>Author clarification adds depth to artistic meaning. Luke's explanation of the album journey sits in its own dated record.</p></div>
+          <div class="sovereign-copy reveal"><p class="large-copy">The supplied files bring submissions, business plans, research pathways, architectural ideas, lyrics and supporting data into one conversation. Their different strengths help shape future experiments, practical partnerships and clearer public choices.</p><p>Author clarifications add depth to the album meaning, Aura Matrix Studio and the status of the planned Geode trial.</p></div>
         </div>
       </section>
 
@@ -907,9 +921,9 @@ const pages = [
         <div class="wrap conflict-ledger-stage">
           <div class="conflict-copy reveal"><h2>Choices that open new work</h2><p>The drafts offer more than one route in several places. Each choice invites a source check, design comparison or local conversation.</p></div>
           <div class="conflict-ledger reveal">
-            <div><strong>Affordability</strong><span>A$1,000 indicative protocol cost, A$5,000 initial loan and separate A$500 operating fee in one 35-member source table</span></div>
+            <div><strong>Affordability</strong><span>A$1,000 indicative protocol cost, A$5,000 initial loan per member and separate A$500 operating fee per 60-day protocol in one 35-member draft table</span></div>
             <div><strong>Health setting</strong><span>earlier home-use language and later supervised clinical setting</span></div>
-            <div><strong>Geode construction</strong><span>steel frame and pressure-rated mineral-shell directions</span></div>
+            <div><strong>Two chamber models</strong><span>A$35,000 draft mass-produced baseline and a higher-spec quartz-sand Aura Geode research concept whose price remains open</span></div>
             <div><strong>Personal data</strong><span>local owner-held files and earlier cloud Passport ideas</span></div>
             <div><strong>Software</strong><span>general reflection and a possible regulated clinical path</span></div>
             <div><strong>Regional model</strong><span>member-financed paths and large public-investment scenarios</span></div>
@@ -917,11 +931,21 @@ const pages = [
         </div>
       </section>
 
+      <section class="world-section research-paths-section">
+        <div class="wrap section-heading reveal"><h2>Three related research paths</h2><p>The person's own experience runs through each path. Their purposes, equipment and study questions remain distinct.</p></div>
+        <div class="wrap research-paths-grid">
+          <article class="research-path-card reveal"><span>01</span><h3>Aura Matrix Studio</h3><p>An emerging public, non-clinical way to organise personal keywords, records and self-reflection for use with different artificial intelligence systems.</p><small>Public reflection process</small></article>
+          <article class="research-path-card reveal"><span>02</span><h3>Aura of Dementia</h3><p>The supplied clinical pathway sketches a separate software study with people living with dementia and their carers: first usability, then a pilot, then a wider comparison. Quality of life, daily function and carer experience are proposed measures.</p><small>Clinical software study plan</small></article>
+          <article class="research-path-card reveal"><span>03</span><h3>Aura Geode and personal atmosphere</h3><p>The chamber and Personal Atmosphere Delivery System have their own engineering path: material and pressure tests, breathing-supply design, participant experience and a future clinical study.</p><small>Device and human-study plan</small></article>
+        </div>
+      </section>
+
       <section class="world-section source-doorways-section">
         <div class="wrap source-doorways-stage">
-          <div class="source-doorway reveal"><h3>Source register</h3><p>The supplied documents reviewed for this first public release.</p><a href="../docs/source-register.md">Open the register <span aria-hidden="true">→</span></a></div>
+          <div class="source-doorway reveal"><h3>Source register</h3><p>The supplied documents reviewed across this public project.</p><a href="../docs/source-register.md">Open the register <span aria-hidden="true">→</span></a></div>
           <div class="source-doorway reveal"><h3>Source audit</h3><p>Shared ground, design alternatives, public research links and choices for later work.</p><a href="../docs/source-audit.md">Open the audit <span aria-hidden="true">→</span></a></div>
           <div class="source-doorway reveal"><h3>Author clarifications</h3><p>Luke's dated explanations where an earlier reading missed the intended meaning.</p><a href="../docs/author-clarifications.md">Open the clarifications <span aria-hidden="true">→</span></a></div>
+          <div class="source-doorway reveal"><h3>Research deep dive</h3><p>How the Geode, wider therapies and the separate clinical software plan meet published studies and possible methods.</p><a href="../docs/research-deep-dive.md">Open the research review <span aria-hidden="true">→</span></a></div>
         </div>
       </section>
 
@@ -966,6 +990,7 @@ const pages = [
           <a class="project-orbit orbit-vitality reveal" href="https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/index.html"><span aria-hidden="true"></span><strong>Ready S.E.T. local compute</strong><small>community-held cultural intelligence node</small></a>
           <a class="project-orbit orbit-dementia reveal" href="https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/"><span aria-hidden="true"></span><strong>82 Claytons Road</strong><small>proposed Amity care and research place</small></a>
           <a class="project-orbit orbit-music reveal" href="https://auraofintelligence.github.io/C-Hour-introduction/"><span aria-hidden="true"></span><strong>C-Hour introduction</strong><small>voluntary human contribution and local gratitude</small></a>
+          <a class="project-orbit orbit-geode reveal" href="https://auraofintelligence.github.io/extreme-matter-atlas/"><span aria-hidden="true"></span><strong>Extreme Matter Atlas</strong><small>crystal structures, materials discovery and questions at the edge</small></a>
         </div>
       </section>
 
@@ -1075,7 +1100,7 @@ const pages = [
           <article class="map-pathway reveal"><h3>Shared wellbeing close to home</h3><p>Explore warmth, rest, supervised care relationships, shared access and the public record beside them.</p><nav aria-label="Shared wellbeing path"><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../co-operative-paths/">Co-operative Paths</a><a href="../public-value/">Public Value</a><a href="../evidence/">Evidence</a></nav></article>
           <article class="map-pathway reveal"><h3>A local co-operative taking shape</h3><p>Follow local purpose, membership, ownership, affordability and place-specific agreements.</p><nav aria-label="Local co-operative path"><a href="../co-operative-paths/">Co-operative Paths</a><a href="../public-value/">Public Value</a><a href="../oceania/">Many Places</a><a href="../evidence/">Evidence</a></nav></article>
           <article class="map-pathway reveal"><h3>My digital self, held by me</h3><p>Meet the owner-held digital twin, its birth and repair story, and the research ideas around it.</p><nav aria-label="Digital self path"><a href="../your-digital-self/">Your Digital Self</a><a href="../a-protopian-gambit/">A Protopian Gambit</a><a href="../aura-geode/">Aura Geode</a><a href="../evidence/">Evidence</a></nav></article>
-          <article class="map-pathway reveal"><h3>Aura Geode research</h3><p>Explore the chamber structure, personal atmosphere, sensory experience and study possibilities.</p><nav aria-label="Aura Geode research path"><a href="../aura-geode/">Aura Geode</a><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../your-digital-self/">Your Digital Self</a><a href="../evidence/">Evidence</a></nav></article>
+          <article class="map-pathway reveal"><h3>Aura Geode research</h3><p>Explore the chamber structure, personal atmosphere, sensory experience and the planned study path.</p><nav aria-label="Aura Geode research path"><a href="../aura-geode/">Aura Geode</a><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../your-digital-self/">Your Digital Self</a><a href="../evidence/">Evidence</a></nav></article>
           <article class="map-pathway reveal"><h3>The album's inner journey</h3><p>Move through the divine digital twin's birth, Kintsugi self-repair and the hyperbaric oxygen therapy story. Art and research each add their own kind of light.</p><nav aria-label="Album path"><a href="../a-protopian-gambit/">A Protopian Gambit</a><a href="../your-digital-self/">Your Digital Self</a><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../aura-geode/">Aura Geode</a></nav></article>
           <article class="map-pathway reveal"><h3>Sources and connected projects</h3><p>See the source trail, research choices, project family and public licence.</p><nav aria-label="Evidence path"><a href="../evidence/">Evidence</a><a href="../about/">About and Licence</a><a href="../">Home</a></nav></article>
         </div>

@@ -1,6 +1,6 @@
 # Supplied source register
 
-This register records the material supplied for the first website research pass. Listing a source does not make every statement in it established fact or approved public copy.
+This register records material supplied for the first website research pass and later additions. Listing a source does not make every statement in it established fact or approved public copy.
 
 ## Health, co-operative and Aura planning
 
@@ -12,6 +12,7 @@ This register records the material supplied for the first website research pass.
 - *Local Government Funding Inquiry Submission* - public investment and council funding argument.
 - *Integrated Food System AI Expansion* - food-system and artificial-intelligence expansion proposal.
 - *De-Slop Research for Community Understanding* - plain-language community framing research.
+- *Colon Cancer AltTherapy References* - wide bibliography of exercise, food, microbiome, fungi, fasting, light, sound, oxygen and mind-body research leads; individual studies have different designs and outcomes.
 
 ## Public submissions and regional pathways
 
@@ -42,9 +43,9 @@ This register records the material supplied for the first website research pass.
 
 ## Review labels
 
-Public website material will use four visible labels:
+The public site uses these broad evidence categories, with page-specific wording where it helps readers:
 
-- **Current source** - checked against a current primary or official source.
+- **Established information** - a named published or official source, with its own scope and date.
 - **Working proposal** - a practical pathway offered for discussion and testing.
-- **Future research** - a concept needing technical, clinical, legal or community development.
-- **TO BE CONFIRMED** - a consequential detail still awaiting evidence or agreement.
+- **Future research** - a declared direction whose studies and results are still ahead.
+- **Open for local choice** - a consequential detail awaiting evidence or agreement.

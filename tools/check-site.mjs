@@ -132,6 +132,22 @@ htmlFiles.forEach((file) => {
   });
 });
 
+const geodePage = path.join(root, "aura-geode", "index.html");
+const valuePage = path.join(root, "public-value", "index.html");
+if (fs.existsSync(geodePage)) {
+  const geode = stripMarkup(fs.readFileSync(geodePage, "utf8"));
+  if (!geode.includes("The Geode trial is still a plan.")) errors.push("Aura Geode: planned trial status is missing.");
+  if (!geode.includes("The Aura Geode is the sportscar concept")) errors.push("Aura Geode: baseline and bespoke models are not distinguished.");
+  if (!geode.includes("Crystal resonance and etheric effects are part of the declared Geode research direction.")) errors.push("Aura Geode: material research direction is missing.");
+  if (/The Geode programme records/i.test(geode)) errors.push("Aura Geode: planned measures are described as active recording.");
+}
+if (fs.existsSync(valuePage)) {
+  const value = stripMarkup(fs.readFileSync(valuePage, "utf8"));
+  if (!value.includes("draft A$35,000 mass-produced chamber target")) errors.push("Public Value: baseline price target is not distinguished.");
+  if (/A\$35,000 Geode/i.test(value)) errors.push("Public Value: baseline target is wrongly assigned to the Geode.");
+  if (/Grant, guarantee or other support/i.test(value)) errors.push("Public Value: guarantees are wrongly treated as cash contributions.");
+}
+
 const requiredAssets = [
   "assets/css/tokens.css",
   "assets/css/base.css",
