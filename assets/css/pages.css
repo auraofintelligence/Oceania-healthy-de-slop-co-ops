@@ -873,60 +873,32 @@
   grid-template-rows: repeat(2, minmax(270px, auto));
 }
 
-.geode-core {
-  position: relative;
+.geode-anatomy-image {
   z-index: 2;
-  width: min(400px, 32vw);
-  aspect-ratio: 1;
+  display: grid;
+  align-self: stretch;
   grid-column: 5 / span 5;
   grid-row: 1 / span 2;
-  justify-self: center;
-  background: conic-gradient(from 18deg, #f7f0ff, #66f3e7, #798cff, #b171ff, #ff91b6, #ffe18a, #f7f0ff);
-  clip-path: polygon(50% 0, 83% 8%, 100% 40%, 91% 76%, 62% 100%, 23% 92%, 0 60%, 8% 22%);
-  filter: drop-shadow(0 40px 50px rgba(14, 28, 62, 0.28));
+  overflow: hidden;
+  margin: 0;
+  background: #12182a;
+  box-shadow: 0 35px 75px rgba(14, 28, 62, 0.25);
 }
 
-.geode-core::before {
-  position: absolute;
-  inset: 3%;
-  background:
-    radial-gradient(circle at 48% 44%, rgba(181, 255, 249, 0.78), rgba(71, 80, 152, 0.4) 28%, rgba(6, 9, 31, 0.96) 67%),
-    var(--black-pearl);
-  clip-path: inherit;
-  content: "";
+.geode-anatomy-image img {
+  width: 100%;
+  height: 100%;
+  min-height: 610px;
+  object-fit: cover;
+  object-position: 48% center;
 }
 
-.geode-core::after {
-  position: absolute;
-  inset: 13%;
-  border: 1px solid rgba(255, 238, 187, 0.7);
-  clip-path: inherit;
-  content: "";
-  box-shadow: inset 0 0 70px rgba(33, 217, 212, 0.16);
-}
-
-.geode-core span {
-  position: absolute;
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  width: 43%;
-  height: 1px;
-  background: linear-gradient(90deg, rgba(255, 232, 170, 0.8), transparent);
-  transform-origin: left;
-}
-
-.geode-core span:nth-child(1) { transform: rotate(-76deg); }
-.geode-core span:nth-child(2) { transform: rotate(4deg); }
-.geode-core span:nth-child(3) { transform: rotate(127deg); }
-
-.geode-core i {
-  position: absolute;
-  z-index: 3;
-  inset: 34%;
-  background: radial-gradient(circle, #eaffff, #7cf1e8 22%, rgba(141, 103, 255, 0.34) 54%, transparent 70%);
-  clip-path: inherit;
-  filter: drop-shadow(0 0 32px rgba(134, 255, 242, 0.7));
+.geode-anatomy-image figcaption,
+.geode-song-image figcaption {
+  padding: 0.85rem 1.1rem;
+  color: var(--opal-100);
+  background: #11172a;
+  font-size: 0.9rem;
 }
 
 .geode-part {
@@ -1100,32 +1072,12 @@
   background: linear-gradient(145deg, #e9e0ec, #d5e4e2 52%, #f1e3d0);
 }
 
-.material-sample {
-  position: relative;
+.material-image {
   display: block;
-  width: min(230px, 65%);
-  aspect-ratio: 1;
-  background: conic-gradient(from 20deg, #dfe8ed, #748492, #f4f7f8, #46515d, #dfe8ed);
-  clip-path: polygon(50% 0, 90% 20%, 100% 65%, 69% 100%, 21% 88%, 0 39%, 17% 8%);
-  filter: drop-shadow(0 28px 35px rgba(7, 19, 38, 0.22));
-}
-
-.material-mineral .material-sample {
-  background: conic-gradient(from 20deg, #fff0c7, #6ee5da, #9a7adb, #e98cab, #fff0c7);
-}
-
-.material-sample::after {
-  position: absolute;
-  inset: 7%;
-  background: linear-gradient(145deg, #172235, #637484);
-  clip-path: inherit;
-  content: "";
-}
-
-.material-mineral .material-sample::after {
-  background:
-    linear-gradient(125deg, transparent 43%, #f7ce73 43.5% 45%, transparent 45.5%),
-    linear-gradient(145deg, #4b4164, #b0cec7);
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  box-shadow: 0 24px 48px rgba(7, 19, 38, 0.18);
 }
 
 .material-path h3 {
@@ -1340,53 +1292,18 @@
   grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.28fr);
 }
 
-.geode-song-rings {
-  position: relative;
-  display: grid;
-  width: min(420px, 80vw);
-  aspect-ratio: 1;
-  place-items: center;
-  justify-self: center;
-  border: 1px solid rgba(134, 255, 242, 0.42);
-  border-radius: 50%;
-  box-shadow: inset 0 0 90px rgba(33, 217, 212, 0.12), 0 0 80px rgba(33, 217, 212, 0.12);
+.geode-song-image {
+  overflow: hidden;
+  margin: 0;
+  box-shadow: 0 28px 65px rgba(1, 4, 21, 0.35);
 }
 
-.geode-song-rings span {
-  position: absolute;
-  border: 1px solid rgba(255, 232, 170, 0.34);
-  border-radius: 50%;
-}
-
-.geode-song-rings span:nth-child(1) { inset: 13%; }
-.geode-song-rings span:nth-child(2) { inset: 27%; }
-.geode-song-rings span:nth-child(3) { inset: 41%; background: rgba(169, 109, 255, 0.16); }
-
-.geode-song-rings strong {
-  position: relative;
-  z-index: 2;
-  color: transparent;
-  background: var(--opal-metal);
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-family: var(--display);
-  font-size: clamp(6rem, 14vw, 11rem);
-  font-weight: 500;
-  letter-spacing: -0.09em;
-  text-align: center;
-}
-
-.geode-song-rings strong small {
+.geode-song-image img {
   display: block;
-  margin-top: -0.2rem;
-  color: rgba(248, 247, 242, 0.7);
-  background: none;
-  -webkit-text-fill-color: rgba(248, 247, 242, 0.7);
-  font-family: var(--body);
-  font-size: 0.7rem;
-  font-weight: 760;
-  letter-spacing: 0.11em;
-  text-transform: uppercase;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center;
 }
 
 .geode-song-stage p {
@@ -1944,11 +1861,12 @@
     grid-template-rows: auto;
   }
 
-  .geode-core {
-    width: min(460px, 76vw);
+  .geode-anatomy-image {
     grid-column: 1 / -1;
     grid-row: auto;
   }
+
+  .geode-anatomy-image img { max-height: 600px; }
 
   .geode-part-shell,
   .geode-part-atmosphere,
@@ -2001,9 +1919,7 @@
     grid-template-columns: 1fr;
   }
 
-  .geode-core {
-    width: min(320px, 86vw);
-  }
+  .geode-anatomy-image img { min-height: 340px; }
 
   .geode-part {
     min-height: 220px;
