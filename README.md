@@ -1,8 +1,8 @@
 # Oceania Healthy De-Slop Co-ops
 
-A regional public project exploring community-shaped co-operative pathways for affordable wellbeing spaces, self-reflection, local compute and personal data stewardship across Oceania.
+A regional public project exploring community-shaped co-operative pathways for affordable wellbeing spaces, self-reflection, local computing and personal data stewardship across Oceania. It pairs bold research possibilities with clear ways to test, build and learn together.
 
-Queensland is one starting context, not the project boundary. Each place may shape its own membership, ownership, cultural review, clinical relationships, equipment choices and sharing agreements.
+Queensland offers one starting context within a wider regional family. Each place may shape its own membership, ownership, cultural review, clinical relationships, equipment choices and sharing agreements.
 
 <!-- github-organisation:start -->
 
@@ -20,17 +20,17 @@ Queensland is one starting context, not the project boundary. Each place may sha
 
 ## Project status
 
-This repository now holds the source audit and an eleven-page future ceremonial public site. Ten project worlds are joined by a people-friendly Site Map. The site is growing through regular reviewable releases.
+This repository holds a source audit and an eleven-page public site. Ten project worlds are joined by a people-friendly Site Map. The site grows through regular reviewable releases.
 
-It is not a registered co-operative, an operating clinic, a certified treatment service or a finished medical device. The public site will keep established information, working proposals, future research and unresolved questions visibly separate.
+It is a public working project. Future co-operatives, clinics, devices and partnerships would bring their own people, records and decisions. Published findings, working proposals and new research questions each have a visible place on the site.
 
 ## Working site family
 
 The first release is being shaped as a regional gateway with connected paths for:
 
 - community co-operative patterns and locally agreed terms;
-- shared sauna and hyperbaric oxygen therapy research;
-- the proposed Aura Geode environment;
+- shared sauna access, professionally supervised hyperbaric oxygen therapy and research into joined-up experiences;
+- the Aura Geode construction, Personal Atmosphere Delivery System and human-study pathways;
 - self-sovereign digital twins held on a person's own hardware;
 - the public investment case for affordable regional access;
 - music and story from *A Protopian Gambit*;
@@ -53,14 +53,14 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 - [About, Connections and Licence](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/about/)
 - [Site Map](https://auraofintelligence.github.io/Oceania-healthy-de-slop-co-ops/site-map/)
 
-## Public boundaries
+## Research and personal choice
 
 - Personal health records, private reflections, scans and digital-twin files stay outside this public repository.
-- Hyperbaric equipment, sauna equipment and software claims will be tied to identifiable products, intended uses, current records and local requirements before being presented as operational choices.
-- The proposed Personal Atmosphere Delivery System is being reviewed as a research concept. It is not being presented here as an established certification category.
-- Health, care and software pathways will show where qualified clinical, engineering, privacy, cultural and community review belongs.
-- No site or regional model is treated as permission, partnership or cultural authority for another place.
-- Unresolved details will be marked `TO BE CONFIRMED`.
+- Product comparisons name the equipment, maker, intended use, relevant current records and local setting.
+- The Personal Atmosphere Delivery System is an engineering and device research direction. Existing equipment has its own named product pathway.
+- The Geode research path connects pressure design, breathing atmosphere, sensory experiences, owner-held records, participant choice and clinical study design.
+- Local people and institutions shape their own partnerships, agreements and cultural relationships.
+- Open details stay visible for the people involved to resolve together.
 
 ## Connected public projects
 
@@ -73,7 +73,7 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 
 ## Source work
 
-The supplied planning papers, submissions, research PDFs and album lyrics were reviewed before public copy was written. The [source register](docs/source-register.md) lists the supplied material, while the [source audit](docs/source-audit.md) records the shared ground, conflicts and open choices shaping the first release.
+The supplied planning papers, submissions, research PDFs and album lyrics were reviewed before public copy was written. The [source register](docs/source-register.md) lists the supplied material, while the [source audit](docs/source-audit.md) records shared ground, design alternatives and research routes.
 
 Every generated hero image, its preserved original and its full prompt are recorded in [image prompts](docs/image-prompts.md).
 

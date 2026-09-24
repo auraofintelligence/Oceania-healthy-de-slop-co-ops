@@ -1293,6 +1293,39 @@
   padding-top: clamp(2rem, 4vw, 4rem);
 }
 
+.geode-session-arc {
+  margin-top: clamp(4rem, 7vw, 7rem);
+  padding: clamp(1.6rem, 4vw, 3.5rem);
+  border: 1px solid rgba(248, 247, 242, 0.24);
+  background: linear-gradient(130deg, rgba(255, 255, 255, 0.1), rgba(166, 95, 236, 0.07));
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.16), 0 30px 80px rgba(0, 0, 0, 0.18);
+}
+
+.geode-session-arc > p {
+  max-width: 76ch;
+  color: rgba(248, 247, 242, 0.78);
+}
+
+.geode-arc-phases {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 2.2rem 0;
+}
+
+.geode-arc-phases > div {
+  display: grid;
+  gap: 0.7rem;
+  padding: 1.5rem;
+  border-left: 3px solid var(--lagoon-300);
+  background: rgba(7, 19, 38, 0.55);
+}
+
+.geode-arc-phases > div:nth-child(2) { border-color: #d8c4ff; }
+.geode-arc-phases > div:nth-child(3) { border-color: var(--solar-300); }
+.geode-arc-phases strong { font-family: var(--display); font-size: 1.35rem; }
+.geode-arc-phases span { color: rgba(248, 247, 242, 0.75); }
+
 .geode-song-section {
   color: var(--opal-100);
   background:
@@ -1936,6 +1969,10 @@
   }
 
   .geode-method-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .geode-arc-phases {
     grid-template-columns: 1fr;
   }
 

@@ -1,10 +1,10 @@
 # Source audit
 
-Reviewed 30 August 2026.
+Reviewed 30 August 2026. Research framing updated 24 September 2026.
 
 The first audit covered 20 supplied files, including 65 rendered Word pages, 121 rendered PDF pages, 2,359 lines of album lyrics and all 44,000 records in the supplied world-cities appendix.
 
-The source set contains public submissions, working business models, research leads, artistic language and long-horizon imagination. None of it proves that a co-operative, clinic, certified Aura Geode, PADS product, clinical trial, government partnership or Minjerribah pilot presently exists.
+The source set contains public submissions, working business models, research leads, artistic language and long-horizon imagination. Together they offer a rich design programme. Named products, professional services, local agreements and future studies each have their own route from proposal to public record.
 
 ## Shared ground across the sources
 
@@ -19,14 +19,14 @@ Several ideas remain steady even where the figures and structures change:
 - Government investment, member finance, grants, guarantees and service income are different funding paths, each with different responsibilities.
 - Established information, working proposals, future research and far-horizon imagination deserve separate labels.
 
-## Conflicts being held open
+## Design alternatives and decisions
 
 | Topic | What the supplied material says | Public treatment while the choice remains open |
 | --- | --- | --- |
-| Roughly A$1,000 access | One source table labels A$1,000 as an indicative per-member protocol cost at 35 members. The same table also shows an A$5,000 initial loan per member and a separate A$500 operating fee. | Keep the three categories visible. A$1,000 is not treated as the total price of entry, a public offer or a complete operating budget. |
-| PADS | PADS means Personal Atmosphere Delivery System. The proposed design uses mask-fed breathing gas in a chamber pressurised with normal air. Other passages blur mask pressure and chamber pressure. No supplied source identifies a certified PADS product category. | Keep PADS inside Aura Geode research. Separately identify each existing chamber, accessory and intended use through its own current record. |
-| Hyperbaric location | Several early drafts describe home use. A later aged-care plan moves access into suitably equipped facilities with trained professionals. | The launch wording awaits a choice between supervised existing services and a home-use proposal. |
-| Aura Geode construction | One model uses a steel frame. Another imagines a pressure-rated geopolymer and local mineral shell. No completed engineering, pressure testing or certification is evidenced. | Present the Geode as a construction and research journey, separate from currently available equipment. |
+| Roughly A$1,000 access | One source table labels A$1,000 as an indicative per-member protocol cost at 35 members. The same table also shows an A$5,000 initial loan per member and a separate A$500 operating fee. | Keep all three categories visible, then invite local groups to add real equipment, staffing, operation and funding figures. |
+| PADS | PADS means Personal Atmosphere Delivery System, as clarified by Luke. The proposed design uses mask-fed breathing gas in a chamber pressurised with ordinary air. Some drafts blur mask pressure and chamber pressure. | Study the two atmosphere systems separately and together. Give existing chambers and accessories their own current product records; develop the PADS concept through named engineering and device work. |
+| Hyperbaric location | Several early drafts describe home use. A later aged-care plan places access in suitably equipped facilities with trained professionals. | Existing professionally supervised services offer an Australian starting platform for access and research. Other settings would need their own product, professional and regulatory work. |
+| Aura Geode construction | One model uses a steel frame. Another explores a pressure-rated geopolymer and local mineral shell. | Compare material samples, modelling, pressure performance, oxygen and fire behaviour, accessible entry and manufacturing before choosing a construction route. |
 | Software status | Several drafts describe Aura as software as a medical device. The clinical pathway records proposed classifications and unfinished evidence work. | Present a possible regulated clinical path beside a separate reflection and general-wellbeing path. |
 | Local data and cloud | Most recent material favours owner-held local files. Some earlier material describes a cloud Aura Passport and central registry. | Treat local, portable records as the working foundation while cloud and research sharing remain separate choices. |
 | Public and member finance | One proposal seeks A$42.35 billion in regional public investment. Another describes a member-financed route with little or no public capital. | Show several funding patterns rather than one settled model. |
@@ -36,11 +36,14 @@ Several ideas remain steady even where the figures and structures change:
 
 ## Current Australian anchors
 
-These official sources provide a current public boundary for the Australian starting context:
+These official sources offer practical Australian starting points for building and studying the ideas:
 
 - The [Therapeutic Goods Administration hyperbaric chamber safety advisory](https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/risk-fire-during-use-hyperbaric-chambers), published 10 October 2025, places hyperbaric chamber use with qualified and trained health professionals in appropriately equipped clinics. It also warns against home purchase.
 - The [Australian Register of Therapeutic Goods search guidance](https://www.tga.gov.au/products/regulations-all-products/about-australian-register-therapeutic-goods-artg/searching-australian-register-therapeutic-goods-artg) describes the register as a record of therapeutic goods available for lawful supply in Australia. It is a record, not a recommendation service.
 - The [Therapeutic Goods Administration software guidance](https://www.tga.gov.au/resources/guidance/understanding-how-we-regulate-software-based-medical-devices) explains that a software product's stated purpose affects whether it is regulated as a medical device. General lifestyle software and clinical software may sit on different paths.
+- The [Therapeutic Goods Administration medical-device evidence guidance](https://www.tga.gov.au/resources/guidance/understanding-evidence-requirements-market-authorisation-medical-devices) links device design and intended use with the evidence needed for market authorisation.
+- The [Australian clinical trial handbook](https://www.tga.gov.au/resources/resource/guidance/australian-clinical-trial-handbook) and [National Statement on human research ethics](https://www.nhmrc.gov.au/research-policy/ethics/national-statement-ethical-conduct-human-research) give routes for ethics review and human studies.
+- A [small randomised study in healthy older adults](https://pubmed.ncbi.nlm.nih.gov/32589613/) reported improved attention and processing speed after hyperbaric oxygen therapy. It gives the everyday-wellbeing question a published research lead, with wider populations and combined modalities ready for further study.
 - The [Queensland co-operatives information hub](https://www.qld.gov.au/community/fair-trading/associations-charities-and-non-for-profits/cooperatives) links the current registration, rules, forms and operating guidance. Queensland law recognises distributing and non-distributing co-operatives.
 - The [Australian Government Aged Care Act overview](https://www.health.gov.au/our-work/aged-care-act/about/what-it-means) records that the Aged Care Act 2024 started on 1 November 2025.
 
@@ -80,8 +83,11 @@ Other songs remain connected:
 
 The supplied lyric file contains no video addresses. Preferred versions and published recordings remain to be connected.
 
-## Open choices before the visual build
+## Research pathways now shown on the site
 
-1. Existing registered hyperbaric and sauna equipment could lead the access story, with PADS and the Aura Geode held as a separate research and construction path. The alternative is a launch centred on the proposed Geode itself.
-2. The affordability story could show the A$1,000 indicative protocol cost beside the A$5,000 initial loan and A$500 operating fee in the same 35-member source table. A separate editable thought experiment may explore shared-cost arithmetic. Local owner-held digital twins could form the default, with cloud or research sharing offered separately.
-3. Cultural material and music embeds need the preferred public versions, links and any relevant family, cultural or organisational review already available.
+1. Shared access could begin with named, existing sauna and professionally supervised hyperbaric services. The Geode and Personal Atmosphere Delivery System add an engineering and human-study programme alongside that immediate path.
+2. The Geode source sketches a sixty-session arc: discovery and response mapping, tailored combinations, then comparison and follow-up. The website presents that as a research question for participants, clinicians and study teams to shape together.
+3. A possible study would record baseline wellbeing and cognitive measures, compare suitable groups, explore sensory additions individually and in combination, and follow comfort, accessibility, daily life and unwanted effects over time.
+4. The A$1,000 protocol figure stays beside the separate A$5,000 initial loan and A$500 fee. An editable illustration invites real local budgets and public support models.
+5. Personal records begin on owner-held hardware. Any research sharing, remote service or local co-operative record would have its own chosen relationship.
+6. Music embeds and cultural material grow through preferred public versions and the relevant people and relationships.

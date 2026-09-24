@@ -42,8 +42,8 @@ const pages = [
             <h2>The sovereign centre</h2>
           </div>
           <div class="sovereign-copy reveal">
-            <p class="large-copy">Every person arrives with an inner world that deserves beauty, privacy and room to grow. The co-operative idea begins there, then asks what becomes possible when communities share the expensive parts without swallowing the individual.</p>
-            <p>Self-sovereign is not isolation. It is relationship by agreement. A digital twin here means a growing reflection of a person's records, memories, choices and patterns, held first on hardware that person chooses.</p>
+            <p class="large-copy">Every person arrives with an inner world that deserves beauty, privacy and room to grow. The co-operative idea begins there, then asks what becomes possible when communities share the expensive parts while each person keeps their own centre.</p>
+            <p>Self-sovereignty grows through chosen relationships. A digital twin here means a growing reflection of a person's records, memories, choices and patterns, held first on hardware that person chooses.</p>
           </div>
         </div>
         <div class="wrap sovereign-orbit reveal" data-sovereign-orbit>
@@ -59,7 +59,7 @@ const pages = [
 
       <section class="world-section portal-section" id="worlds">
         <div class="wrap section-heading reveal">
-          <h2>A regional world, not one crowded page</h2>
+          <h2>Many worlds, one regional welcome</h2>
           <p>Each idea receives its own atmosphere, evidence and room for local variation. Ten project worlds are open, with a human Site Map as the eleventh doorway.</p>
         </div>
         <div class="wrap portal-archipelago">
@@ -71,12 +71,12 @@ const pages = [
           <a class="image-portal portal-tall reveal" href="shared-wellbeing/">
             <img src="assets/images/hero-shared-wellbeing.webp" alt="" loading="lazy" decoding="async">
             <span class="portal-shade"></span>
-            <span class="portal-copy"><strong>Shared Wellbeing</strong><small>Warmth, breath, rest and careful evidence.</small></span>
+            <span class="portal-copy"><strong>Shared Wellbeing</strong><small>Warmth, breath, rest and discovery.</small></span>
           </a>
           <a class="future-portal future-violet reveal" href="aura-geode/">
             <span class="portal-gem" aria-hidden="true"></span>
             <h3>Aura Geode Research</h3>
-            <p>A construction and research world for the proposed Geode and Personal Atmosphere Delivery System.</p>
+            <p>Pressure engineering, a personal breathing atmosphere, sensory experience and owner-held computing in one research world.</p>
             <span class="status-mark status-future">Future research</span>
           </a>
           <a class="future-portal future-opal reveal" href="your-digital-self/">
@@ -102,7 +102,7 @@ const pages = [
             <h2>The album is part of the architecture</h2>
           </div>
           <div class="sovereign-copy reveal">
-            <p class="large-copy"><em>A Protopian Gambit</em> carries an inner journey through birth, repair and embodied reflection. These songs are not decorative extras. They give the technology and co-operative model a human pulse.</p>
+            <p class="large-copy"><em>A Protopian Gambit</em> carries an inner journey through birth, repair and embodied reflection. The music gives the technology and co-operative model a human pulse.</p>
           </div>
         </div>
         <div class="wrap album-arc">
@@ -151,8 +151,8 @@ const pages = [
             <small>indicative protocol cost in one 35-member source table</small>
           </div>
           <div class="value-copy reveal">
-            <h2>Affordability is a question worth testing in daylight</h2>
-            <p>One source table labels A$1,000 as an indicative per-member protocol cost at 35 members. The same table also shows an A$5,000 initial loan per member and a separate A$500 operating fee, so A$1,000 is not presented as the total price of entry.</p>
+            <h2>What shared access could bring within reach</h2>
+            <p>One source table shows an indicative A$1,000 protocol cost per member at 35 members. It also shows a separate A$5,000 initial loan and A$500 operating fee. Together, those figures offer a starting model for testing fairer access and clearer public investment.</p>
             <span class="status-mark status-working">Working proposal</span>
           </div>
         </div>
@@ -163,12 +163,12 @@ const pages = [
           <div class="evidence-prism reveal" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
           <div class="reveal">
             <h2>Every idea has a visible home</h2>
-            <p>Current public records, working proposals, future research and unresolved details remain visually distinct throughout the site.</p>
+            <p>Current public records, working proposals, future research and locally shaped details each have a visible place throughout the site.</p>
             <div class="status-constellation">
               <span class="status-mark status-established">Established information</span>
               <span class="status-mark status-working">Working proposal</span>
               <span class="status-mark status-future">Future research</span>
-              <span class="status-mark status-open">TO BE CONFIRMED</span>
+              <span class="status-mark status-open">Open for local choice</span>
             </div>
             <div class="inline-paths"><a class="faceted-link faceted-link-light" href="evidence/">Enter the evidence world <span aria-hidden="true">→</span></a><a class="faceted-link faceted-link-light" href="https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops/blob/main/docs/source-audit.md">The public source audit <span aria-hidden="true">↗</span></a></div>
           </div>
@@ -194,9 +194,9 @@ const pages = [
     body: `
       <section class="world-section pearl-section">
         <div class="wrap editorial-split">
-          <div class="section-title reveal"><h2>A family without sameness</h2></div>
+          <div class="section-title reveal"><h2>Related places, locally shaped agreements</h2></div>
           <div class="sovereign-copy reveal">
-            <p class="large-copy">The regional model is a network of locally shaped relationships, not one agreement stretched across every place. One group may share a sauna. Another may begin with local compute, food, rest or a supervised clinical relationship.</p>
+            <p class="large-copy">The regional idea invites locally shaped relationships. One group may share a sauna. Another may begin with local computing, food, rest or a supervised clinical relationship. Each group could write terms that fit its people and place.</p>
             <p>Queensland is the first legal starting context in this source set. Other Oceania jurisdictions bring their own co-operative, health, privacy, cultural and financial settings.</p>
           </div>
         </div>
@@ -208,7 +208,7 @@ const pages = [
           <div class="source-copy reveal">
             <h2>A Queensland starting point</h2>
             <p>Queensland recognises distributing and non-distributing co-operatives. The usual starting point is at least five active members, with a lower number subject to approval.</p>
-            <p>The project remains an exploration. It is not a registered co-operative and it does not speak for a future local group.</p>
+            <p>This regional project offers ideas and source material. Any future local co-operative would form through the people, rules and relationships of its own place.</p>
             <span class="status-mark status-established">Established information</span>
             <a class="faceted-link faceted-link-light" href="https://www.qld.gov.au/community/fair-trading/associations-charities-and-non-for-profits/cooperatives">Queensland co-operatives information <span aria-hidden="true">↗</span></a>
           </div>
@@ -254,7 +254,7 @@ const pages = [
         <div class="wrap terms-stage">
           <div class="terms-copy reveal">
             <h2>Local terms are part of the beauty</h2>
-            <p>Membership, access, money, care, data, cultural relationships and exit arrangements receive their own space. Difference between communities is not a defect in the model.</p>
+            <p>Membership, access, money, care, data, cultural relationships and exit arrangements receive their own space. Differences between communities make the regional family richer.</p>
           </div>
           <div class="terms-facets reveal">
             <span>Access</span><span>Money</span><span>Care</span><span>Data</span><span>Culture</span><span>Exit</span>
@@ -353,10 +353,10 @@ const pages = [
           </div>
         </div>
         <div class="wrap equipment-ledger reveal">
-          <div><span>Named chamber</span><strong>TO BE CONFIRMED</strong></div>
-          <div><span>Sauna type and model</span><strong>TO BE CONFIRMED</strong></div>
-          <div><span>Service location</span><strong>TO BE CONFIRMED</strong></div>
-          <div><span>Professional relationship</span><strong>TO BE CONFIRMED</strong></div>
+          <div><span>Named chamber</span><strong>Local selection open</strong></div>
+          <div><span>Sauna type and model</span><strong>Local selection open</strong></div>
+          <div><span>Service location</span><strong>Locally shaped</strong></div>
+          <div><span>Professional relationship</span><strong>Locally shaped</strong></div>
         </div>
       </section>
     `
@@ -397,8 +397,8 @@ const pages = [
           <div class="geode-core reveal" aria-hidden="true"><span></span><span></span><span></span><i></i></div>
           <div class="geode-part geode-part-shell reveal"><span>01</span><h3>Structure</h3><p>Compare a fabricated frame and a mineral-composite shell through modelling, material tests and pressure-rated prototypes.</p></div>
           <div class="geode-part geode-part-atmosphere reveal"><span>02</span><h3>Atmosphere</h3><p>Study chamber pressure and a separately controlled breathing supply as two coordinated systems.</p></div>
-          <div class="geode-part geode-part-reflection reveal"><span>03</span><h3>Sensory space</h3><p>Explore music, light and reflection in a way that suits the person and the approved equipment setting.</p></div>
-          <div class="geode-part geode-part-compute reveal"><span>04</span><h3>Local computing</h3><p>Build the personal record on owner-held hardware, with clear choices for sharing selected findings.</p></div>
+          <div class="geode-part geode-part-reflection reveal"><span>03</span><h3>Sensory space</h3><p>Explore music, light, scent and touch cues one by one, using equipment suited to its chamber setting and the person's preferences.</p></div>
+          <div class="geode-part geode-part-compute reveal"><span>04</span><h3>Local computing</h3><p>Build the personal record on owner-held hardware. Session feedback and any chamber interface invite their own design and equipment review.</p></div>
         </div>
       </section>
 
@@ -447,7 +447,7 @@ const pages = [
           </div>
           <div class="research-record reveal">
             <span class="status-mark status-future">Research sequence</span>
-            <p>First, model and test the enclosure and atmosphere system. Next, study comfort and usability with the right professional team. Then compare meaningful outcomes across agreed session designs, with ethics review and follow-up.</p>
+            <p>One route begins with material samples, pressure modelling, oxygen and fire assessment, controls and accessibility trials. Prototype testing then informs intended use, device evidence and a human study shaped with participants and health professionals.</p>
           </div>
         </div>
       </section>
@@ -455,11 +455,21 @@ const pages = [
       <section class="world-section geode-method-section">
         <div class="wrap section-heading reveal"><h2>What a joined-up study could discover</h2><p>Clear comparisons, meaningful measures and participant choice could turn a beautiful experience into useful shared learning.</p></div>
         <div class="wrap geode-method-grid">
-          <article class="geode-method-card reveal"><span>01</span><h3>Start with a baseline</h3><p>Record what matters to participants before sessions: attention, sleep, day-to-day function, comfort and their own sense of restoration. Agree on validated measures and follow-up times.</p></article>
+          <article class="geode-method-card reveal"><span>01</span><h3>Start with a baseline</h3><p>Record what matters to participants before sessions: attention, sleep, day-to-day function, comfort and their own sense of restoration. Agree on established measures and follow-up times.</p></article>
           <article class="geode-method-card reveal"><span>02</span><h3>Compare the ingredients</h3><p>A study shaped with participants, clinicians and ethics reviewers could compare suitable controls with professionally supervised oxygen sessions, then explore whether added light, sound and chosen reflection change the experience or measured outcomes.</p></article>
           <article class="geode-method-card reveal"><span>03</span><h3>Learn person by person</h3><p>Use optional, owner-held records to explore which session features suit which people. Report group results alongside comfort, accessibility and any unwanted effects, then refine the design.</p></article>
         </div>
-        <div class="wrap geode-method-links reveal"><a class="faceted-link faceted-link-light" href="https://www.tga.gov.au/resources/resource/guidance/australian-clinical-trial-handbook">Australian clinical trial handbook <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://www.nhmrc.gov.au/research-policy/ethics/national-statement-ethical-conduct-human-research">Human research ethics <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://pubmed.ncbi.nlm.nih.gov/32589613/">A healthy-ageing research lead <span aria-hidden="true">↗</span></a></div>
+        <div class="wrap geode-method-links reveal"><a class="faceted-link faceted-link-light" href="https://www.tga.gov.au/resources/guidance/understanding-evidence-requirements-market-authorisation-medical-devices">Medical-device evidence pathway <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://www.tga.gov.au/resources/resource/guidance/australian-clinical-trial-handbook">Australian clinical trial handbook <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://www.nhmrc.gov.au/research-policy/ethics/national-statement-ethical-conduct-human-research">Human research ethics <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://pubmed.ncbi.nlm.nih.gov/32589613/">A healthy-ageing research lead <span aria-hidden="true">↗</span></a></div>
+        <div class="wrap geode-session-arc reveal">
+          <h3>The source's sixty-session research arc</h3>
+          <p>The Aura Geode draft sketches three movements. Participants, clinicians and researchers could reshape their length and methods while keeping the core invitation: learn what a person experiences, test a tailored combination, then check whether the change holds.</p>
+          <div class="geode-arc-phases">
+            <div><strong>Sessions 1-20</strong><span>Explore how each person responds to different sensory and atmosphere settings.</span></div>
+            <div><strong>Sessions 21-40</strong><span>Study combinations chosen from that person's earlier feedback and agreed measures.</span></div>
+            <div><strong>Sessions 41-60</strong><span>Compare results, follow up on daily-life effects and test which ingredients contributed.</span></div>
+          </div>
+          <p>Optional biological samples and an owner-held digital record could add another layer of learning, with the questions and permissions chosen for each study.</p>
+        </div>
       </section>
 
       <section class="world-section geode-song-section">
@@ -493,10 +503,10 @@ const pages = [
     body: `
       <section class="world-section twin-opening">
         <div class="wrap editorial-split">
-          <div class="section-title reveal"><h2>A companion reflection, not a corporate copy</h2></div>
+          <div class="section-title reveal"><h2>A companion reflection held by its person</h2></div>
           <div class="sovereign-copy reveal">
-            <p class="large-copy">The proposed digital twin grows beside its person. It may help them notice threads across their own life while leaving room for mystery, change and the parts of a person that no record captures.</p>
-            <p>The vision remains a working proposal. No completed clinical Aura system or finished personal digital-twin product is evidenced in the supplied material.</p>
+            <p class="large-copy">The proposed digital twin grows beside its person. It may help them notice threads across their own life while leaving room for mystery, change and everything that reaches beyond a record.</p>
+            <p>The working design begins with owner-held files, understandable patterns and the person's choice about what becomes part of their reflection. A clinical version would follow its own research and device pathway.</p>
             <span class="status-mark status-working">Working proposal</span>
           </div>
         </div>
@@ -508,7 +518,7 @@ const pages = [
           <div class="twin-thread reveal" aria-hidden="true"><span></span><span></span><span></span></div>
           <div class="twin-reflection reveal"><span class="reflection-light" aria-hidden="true"></span><strong>Your reflection</strong><small>memories, records, choices and patterns</small></div>
         </div>
-        <div class="wrap twin-meaning-copy reveal"><p>A person and a model are not the same thing. The relationship stays useful when the reflection remains understandable, correctable, portable and open to being left behind.</p></div>
+        <div class="wrap twin-meaning-copy reveal"><p>The person brings lived experience; the model offers one evolving reflection. Understanding, correction and portability keep that relationship in the person's hands.</p></div>
       </section>
 
       <section class="world-section album-birth-section" id="birth-repair">
@@ -530,7 +540,7 @@ const pages = [
           <aside class="pressure-crossing reveal">
             <span class="status-mark status-art">Across the wider album</span>
             <h3><em>60 Days Set in Stone</em> is the hyperbaric oxygen therapy song</h3>
-            <p>The complete sixty-session artistic chamber journey lives in the music world. Its professional-care questions live separately in Shared Wellbeing, while Aura Geode remains a proposed research connection.</p>
+            <p>The complete sixty-session artistic chamber journey lives in the music world. Shared Wellbeing explores access and professional care; Aura Geode explores how the wider research vision could grow.</p>
             <div class="movement-links"><a href="../a-protopian-gambit/#three-movements">The complete album journey</a><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../aura-geode/">Aura Geode Research</a></div>
           </aside>
         </div>
@@ -570,10 +580,10 @@ const pages = [
         <div class="wrap software-stage">
           <div class="software-prism reveal" aria-hidden="true"><span></span><span></span></div>
           <div class="software-copy reveal">
-            <h2>Two software paths remain distinct</h2>
-            <p>A general reflection tool and software intended for diagnosis, monitoring, prediction or treatment sit in different public and regulatory relationships. The intended purpose matters more than a project label.</p>
-            <p>Earlier Passport and cloud ideas remain part of the draft history. The current public direction begins with local hardware and treats any remote service as a separate, chosen relationship.</p>
-            <div class="status-constellation"><span class="status-mark status-working">General reflection proposal</span><span class="status-mark status-open">Clinical pathway TO BE CONFIRMED</span></div>
+            <h2>Two useful directions for personal software</h2>
+            <p>A general reflection tool could help a person explore their own records. A clinical tool for diagnosis, monitoring, prediction or treatment would have a more specific evidence and device pathway, shaped by its intended purpose.</p>
+            <p>The current public direction begins with local hardware. Earlier Passport and cloud ideas remain available for review as possible, separately chosen relationships.</p>
+            <div class="status-constellation"><span class="status-mark status-working">General reflection proposal</span><span class="status-mark status-future">Clinical research pathway</span></div>
             <div class="inline-paths"><a class="faceted-link faceted-link-light" href="https://www.tga.gov.au/resources/guidance/understanding-how-we-regulate-software-based-medical-devices">Australian software guidance <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://auraofintelligence.github.io/aura-direct-hardware/">Aura Direct Hardware <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://auraofintelligence.github.io/i-C-infinity-music-universe/">The music universe <span aria-hidden="true">↗</span></a></div>
           </div>
         </div>
@@ -583,8 +593,8 @@ const pages = [
         <div class="wrap leaving-stage">
           <h2 class="reveal">A sovereign relationship includes the way out</h2>
           <div class="leaving-words reveal"><span>Visibility</span><span>Correction</span><span>Portability</span><span>Partial sharing</span><span>Ending a connection</span></div>
-          <p class="reveal">Technical details, hardware choices, data formats, backup, deletion and future portability remain part of the open design work.</p>
-          <span class="status-mark status-open reveal">TO BE CONFIRMED</span>
+          <p class="reveal">Hardware choices, data formats, backup, deletion and future portability offer practical design questions for the people building and using the system.</p>
+          <span class="status-mark status-future reveal">Design together</span>
         </div>
       </section>
     `
@@ -596,7 +606,7 @@ const pages = [
     shortTitle: "Public Value",
     description: "A transparent affordability hypothesis for shared regional infrastructure, member pathways and public investment.",
     heading: "Shared abundance.<br><span>Visible arithmetic.</span>",
-    lead: "The public investment idea asks whether shared assets, local capability and open learning may place beautiful infrastructure within reach of many more people. The figures remain illustrations, not prices or promises.",
+    lead: "Shared assets, local capability and open learning could place beautiful infrastructure within reach of many more people. The figures below show where a public investment case might begin.",
     hero: "hero-public-value.webp",
     heroAlt: "Imagined civic landscape where several coloured resource currents meet in a transparent shared reservoir and flow toward distinct community spaces.",
     theme: "public-value",
@@ -607,10 +617,10 @@ const pages = [
     body: `
       <section class="world-section value-opening">
         <div class="wrap editorial-split">
-          <div class="section-title reveal"><h2>An affordability hypothesis, held in daylight</h2></div>
+          <div class="section-title reveal"><h2>Beautiful access, visible arithmetic</h2></div>
           <div class="sovereign-copy reveal">
-            <p class="large-copy">One source table labels A$1,000 as an indicative per-member protocol cost at 35 members. It also shows an A$5,000 initial loan per member and a separate A$500 operating fee.</p>
-            <p>A$1,000 is therefore not treated as the total price of entry. The source model also lacks a settled equipment list, operating budget, staffing model, insurance relationship and clinical governance pathway.</p>
+            <p class="large-copy">One source table places an indicative protocol cost near A$1,000 per member at 35 members. It also shows a separate A$5,000 initial loan per member and A$500 operating fee.</p>
+            <p>These figures invite a fuller local model: named equipment, staffing, energy, insurance, professional care, repayments and public support. A clear version could show where shared ownership makes the biggest difference.</p>
             <span class="status-mark status-working">Working proposal</span>
           </div>
         </div>
@@ -620,7 +630,7 @@ const pages = [
         <div class="wrap affordability-stage" data-affordability>
           <div class="affordability-copy reveal">
             <h2>A separate shared-cost thought experiment</h2>
-            <p>These editable fields begin with A$35,000 shared across 35 people to make the arithmetic visible. That starting amount is derived from the A$1,000 figure, not established by the source as a complete capital, membership or operating model.</p>
+            <p>These editable fields begin with A$35,000 shared across 35 people to make the arithmetic visible. The A$35,000 comes from the source's indicative A$1,000 protocol figure; each local group could add its real capital, membership and operating numbers.</p>
             <span class="status-mark status-working">Separate thought experiment</span>
           </div>
           <form class="affordability-controls reveal" aria-label="Editable affordability illustration">
@@ -631,7 +641,7 @@ const pages = [
           <div class="affordability-result reveal" aria-live="polite">
             <span>Illustrative shared amount per person</span>
             <strong data-value-result>A$1,000</strong>
-            <small>Not a total access price or public offer</small>
+            <small>One shared-cost illustration; local terms may differ</small>
           </div>
         </div>
       </section>
@@ -660,8 +670,8 @@ const pages = [
         <div class="wrap horizon-stage">
           <div class="horizon-number reveal"><span>Regional planning imagination</span><strong>A$42.35b</strong></div>
           <div class="horizon-copy reveal">
-            <h2>A large horizon, not a present commitment</h2>
-            <p>The supplied papers also imagine A$42.35 billion across 600,000 chambers, 600,000 saunas, 235,000 kiosks and wider regional supports. It remains a planning scenario rather than a settled funding request, approved budget, present commitment or established health outcome.</p>
+            <h2>A large horizon for public imagination</h2>
+            <p>The supplied papers imagine A$42.35 billion across 600,000 chambers, 600,000 saunas, 235,000 kiosks and wider regional supports. That far-horizon scenario could invite staged local pilots, transparent cost records and public evaluation before anyone considers a larger investment.</p>
             <span class="status-mark status-future">Far-horizon imagination</span>
           </div>
         </div>
@@ -686,10 +696,10 @@ const pages = [
     body: `
       <section class="world-section oceania-opening">
         <div class="wrap editorial-split">
-          <div class="section-title reveal"><h2>Connection without one mould</h2></div>
+          <div class="section-title reveal"><h2>Many places, many ways of belonging</h2></div>
           <div class="sovereign-copy reveal">
             <p class="large-copy">A Queensland co-operative, a Fijian community initiative and an island health network may share learning while keeping their own terms, relationships and sense of place.</p>
-            <p>This site does not speak for a nation, First Nations people, island community, government, health service or future co-operative. Local pages become meaningful through self-authored or source-backed contributions and the relationships relevant to each place.</p>
+            <p>People in each place bring their own voice, authority and relationships. Local pages could grow through self-authored or source-backed contributions, with the relevant community shaping what belongs there.</p>
           </div>
         </div>
       </section>
@@ -708,11 +718,11 @@ const pages = [
       </section>
 
       <section class="world-section regional-starts-section">
-        <div class="wrap section-heading reveal"><h2>Starting contexts, not regional representatives</h2><p>The supplied papers offer several doorways. Each carries a different level of public grounding.</p></div>
+        <div class="wrap section-heading reveal"><h2>Regional doorways to explore</h2><p>The supplied papers offer several starting contexts, each with its own people, public records and opportunities.</p></div>
         <div class="wrap regional-starts">
-          <article class="regional-start start-queensland reveal"><span class="place-orb" aria-hidden="true"></span><div><h3>Queensland</h3><p>Current public co-operative information offers the first legal starting context. The project itself remains exploratory and unregistered.</p><span class="status-mark status-established">Established public context</span></div></article>
-          <article class="regional-start start-fiji reveal"><span class="place-orb" aria-hidden="true"></span><div><h3>Fiji and Australia</h3><p>Luke's public Vuvale Union submission proposes shared civic infrastructure and family without sameness. It is an author proposal rather than evidence of government or community endorsement.</p><span class="status-mark status-working">Public submission</span></div></article>
-          <article class="regional-start start-wider reveal"><span class="place-orb" aria-hidden="true"></span><div><h3>Wider Oceania</h3><p>Place pages, local contributors, jurisdiction records, cultural review and participation pathways remain open work.</p><span class="status-mark status-open">TO BE CONFIRMED</span></div></article>
+          <article class="regional-start start-queensland reveal"><span class="place-orb" aria-hidden="true"></span><div><h3>Queensland</h3><p>Current public co-operative information offers one legal starting context for groups interested in shared assets and local agreements.</p><span class="status-mark status-established">Established public context</span></div></article>
+          <article class="regional-start start-fiji reveal"><span class="place-orb" aria-hidden="true"></span><div><h3>Fiji and Australia</h3><p>Luke's public Vuvale Union submission imagines shared civic infrastructure and family with room for difference. People and institutions in each place would shape any future relationship.</p><span class="status-mark status-working">Public submission</span></div></article>
+          <article class="regional-start start-wider reveal"><span class="place-orb" aria-hidden="true"></span><div><h3>Wider Oceania</h3><p>Local contributors could bring place stories, jurisdiction records, cultural review and participation pathways into this regional picture.</p><span class="status-mark status-future">Locally shaped</span></div></article>
         </div>
       </section>
 
@@ -722,13 +732,13 @@ const pages = [
           <div class="jurisdiction-rings reveal">
             <span>Co-operative setting</span><span>Health setting</span><span>Privacy setting</span><span>Equipment setting</span><span>Finance setting</span><span>Cultural relationships</span>
           </div>
-          <div class="jurisdiction-note reveal"><span class="status-mark status-open">TO BE CONFIRMED by place</span><p>No regional directory is populated from assumption. The supplied world-cities file also has no agreed Oceania classification.</p></div>
+          <div class="jurisdiction-note reveal"><span class="status-mark status-future">Built with each place</span><p>A regional directory would grow through local contributions and named sources. The supplied world-cities list offers one geographic starting point for exploration.</p></div>
         </div>
       </section>
 
       <section class="world-section regional-network-section">
         <div class="wrap regional-network-stage">
-          <div class="network-copy reveal"><h2>A future place page begins locally</h2><p>The regional structure offers an empty vessel rather than an invented profile. The full connected project family lives on the About page.</p><a class="faceted-link faceted-link-light" href="../about/#project-family">Connected public projects <span aria-hidden="true">→</span></a></div>
+          <div class="network-copy reveal"><h2>A future place page begins locally</h2><p>The regional structure leaves room for a place to describe itself. The full connected project family lives on the About page.</p><a class="faceted-link faceted-link-light" href="../about/#project-family">Connected public projects <span aria-hidden="true">→</span></a></div>
           <div class="network-links reveal" aria-label="Future place-page ingredients">
             <div><strong>Self-authored introduction</strong><span>how people in this place describe their own starting point</span></div>
             <div><strong>Current public records</strong><span>law, health, privacy, equipment, finance and planning links</span></div>
@@ -759,24 +769,24 @@ const pages = [
     body: `
       <section class="world-section album-opening">
         <div class="wrap editorial-split">
-          <div class="section-title reveal"><h2>One inner journey, not background music</h2></div>
-          <div class="sovereign-copy reveal"><p class="large-copy">The songs give emotional shape to birth, self-repair, pressure, reflection and stewardship. They belong beside the co-operative, health, research and digital-self stories rather than floating above them as decoration.</p><span class="status-mark status-art">Author's artistic meaning</span></div>
+          <div class="section-title reveal"><h2>Music at the heart of the journey</h2></div>
+          <div class="sovereign-copy reveal"><p class="large-copy">The songs give emotional shape to birth, self-repair, pressure, reflection and stewardship. They bring lived meaning to the co-operative, health, research and digital-self stories.</p><span class="status-mark status-art">Author's artistic meaning</span></div>
         </div>
       </section>
 
       <section class="world-section three-movements-section" id="three-movements">
         <div class="wrap three-movements">
           <article class="music-movement movement-birth reveal">
-            <div class="video-phone"><div class="video-screen"><span class="video-symbol birth-symbol" aria-hidden="true"></span><p>Portrait video address<br><strong>TO BE CONFIRMED</strong></p></div></div>
+            <div class="video-phone"><div class="video-screen"><span class="video-symbol birth-symbol" aria-hidden="true"></span><p>Portrait video<br><strong>Link to come</strong></p></div></div>
             <div class="music-copy"><span class="music-number">01</span><h2><em>Primordial Consent 1,2,3, Infinity</em></h2><p class="large-copy">Song 1 is about the divine self digital twin being born. Light, memory, consent, difference and form gather around a sovereign new reflection.</p><a href="../your-digital-self/#birth-repair">Birth inside Your Digital Self <span aria-hidden="true">→</span></a></div>
           </article>
           <article class="music-movement movement-repair reveal">
-            <div class="video-phone"><div class="video-screen"><span class="video-symbol repair-symbol" aria-hidden="true"></span><p>Portrait video address<br><strong>TO BE CONFIRMED</strong></p></div></div>
+            <div class="video-phone"><div class="video-screen"><span class="video-symbol repair-symbol" aria-hidden="true"></span><p>Portrait video<br><strong>Link to come</strong></p></div></div>
             <div class="music-copy"><span class="music-number">02</span><h2><em>Kintsugi Protocol</em></h2><p class="large-copy">The self repairs and re-forms. Golden seams keep a relationship with what happened while opening fresh possibilities for the person who continues.</p><a href="../your-digital-self/#birth-repair">Repair inside Your Digital Self <span aria-hidden="true">→</span></a></div>
           </article>
           <article class="music-movement movement-pressure reveal">
-            <div class="video-phone"><div class="video-screen"><span class="video-symbol pressure-symbol" aria-hidden="true"></span><p>Portrait video address<br><strong>TO BE CONFIRMED</strong></p></div></div>
-            <div class="music-copy"><span class="music-number">03</span><h2><em>60 Days Set in Stone</em></h2><p class="large-copy">This is specifically the hyperbaric oxygen therapy song. It holds a sixty-session artistic chamber journey through pressure, measurement, reflection and digital-twin formation.</p><div class="music-paths"><a href="../shared-wellbeing/">Shared Wellbeing <span aria-hidden="true">→</span></a><a href="../aura-geode/">Separate Geode research <span aria-hidden="true">→</span></a></div></div>
+            <div class="video-phone"><div class="video-screen"><span class="video-symbol pressure-symbol" aria-hidden="true"></span><p>Portrait video<br><strong>Link to come</strong></p></div></div>
+            <div class="music-copy"><span class="music-number">03</span><h2><em>60 Days Set in Stone</em></h2><p class="large-copy">This is specifically the hyperbaric oxygen therapy song. It holds a sixty-session artistic chamber journey through pressure, measurement, reflection and digital-twin formation.</p><div class="music-paths"><a href="../shared-wellbeing/">Shared Wellbeing <span aria-hidden="true">→</span></a><a href="../aura-geode/">Geode research <span aria-hidden="true">→</span></a></div></div>
           </article>
         </div>
       </section>
@@ -803,8 +813,8 @@ const pages = [
 
       <section class="world-section music-release-section">
         <div class="wrap music-release-stage">
-          <div class="release-copy reveal"><h2>The portrait frames are ready for the songs</h2><p>The supplied lyric collection contains no public video addresses. Preferred recordings, duplicate versions, captions and embed links remain part of the music release work.</p></div>
-          <div class="release-status reveal"><span class="status-mark status-open">TO BE CONFIRMED</span><p>Three portrait video addresses, preferred recording versions and publication permissions.</p></div>
+          <div class="release-copy reveal"><h2>The portrait frames are ready for the songs</h2><p>Preferred recordings, versions, captions and public video links will bring the supplied lyrics into these frames.</p></div>
+          <div class="release-status reveal"><span class="status-mark status-open">Ready for selected links</span><p>Three portrait video addresses, preferred recording versions and publication permissions.</p></div>
         </div>
       </section>
     `
@@ -814,9 +824,9 @@ const pages = [
     key: "evidence",
     title: "Evidence and Open Questions",
     shortTitle: "Evidence",
-    description: "A public source map separating established information, working proposals, future research and unresolved questions.",
-    heading: "Clarity glows.<br><span>Questions keep their place.</span>",
-    lead: "The supplied material contains public records, proposals, rough drafts, artistic meaning and far-horizon imagination. This evidence world keeps those relationships visible without flattening them into one kind of claim.",
+    description: "A public source map connecting strong research ideas, published findings, working proposals and questions ready for study.",
+    heading: "Curiosity glows.<br><span>Evidence grows with it.</span>",
+    lead: "The supplied plans bring together research directions, public records, artistic meaning and ambitious regional ideas. This page shows where each thread begins and how shared learning could deepen it.",
     hero: "hero-evidence.webp",
     heroAlt: "Imagined archive chamber where blank records pass through a clear prism into four distinct coloured evidence streams.",
     theme: "evidence",
@@ -827,8 +837,8 @@ const pages = [
     body: `
       <section class="world-section evidence-opening">
         <div class="wrap editorial-split">
-          <div class="section-title reveal"><h2>Rough drafts remain useful when their edges are visible</h2></div>
-          <div class="sovereign-copy reveal"><p class="large-copy">This website is shaped from twenty supplied files, including public submissions, business plans, research pathways, architectural ideas, lyrics and supporting data. A source appearing in that collection does not make every statement established.</p><p>Author clarification also matters for artistic meaning. Luke's explanation of the album journey now sits in its own dated record.</p></div>
+          <div class="section-title reveal"><h2>Good questions deserve a visible path</h2></div>
+          <div class="sovereign-copy reveal"><p class="large-copy">Twenty supplied files bring public submissions, business plans, research pathways, architectural ideas, lyrics and supporting data into one conversation. Their different strengths help shape experiments, practical partnerships and clearer public choices.</p><p>Author clarification adds depth to artistic meaning. Luke's explanation of the album journey sits in its own dated record.</p></div>
         </div>
       </section>
 
@@ -836,8 +846,8 @@ const pages = [
         <div class="wrap evidence-streams-stage">
           <article class="evidence-stream stream-established reveal"><span class="stream-light" aria-hidden="true"></span><h3>Established information</h3><p>Current public records tied to a named source and date.</p><span class="status-mark status-established">Established information</span></article>
           <article class="evidence-stream stream-working reveal"><span class="stream-light" aria-hidden="true"></span><h3>Working proposal</h3><p>An idea with visible assumptions, relationships and room to change.</p><span class="status-mark status-working">Working proposal</span></article>
-          <article class="evidence-stream stream-future reveal"><span class="stream-light" aria-hidden="true"></span><h3>Future research</h3><p>A construction, engineering, health, software or social question awaiting a careful pathway.</p><span class="status-mark status-future">Future research</span></article>
-          <article class="evidence-stream stream-open reveal"><span class="stream-light" aria-hidden="true"></span><h3>Open detail</h3><p>A product, partner, cost, jurisdiction, permission or version still awaiting identification.</p><span class="status-mark status-open">TO BE CONFIRMED</span></article>
+          <article class="evidence-stream stream-future reveal"><span class="stream-light" aria-hidden="true"></span><h3>Future research</h3><p>A promising construction, engineering, health, software or social question with room for a defined study.</p><span class="status-mark status-future">Future research</span></article>
+          <article class="evidence-stream stream-open reveal"><span class="stream-light" aria-hidden="true"></span><h3>Local design detail</h3><p>A product, partner, cost, jurisdiction, permission or version for the people involved to name together.</p><span class="status-mark status-open">Locally shaped</span></article>
         </div>
       </section>
 
@@ -845,8 +855,10 @@ const pages = [
         <div class="wrap section-heading reveal"><h2>Current Australian public anchors</h2><p>These links give the Queensland starting context a public record beyond the project drafts.</p></div>
         <div class="wrap public-records">
           <a href="https://www.qld.gov.au/community/fair-trading/associations-charities-and-non-for-profits/cooperatives"><strong>Queensland co-operatives</strong><span>registration, rules, forms and operating guidance</span><small>Queensland Government ↗</small></a>
-          <a href="https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/risk-fire-during-use-hyperbaric-chambers"><strong>Hyperbaric chamber safety</strong><span>qualified professionals, equipped clinics and the home-purchase warning</span><small>Therapeutic Goods Administration, 10 October 2025 ↗</small></a>
-          <a href="https://www.tga.gov.au/products/regulations-all-products/about-australian-register-therapeutic-goods-artg/searching-australian-register-therapeutic-goods-artg"><strong>Therapeutic goods register search</strong><span>a record of therapeutic goods available for lawful supply, not a recommendation service</span><small>Therapeutic Goods Administration ↗</small></a>
+          <a href="https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/risk-fire-during-use-hyperbaric-chambers"><strong>Hyperbaric chamber guidance</strong><span>qualified professionals and appropriately equipped clinics</span><small>Therapeutic Goods Administration, 10 October 2025 ↗</small></a>
+          <a href="https://www.tga.gov.au/products/regulations-all-products/about-australian-register-therapeutic-goods-artg/searching-australian-register-therapeutic-goods-artg"><strong>Therapeutic goods register search</strong><span>named products, intended uses and public device records</span><small>Therapeutic Goods Administration ↗</small></a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/32589613/"><strong>A healthy-ageing research lead</strong><span>a small randomised study found gains in attention and processing speed after hyperbaric oxygen sessions</span><small>Hadanny and colleagues, 2020 ↗</small></a>
+          <a href="https://www.tga.gov.au/resources/resource/guidance/australian-clinical-trial-handbook"><strong>Australian clinical trial pathway</strong><span>ethics review, study design and pathways for research involving therapeutic goods</span><small>Therapeutic Goods Administration ↗</small></a>
           <a href="https://www.tga.gov.au/resources/guidance/understanding-how-we-regulate-software-based-medical-devices"><strong>Software-based medical devices</strong><span>how intended purpose shapes the regulatory relationship</span><small>Therapeutic Goods Administration ↗</small></a>
           <a href="https://www.health.gov.au/our-work/aged-care-act/about/what-it-means"><strong>Aged Care Act 2024</strong><span>the new Australian aged-care framework that began on 1 November 2025</span><small>Australian Government Department of Health, Disability and Ageing ↗</small></a>
         </div>
@@ -854,7 +866,7 @@ const pages = [
 
       <section class="world-section conflict-ledger-section">
         <div class="wrap conflict-ledger-stage">
-          <div class="conflict-copy reveal"><h2>The conflict ledger</h2><p>Differences between drafts stay open until a source, design choice or local agreement resolves them.</p></div>
+          <div class="conflict-copy reveal"><h2>Choices that open new work</h2><p>The drafts offer more than one route in several places. Each choice invites a source check, design comparison or local conversation.</p></div>
           <div class="conflict-ledger reveal">
             <div><strong>Affordability</strong><span>A$1,000 indicative protocol cost, A$5,000 initial loan and separate A$500 operating fee in one 35-member source table</span></div>
             <div><strong>Health setting</strong><span>earlier home-use language and later supervised clinical setting</span></div>
@@ -869,7 +881,7 @@ const pages = [
       <section class="world-section source-doorways-section">
         <div class="wrap source-doorways-stage">
           <div class="source-doorway reveal"><h3>Source register</h3><p>The supplied documents reviewed for this first public release.</p><a href="../docs/source-register.md">Open the register <span aria-hidden="true">→</span></a></div>
-          <div class="source-doorway reveal"><h3>Source audit</h3><p>Shared ground, conflicts, current public anchors and unresolved choices.</p><a href="../docs/source-audit.md">Open the audit <span aria-hidden="true">→</span></a></div>
+          <div class="source-doorway reveal"><h3>Source audit</h3><p>Shared ground, design alternatives, public research links and choices for later work.</p><a href="../docs/source-audit.md">Open the audit <span aria-hidden="true">→</span></a></div>
           <div class="source-doorway reveal"><h3>Author clarifications</h3><p>Luke's dated explanations where an earlier reading missed the intended meaning.</p><a href="../docs/author-clarifications.md">Open the clarifications <span aria-hidden="true">→</span></a></div>
         </div>
       </section>
@@ -897,8 +909,8 @@ const pages = [
     body: `
       <section class="world-section about-opening">
         <div class="wrap editorial-split">
-          <div class="section-title reveal"><h2>A regional doorway, not one final organisation</h2></div>
-          <div class="sovereign-copy reveal"><p class="large-copy">The project explores how beautiful shared infrastructure, private reflection and local computing might gather around each person's dignity. A co-operative is one possible ownership relationship rather than the only path.</p><p>No registered regional co-operative, operating clinic, certified Aura Geode, completed clinical digital twin or endorsed Oceania partnership is represented here.</p><span class="status-mark status-working">Public working project</span></div>
+          <div class="section-title reveal"><h2>A regional doorway with room to grow</h2></div>
+          <div class="sovereign-copy reveal"><p class="large-copy">The project explores how beautiful shared infrastructure, private reflection and local computing might gather around each person's dignity. A co-operative offers one possible ownership relationship among many locally shaped paths.</p><p>This public working project gathers proposals and sources. Local groups, clinics, product teams and regional partnerships would bring their own names, decisions and records as those relationships take shape.</p><span class="status-mark status-working">Public working project</span></div>
         </div>
       </section>
 
@@ -982,8 +994,8 @@ const pages = [
             <div class="map-group-heading"><span>Community and shared infrastructure</span><h3>Shape what is shared</h3></div>
             <div class="map-worlds">
               <a class="map-world" href="../co-operative-paths/"><span>02</span><strong>Co-operative Paths</strong><p>Local purpose, membership, ownership and place-shaped agreements.</p><small>Open world <b aria-hidden="true">→</b></small></a>
-              <a class="map-world" href="../shared-wellbeing/"><span>03</span><strong>Shared Wellbeing</strong><p>Sauna, appropriately supervised hyperbaric oxygen therapy, reflection and careful evidence.</p><small>Open world <b aria-hidden="true">→</b></small></a>
-              <a class="map-world" href="../public-value/"><span>06</span><strong>Public Value</strong><p>Affordability illustrations and the public investment hypothesis beside their limits.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../shared-wellbeing/"><span>03</span><strong>Shared Wellbeing</strong><p>Sauna, professionally supervised hyperbaric oxygen therapy, reflection and community learning.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../public-value/"><span>06</span><strong>Public Value</strong><p>Shared-cost illustrations and ways to explore a public investment case.</p><small>Open world <b aria-hidden="true">→</b></small></a>
               <a class="map-world" href="../oceania/"><span>07</span><strong>Many Places Across Oceania</strong><p>Regional connection while law, culture, permission and terms stay with each place.</p><small>Open world <b aria-hidden="true">→</b></small></a>
             </div>
           </div>
@@ -991,7 +1003,7 @@ const pages = [
           <div class="map-group map-group-personal reveal" role="group" aria-label="Personal and future research">
             <div class="map-group-heading"><span>Personal and future research</span><h3>Meet the Geode and digital self</h3></div>
             <div class="map-worlds">
-              <a class="map-world" href="../aura-geode/"><span>04</span><strong>Aura Geode Research</strong><p>Proposed construction, Personal Atmosphere Delivery System, reflection and local computing research.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../aura-geode/"><span>04</span><strong>Aura Geode Research</strong><p>A joined-up chamber vision with clear engineering, sensory and human-study pathways.</p><small>Open world <b aria-hidden="true">→</b></small></a>
               <a class="map-world" href="../your-digital-self/"><span>05</span><strong>Your Digital Self</strong><p>An owner-held digital twin, private reflection and sharing through chosen relationships.</p><small>Open world <b aria-hidden="true">→</b></small></a>
             </div>
           </div>
@@ -1006,7 +1018,7 @@ const pages = [
           <div class="map-group map-group-record reveal" role="group" aria-label="Evidence and relationships">
             <div class="map-group-heading"><span>Evidence and relationships</span><h3>Read the record and wider context</h3></div>
             <div class="map-worlds">
-              <a class="map-world" href="../evidence/"><span>09</span><strong>Evidence and Open Questions</strong><p>Sources, current public anchors, draft conflicts and open details kept visible.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../evidence/"><span>09</span><strong>Evidence and Open Questions</strong><p>Research leads, public sources and design questions ready to investigate.</p><small>Open world <b aria-hidden="true">→</b></small></a>
               <a class="map-world" href="../about/"><span>10</span><strong>About, Connections and Licence</strong><p>Project origin, connected public worlds, boundaries, credits and licence.</p><small>Open world <b aria-hidden="true">→</b></small></a>
               <a class="map-world map-world-current" href="./" aria-current="page"><span>11</span><strong>Site Map</strong><p>The page that gathers every world and visitor path in one place.</p><small>You are here</small></a>
             </div>
@@ -1020,15 +1032,15 @@ const pages = [
           <article class="map-pathway reveal"><h3>Shared wellbeing close to home</h3><p>Explore warmth, rest, supervised care relationships, shared access and the public record beside them.</p><nav aria-label="Shared wellbeing path"><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../co-operative-paths/">Co-operative Paths</a><a href="../public-value/">Public Value</a><a href="../evidence/">Evidence</a></nav></article>
           <article class="map-pathway reveal"><h3>A local co-operative taking shape</h3><p>Follow local purpose, membership, ownership, affordability and place-specific agreements.</p><nav aria-label="Local co-operative path"><a href="../co-operative-paths/">Co-operative Paths</a><a href="../public-value/">Public Value</a><a href="../oceania/">Many Places</a><a href="../evidence/">Evidence</a></nav></article>
           <article class="map-pathway reveal"><h3>My digital self, held by me</h3><p>Meet the owner-held digital twin, its birth and repair story, and the research ideas around it.</p><nav aria-label="Digital self path"><a href="../your-digital-self/">Your Digital Self</a><a href="../a-protopian-gambit/">A Protopian Gambit</a><a href="../aura-geode/">Aura Geode</a><a href="../evidence/">Evidence</a></nav></article>
-          <article class="map-pathway reveal"><h3>Aura Geode research</h3><p>Explore the imagined structure, personal atmosphere, reflection environment and open engineering questions.</p><nav aria-label="Aura Geode research path"><a href="../aura-geode/">Aura Geode</a><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../your-digital-self/">Your Digital Self</a><a href="../evidence/">Evidence</a></nav></article>
-          <article class="map-pathway reveal"><h3>The album's inner journey</h3><p>Move through the divine digital twin's birth, Kintsugi self-repair and the hyperbaric oxygen therapy story, with art and health evidence kept distinct.</p><nav aria-label="Album path"><a href="../a-protopian-gambit/">A Protopian Gambit</a><a href="../your-digital-self/">Your Digital Self</a><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../aura-geode/">Aura Geode</a></nav></article>
-          <article class="map-pathway reveal"><h3>Sources and project boundaries</h3><p>See the source trail, unresolved details, project family, public boundaries and licence.</p><nav aria-label="Evidence path"><a href="../evidence/">Evidence</a><a href="../about/">About and Licence</a><a href="../">Home</a></nav></article>
+          <article class="map-pathway reveal"><h3>Aura Geode research</h3><p>Explore the chamber structure, personal atmosphere, sensory experience and study possibilities.</p><nav aria-label="Aura Geode research path"><a href="../aura-geode/">Aura Geode</a><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../your-digital-self/">Your Digital Self</a><a href="../evidence/">Evidence</a></nav></article>
+          <article class="map-pathway reveal"><h3>The album's inner journey</h3><p>Move through the divine digital twin's birth, Kintsugi self-repair and the hyperbaric oxygen therapy story. Art and research each add their own kind of light.</p><nav aria-label="Album path"><a href="../a-protopian-gambit/">A Protopian Gambit</a><a href="../your-digital-self/">Your Digital Self</a><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../aura-geode/">Aura Geode</a></nav></article>
+          <article class="map-pathway reveal"><h3>Sources and connected projects</h3><p>See the source trail, research choices, project family and public licence.</p><nav aria-label="Evidence path"><a href="../evidence/">Evidence</a><a href="../about/">About and Licence</a><a href="../">Home</a></nav></article>
         </div>
       </section>
 
       <section class="world-section map-record-section">
         <div class="wrap map-record-stage">
-          <div class="reveal"><h2>Every idea keeps its own label</h2><p>Established information, working proposals, future research and open details remain visibly distinct across the site.</p><div class="map-statuses"><span class="status-mark status-established">Established information</span><span class="status-mark status-working">Working proposal</span><span class="status-mark status-future">Future research</span><span class="status-mark status-open">TO BE CONFIRMED</span></div></div>
+          <div class="reveal"><h2>Every idea keeps its own label</h2><p>Published information, working proposals, future research and locally shaped details each have a visible place across the site.</p><div class="map-statuses"><span class="status-mark status-established">Published information</span><span class="status-mark status-working">Working proposal</span><span class="status-mark status-future">Future research</span><span class="status-mark status-open">Open for local choice</span></div></div>
           <div class="map-record-links reveal"><a href="../evidence/">Explore the evidence world <span aria-hidden="true">→</span></a><a href="../sitemap.xml">Machine-readable sitemap <span aria-hidden="true">→</span></a></div>
         </div>
       </section>
