@@ -105,6 +105,9 @@ htmlFiles.forEach((file) => {
   if (/[\u2013\u2014]/.test(html)) errors.push(relative + ": contains an en dash or em dash.");
   if (/\.svg(?:["'#?])/i.test(html)) errors.push(relative + ": contains an SVG reference.");
   if (/<svg\b/i.test(html)) errors.push(relative + ": contains inline SVG artwork.");
+  const retiredPlaceholders = /class="[^"]*\b(?:sovereign-orbit|portal-gem|evidence-prism|agreement-prism|space-light|safety-jewel|human-light|twin-thread|reflection-light|movement-jewel|boundary-current|software-prism|place-compass|place-orb|jurisdiction-rings|video-symbol|art-evidence-prism|stream-light|correction-prism|boundary-gem|licence-mark|map-compass|pressure-rings|hero-facets)\b/i;
+  if (retiredPlaceholders.test(html)) errors.push(relative + ": contains a retired decorative placeholder.");
+  if (/data-sovereign-orbit|data-orbit-reading|data-orbit="/i.test(html)) errors.push(relative + ": contains the retired five-click home orbit.");
 
   const discouraged = [
     /\bcan\b/i,

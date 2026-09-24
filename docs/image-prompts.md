@@ -255,3 +255,22 @@ Original: `assets/images/source/hero-co-operative-paths-v2-original.png`
 Replaces the earlier ceremonial-circle concept on the live co-operative page. The earlier asset remains in project history.
 
 > Full-width cinematic website hero. A future-ready coastal Australian health co-operative in a calm contemporary building with glass, pale stone, restrained timber, brushed metal and opal daylight. A diverse small group of ordinary adults of different ages make practical plans together around a modern table, with equal conversation and no leader or ritual. Through glass, a professionally designed sauna, quiet movement area and modest seated oxygen chamber appear in separate rooms. Peaceful, modern and optimistic about living healthier for longer. Darker architectural space on the left for a white heading. No text, logos, watermarks, geodes, crystals, polygons, mystical ceremony, luxury-resort extravagance or floating interfaces.
+
+### Music video placeholder stills
+
+These portrait concept artworks sit inside the smartphone frames until Luke chooses video links, recordings and captions. They are not released video frames.
+
+Web: `assets/images/track-primordial-consent.webp`
+Original: `assets/images/source/track-primordial-consent-original.png`
+
+> Portrait cinematic still for Primordial Consent 1,2,3, Infinity. A contemporary adult stands peacefully at the edge of a softly lit modern coastal room, facing an equal-height light-formed personal digital reflection coming into being. Deeply personal, self-sovereign, luminous and futuristic yet grounded. Opal aqua, violet and restrained gold. No text, logos, phone frame, geodes, crystals, mandalas, ritual or floating interface.
+
+Web: `assets/images/track-kintsugi-protocol.webp`
+Original: `assets/images/source/track-kintsugi-protocol-original.png`
+
+> Portrait cinematic still for Kintsugi Protocol. A contemporary adult sits calmly by an ocean-facing window after a difficult chapter, hands gently meeting at the heart. Delicate golden seams glimmer through a translucent symbolic reflection of the person behind them, conveying learning, continuity and renewed agency. Peaceful Australian coastal future-wellbeing setting. No text, geodes, crystals, pottery bowls, ritual, phone frame or claim of medical healing.
+
+Web: `assets/images/track-60-days.webp`
+Original: `assets/images/source/track-60-days-original.png`
+
+> Portrait cinematic still for 60 Days Set in Stone. An adult sits comfortably inside a realistic human-scale hyperbaric oxygen chamber with a personal breathing mask. A clinician is visible outside, alongside a compact computer and believable sensors. Calm blue and warm gold in a contemporary coastal clinical setting. Personal artistic journey through pressure, reflection and owner-held digital life, without promising medical outcomes. No text, geodes, crystals, spacecraft, phone frame or floating interfaces.

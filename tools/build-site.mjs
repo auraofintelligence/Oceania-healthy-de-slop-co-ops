@@ -116,7 +116,7 @@ const pages = [
         <div class="wrap album-arc">
           <article class="track-portal track-birth reveal">
             <div class="phone-vessel" aria-hidden="true">
-              <div class="phone-light"></div>
+              <img class="track-art" src="assets/images/track-primordial-consent.webp" alt="" loading="lazy" decoding="async">
               <span>01</span>
             </div>
             <div>
@@ -127,7 +127,7 @@ const pages = [
           </article>
           <article class="track-portal track-repair reveal">
             <div class="phone-vessel" aria-hidden="true">
-              <div class="phone-light"></div>
+              <img class="track-art" src="assets/images/track-kintsugi-protocol.webp" alt="" loading="lazy" decoding="async">
               <span>02</span>
             </div>
             <div>
@@ -138,7 +138,7 @@ const pages = [
           </article>
           <article class="track-portal track-embodied reveal">
             <div class="phone-vessel" aria-hidden="true">
-              <div class="phone-light"></div>
+              <img class="track-art" src="assets/images/track-60-days.webp" alt="" loading="lazy" decoding="async">
               <span>03</span>
             </div>
             <div>
@@ -350,7 +350,7 @@ const pages = [
         <div class="wrap song-stage">
           <div class="portrait-song reveal" aria-hidden="true">
             <div class="portrait-song-screen">
-              <div class="pressure-rings"><span></span><span></span><span></span></div>
+              <img class="portrait-song-art" src="../assets/images/track-60-days.webp" alt="" loading="lazy" decoding="async">
               <strong>60</strong>
             </div>
           </div>
@@ -765,7 +765,6 @@ const pages = [
 
       <section class="world-section place-principles-section" id="place-principles">
         <div class="wrap place-principles-stage">
-          <div class="place-compass reveal" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
           <div class="place-principles-copy reveal"><h2>Regional guideposts</h2><p>These relationships travel well because they leave room for difference.</p></div>
           <div class="place-principles reveal">
             <div><strong>Local purpose</strong><span>begins with the people involved</span></div>
@@ -779,16 +778,16 @@ const pages = [
       <section class="world-section regional-starts-section">
         <div class="wrap section-heading reveal"><h2>Regional doorways to explore</h2><p>The supplied papers offer several starting contexts, each with its own people, public records and opportunities.</p></div>
         <div class="wrap regional-starts">
-          <article class="regional-start start-queensland reveal"><span class="place-orb" aria-hidden="true"></span><div><h3>Queensland</h3><p>Current public co-operative information offers one legal starting context for groups interested in shared assets and local agreements.</p><span class="status-mark status-established">Established public context</span></div></article>
-          <article class="regional-start start-fiji reveal"><span class="place-orb" aria-hidden="true"></span><div><h3>Fiji and Australia</h3><p>Luke's public Vuvale Union submission imagines shared civic infrastructure and family with room for difference. People and institutions in each place would shape any future relationship.</p><span class="status-mark status-working">Public submission</span></div></article>
-          <article class="regional-start start-wider reveal"><span class="place-orb" aria-hidden="true"></span><div><h3>Wider Oceania</h3><p>Local contributors could bring place stories, jurisdiction records, cultural review and participation pathways into this regional picture.</p><span class="status-mark status-future">Locally shaped</span></div></article>
+          <article class="regional-start start-queensland reveal"><div><h3>Queensland</h3><p>Current public co-operative information offers one legal starting context for groups interested in shared assets and local agreements.</p><span class="status-mark status-established">Established public context</span></div></article>
+          <article class="regional-start start-fiji reveal"><div><h3>Fiji and Australia</h3><p>Luke's public Vuvale Union submission imagines shared civic infrastructure and family with room for difference. People and institutions in each place would shape any future relationship.</p><span class="status-mark status-working">Public submission</span></div></article>
+          <article class="regional-start start-wider reveal"><div><h3>Wider Oceania</h3><p>Local contributors could bring place stories, jurisdiction records, cultural review and participation pathways into this regional picture.</p><span class="status-mark status-future">Locally shaped</span></div></article>
         </div>
       </section>
 
       <section class="world-section jurisdiction-section">
         <div class="wrap jurisdiction-stage">
           <div class="jurisdiction-copy reveal"><h2>Each place has its own public record</h2><p>Co-operative law, health regulation, privacy, equipment supply, finance, planning, insurance and cultural relationships vary across Oceania.</p></div>
-          <div class="jurisdiction-rings reveal">
+          <div class="jurisdiction-list reveal">
             <span>Co-operative setting</span><span>Health setting</span><span>Privacy setting</span><span>Equipment setting</span><span>Finance setting</span><span>Cultural relationships</span>
           </div>
           <div class="jurisdiction-note reveal"><span class="status-mark status-future">Built with each place</span><p>A regional directory would grow through local contributions and named sources. The supplied world-cities list offers one geographic starting point for exploration.</p></div>
@@ -836,15 +835,15 @@ const pages = [
       <section class="world-section three-movements-section" id="three-movements">
         <div class="wrap three-movements">
           <article class="music-movement movement-birth reveal">
-            <div class="video-phone"><div class="video-screen"><span class="video-symbol birth-symbol" aria-hidden="true"></span><p>Portrait video<br><strong>Link to come</strong></p></div></div>
+            <div class="video-phone"><div class="video-screen"><img class="video-art" src="../assets/images/track-primordial-consent.webp" alt="Concept artwork of a new digital reflection forming" loading="lazy" decoding="async"><p>Portrait video<br><strong>Link to come</strong></p></div></div>
             <div class="music-copy"><span class="music-number">01</span><h2><em>Primordial Consent 1,2,3, Infinity</em></h2><p class="large-copy">Song 1 is about the divine self digital twin being born. Light, memory, consent, difference and form gather around a sovereign new reflection.</p><a href="../your-digital-self/#birth-repair">Birth inside Your Digital Self <span aria-hidden="true">→</span></a></div>
           </article>
           <article class="music-movement movement-repair reveal">
-            <div class="video-phone"><div class="video-screen"><span class="video-symbol repair-symbol" aria-hidden="true"></span><p>Portrait video<br><strong>Link to come</strong></p></div></div>
+            <div class="video-phone"><div class="video-screen"><img class="video-art" src="../assets/images/track-kintsugi-protocol.webp" alt="Concept artwork of a person reflecting on renewal and golden seams" loading="lazy" decoding="async"><p>Portrait video<br><strong>Link to come</strong></p></div></div>
             <div class="music-copy"><span class="music-number">02</span><h2><em>Kintsugi Protocol</em></h2><p class="large-copy">The self repairs and re-forms. Golden seams keep a relationship with what happened while opening fresh possibilities for the person who continues.</p><a href="../your-digital-self/#birth-repair">Repair inside Your Digital Self <span aria-hidden="true">→</span></a></div>
           </article>
           <article class="music-movement movement-pressure reveal">
-            <div class="video-phone"><div class="video-screen"><span class="video-symbol pressure-symbol" aria-hidden="true"></span><p>Portrait video<br><strong>Link to come</strong></p></div></div>
+            <div class="video-phone"><div class="video-screen"><img class="video-art" src="../assets/images/track-60-days.webp" alt="Concept artwork of a seated person inside a hyperbaric chamber" loading="lazy" decoding="async"><p>Portrait video<br><strong>Link to come</strong></p></div></div>
             <div class="music-copy"><span class="music-number">03</span><h2><em>60 Days Set in Stone</em></h2><p class="large-copy">This is specifically the hyperbaric oxygen therapy song. It holds a sixty-session artistic chamber journey through pressure, measurement, reflection and digital-twin formation.</p><div class="music-paths"><a href="../shared-wellbeing/">Shared Wellbeing <span aria-hidden="true">→</span></a><a href="../aura-geode/">Geode research <span aria-hidden="true">→</span></a></div></div>
           </article>
         </div>
@@ -853,7 +852,6 @@ const pages = [
       <section class="world-section art-evidence-section">
         <div class="wrap art-evidence-stage">
           <div class="art-current reveal"><span></span><strong>Artistic meaning</strong><p>felt experience, metaphor, memory, story and personal interpretation</p></div>
-          <div class="art-evidence-prism reveal" aria-hidden="true"><i></i></div>
           <div class="evidence-current reveal"><span></span><strong>Health evidence</strong><p>named products, intended uses, current records, qualified care and individual suitability</p></div>
         </div>
         <div class="wrap art-evidence-note reveal"><p>The two currents sit beside one another while remaining different kinds of knowledge.</p></div>
@@ -903,10 +901,10 @@ const pages = [
 
       <section class="world-section evidence-streams-section" id="evidence-streams">
         <div class="wrap evidence-streams-stage">
-          <article class="evidence-stream stream-established reveal"><span class="stream-light" aria-hidden="true"></span><h3>Established information</h3><p>Current public records tied to a named source and date.</p><span class="status-mark status-established">Established information</span></article>
-          <article class="evidence-stream stream-working reveal"><span class="stream-light" aria-hidden="true"></span><h3>Working proposal</h3><p>An idea with visible assumptions, relationships and room to change.</p><span class="status-mark status-working">Working proposal</span></article>
-          <article class="evidence-stream stream-future reveal"><span class="stream-light" aria-hidden="true"></span><h3>Future research</h3><p>A promising construction, engineering, health, software or social question with room for a defined study.</p><span class="status-mark status-future">Future research</span></article>
-          <article class="evidence-stream stream-open reveal"><span class="stream-light" aria-hidden="true"></span><h3>Local design detail</h3><p>A product, partner, cost, jurisdiction, permission or version for the people involved to name together.</p><span class="status-mark status-open">Locally shaped</span></article>
+          <article class="evidence-stream stream-established reveal"><h3>Established information</h3><p>Current public records tied to a named source and date.</p><span class="status-mark status-established">Established information</span></article>
+          <article class="evidence-stream stream-working reveal"><h3>Working proposal</h3><p>An idea with visible assumptions, relationships and room to change.</p><span class="status-mark status-working">Working proposal</span></article>
+          <article class="evidence-stream stream-future reveal"><h3>Future research</h3><p>A promising construction, engineering, health, software or social question with room for a defined study.</p><span class="status-mark status-future">Future research</span></article>
+          <article class="evidence-stream stream-open reveal"><h3>Local design detail</h3><p>A product, partner, cost, jurisdiction, permission or version for the people involved to name together.</p><span class="status-mark status-open">Locally shaped</span></article>
         </div>
       </section>
 
@@ -956,7 +954,7 @@ const pages = [
       </section>
 
       <section class="world-section corrections-section">
-        <div class="wrap corrections-stage"><div class="correction-prism reveal" aria-hidden="true"><span></span></div><div class="reveal"><h2>New evidence adds light</h2><p>A source update, product record, local review or author clarification may change a page. Repository history preserves the earlier draft alongside the public learning that followed.</p><a class="faceted-link faceted-link-light" href="https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops/issues">Share a sourced correction <span aria-hidden="true">↗</span></a></div></div>
+        <div class="wrap corrections-stage"><img class="correction-image reveal" src="../assets/images/hero-evidence.webp" alt="Concept artwork for ongoing inquiry and public learning" loading="lazy" decoding="async"><div class="reveal"><h2>New evidence adds light</h2><p>A source update, product record, local review or author clarification may change a page. Repository history preserves the earlier draft alongside the public learning that followed.</p><a class="faceted-link faceted-link-light" href="https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops/issues">Share a sourced correction <span aria-hidden="true">↗</span></a></div></div>
       </section>
     `
   },
@@ -986,19 +984,19 @@ const pages = [
       <section class="world-section project-family-section" id="project-family">
         <div class="wrap section-heading reveal"><h2>The connected public project family</h2><p>Each world holds its own purpose, evidence and development history.</p></div>
         <div class="wrap project-orbits">
-          <a class="project-orbit orbit-geode reveal" href="https://auraofintelligence.github.io/aura-geode/"><span aria-hidden="true"></span><strong>Aura Geode</strong><small>construction and reflection research</small></a>
-          <a class="project-orbit orbit-hardware reveal" href="https://auraofintelligence.github.io/aura-direct-hardware/"><span aria-hidden="true"></span><strong>Aura Direct Hardware</strong><small>local-first hardware and public-interest compute</small></a>
-          <a class="project-orbit orbit-dementia reveal" href="https://auraofintelligence.github.io/aura-dementia/"><span aria-hidden="true"></span><strong>Aura of Dementia</strong><small>an early privacy-first care and research concept</small></a>
-          <a class="project-orbit orbit-music reveal" href="https://auraofintelligence.github.io/i-C-infinity-music-universe/"><span aria-hidden="true"></span><strong>i C. infinity Music Universe</strong><small>albums, lyrics, songs and videos</small></a>
-          <a class="project-orbit orbit-vitality reveal" href="https://auraofintelligence.github.io/straddie-vitality-network-builders/"><span aria-hidden="true"></span><strong>Straddie Vitality Network Builders</strong><small>local wellbeing planning and evidence builders</small></a>
-          <a class="project-orbit orbit-strange reveal" href="https://auraofintelligence.github.io/strange-but-true/"><span aria-hidden="true"></span><strong>Strange But True</strong><small>the wider public family and contact doorway</small></a>
-          <a class="project-orbit orbit-hardware reveal" href="https://auraofintelligence.github.io/aura-matrix-studio/"><span aria-hidden="true"></span><strong>Aura Matrix Studio</strong><small>non-clinical self-reflection and personal data organisation</small></a>
-          <a class="project-orbit orbit-vitality reveal" href="https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/index.html"><span aria-hidden="true"></span><strong>Ready S.E.T. local compute</strong><small>community-held cultural intelligence node</small></a>
-          <a class="project-orbit orbit-dementia reveal" href="https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/"><span aria-hidden="true"></span><strong>82 Claytons Road</strong><small>proposed Amity care and research place</small></a>
-          <a class="project-orbit orbit-music reveal" href="https://auraofintelligence.github.io/C-Hour-introduction/"><span aria-hidden="true"></span><strong>C-Hour introduction</strong><small>contribution braided with preventative wellbeing</small></a>
-          <a class="project-orbit orbit-vitality reveal" href="https://auraofintelligence.github.io/UNGA81-Luke-Hayes/"><span aria-hidden="true"></span><strong>Joyful Responsible Abundance</strong><small>a personal contribution to the 81st United Nations General Assembly</small></a>
-          <a class="project-orbit orbit-strange reveal" href="https://auraofintelligence.github.io/500-Queens-VC-2026/index.html"><span aria-hidden="true"></span><strong>500 Queens</strong><small>women's leadership, capital and useful enterprises</small></a>
-          <a class="project-orbit orbit-geode reveal" href="https://auraofintelligence.github.io/extreme-matter-atlas/"><span aria-hidden="true"></span><strong>Extreme Matter Atlas</strong><small>crystal structures, materials discovery and questions at the edge</small></a>
+          <a class="project-orbit orbit-geode reveal" href="https://auraofintelligence.github.io/aura-geode/"><strong>Aura Geode</strong><small>construction and reflection research</small></a>
+          <a class="project-orbit orbit-hardware reveal" href="https://auraofintelligence.github.io/aura-direct-hardware/"><strong>Aura Direct Hardware</strong><small>local-first hardware and public-interest compute</small></a>
+          <a class="project-orbit orbit-dementia reveal" href="https://auraofintelligence.github.io/aura-dementia/"><strong>Aura of Dementia</strong><small>an early privacy-first care and research concept</small></a>
+          <a class="project-orbit orbit-music reveal" href="https://auraofintelligence.github.io/i-C-infinity-music-universe/"><strong>i C. infinity Music Universe</strong><small>albums, lyrics, songs and videos</small></a>
+          <a class="project-orbit orbit-vitality reveal" href="https://auraofintelligence.github.io/straddie-vitality-network-builders/"><strong>Straddie Vitality Network Builders</strong><small>local wellbeing planning and evidence builders</small></a>
+          <a class="project-orbit orbit-strange reveal" href="https://auraofintelligence.github.io/strange-but-true/"><strong>Strange But True</strong><small>the wider public family and contact doorway</small></a>
+          <a class="project-orbit orbit-hardware reveal" href="https://auraofintelligence.github.io/aura-matrix-studio/"><strong>Aura Matrix Studio</strong><small>non-clinical self-reflection and personal data organisation</small></a>
+          <a class="project-orbit orbit-vitality reveal" href="https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/index.html"><strong>Ready S.E.T. local compute</strong><small>community-held cultural intelligence node</small></a>
+          <a class="project-orbit orbit-dementia reveal" href="https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/"><strong>82 Claytons Road</strong><small>proposed Amity care and research place</small></a>
+          <a class="project-orbit orbit-music reveal" href="https://auraofintelligence.github.io/C-Hour-introduction/"><strong>C-Hour introduction</strong><small>contribution braided with preventative wellbeing</small></a>
+          <a class="project-orbit orbit-vitality reveal" href="https://auraofintelligence.github.io/UNGA81-Luke-Hayes/"><strong>Joyful Responsible Abundance</strong><small>a personal contribution to the 81st United Nations General Assembly</small></a>
+          <a class="project-orbit orbit-strange reveal" href="https://auraofintelligence.github.io/500-Queens-VC-2026/index.html"><strong>500 Queens</strong><small>women's leadership, capital and useful enterprises</small></a>
+          <a class="project-orbit orbit-geode reveal" href="https://auraofintelligence.github.io/extreme-matter-atlas/"><strong>Extreme Matter Atlas</strong><small>crystal structures, materials discovery and questions at the edge</small></a>
         </div>
       </section>
 
@@ -1012,14 +1010,12 @@ const pages = [
       <section class="world-section boundaries-section">
         <div class="wrap boundaries-stage">
           <div class="boundary-world public-world reveal"><h3>Public project world</h3><p>Published proposals, source notes, design questions, public submissions, lyrics, artwork, code and release history.</p></div>
-          <div class="boundary-gem reveal" aria-hidden="true"><span></span></div>
           <div class="boundary-world private-world reveal"><h3>Personal and relationship-held world</h3><p>Health records, private reflections, digital-twin files, cultural knowledge, consent records and information held through a specific care or community relationship.</p></div>
         </div>
       </section>
 
       <section class="world-section licence-section">
         <div class="wrap licence-stage">
-          <div class="licence-mark reveal" aria-hidden="true"><span></span></div>
           <div class="licence-copy reveal"><h2>A strange but true licence from the outset</h2><p>Original project material is shared under the Strange But True Public Source Licence. Personal, educational, artistic, research, community and other non-commercial exploration is welcomed with attribution. Commercial rights remain reserved to Luke Nathan Hayes.</p><p>The licence text itself remains the reference for its full terms.</p><div class="inline-paths"><a class="faceted-link faceted-link-light" href="../LICENCE.md">Read the public source licence <span aria-hidden="true">→</span></a><a class="faceted-link faceted-link-light" href="https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops">View the repository <span aria-hidden="true">↗</span></a></div></div>
         </div>
       </section>
@@ -1052,7 +1048,6 @@ const pages = [
         <div class="wrap map-opening-stage">
           <div class="section-title reveal"><h2>Ten worlds and one shared guide</h2></div>
           <div class="sovereign-copy reveal"><p class="large-copy">Begin anywhere. Wander by curiosity, follow a familiar theme or move through the numbered story. Every page opens into the others without placing one person's journey above another.</p><p>The Site Map is a people-friendly guide to the whole public project. A separate machine-readable map supports search services.</p></div>
-          <div class="map-compass reveal" aria-hidden="true"><span class="map-compass-core"><strong>10 + 1</strong><small>connected pages</small></span><i></i><i></i><i></i><i></i></div>
         </div>
       </section>
 
@@ -1272,8 +1267,8 @@ function renderPage(page, pageIndex) {
     <link rel="stylesheet" href="${prefix}assets/css/tokens.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/base.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/layout.css?v=20260924-floating-top">
-    <link rel="stylesheet" href="${prefix}assets/css/components.css?v=20260924-modern-images">
-    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260924-no-prisms">
+    <link rel="stylesheet" href="${prefix}assets/css/components.css?v=20260924-no-placeholders">
+    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260924-no-placeholders">
     <link rel="stylesheet" href="${prefix}assets/css/motion.css?v=20260830-site-map">
     <script src="${prefix}assets/js/site.js?v=20260924-modern-images" defer></script>
   </head>
