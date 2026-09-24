@@ -1284,7 +1284,7 @@ function renderPage(page, pageIndex) {
     <link rel="stylesheet" href="${prefix}assets/css/base.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/layout.css?v=20260831-header-gems">
     <link rel="stylesheet" href="${prefix}assets/css/components.css?v=20260830-site-map">
-    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260924-supplier-reference">
+    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260924-braided-ecosystem">
     <link rel="stylesheet" href="${prefix}assets/css/motion.css?v=20260830-site-map">
     <script src="${prefix}assets/js/site.js?v=20260830-site-map" defer></script>
   </head>
