@@ -4,12 +4,14 @@
   const header = document.querySelector(".site-header");
   const progressLine = document.querySelector(".scroll-progress i");
   const heroImage = document.querySelector(".hero-image");
+  const backToTop = document.querySelector(".back-to-top");
   let scrollFrame = 0;
 
   function updateScrollEffects() {
     const top = window.scrollY;
     const available = Math.max(document.documentElement.scrollHeight - window.innerHeight, 1);
     header?.classList.toggle("is-scrolled", top > 22);
+    backToTop?.classList.toggle("is-visible", top > 500);
     progressLine?.style.setProperty("--scroll-progress", String(Math.min(top / available, 1)));
     if (heroImage && !reducedMotion.matches) {
       heroImage.style.setProperty("--hero-parallax", Math.min(top * 0.035, 34) + "px");

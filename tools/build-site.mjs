@@ -1213,9 +1213,9 @@ function renderFooter(prefix) {
       </div>
       <div class="wrap footer-lower">
         <p>Original material shared under the Strange But True Public Source Licence. Commercial rights reserved.</p>
-        <a href="#top" class="back-to-top"><span aria-hidden="true">↑</span> Back to the top</a>
       </div>
-    </footer>`;
+    </footer>
+    <a href="#top" class="back-to-top" aria-label="Back to the top"><span aria-hidden="true">↑</span><span>Top</span></a>`;
 }
 
 function renderHero(page, prefix) {
@@ -1282,11 +1282,11 @@ function renderPage(page, pageIndex) {
     <link rel="preload" href="${prefix}assets/images/${page.hero}" as="image" type="image/webp">
     <link rel="stylesheet" href="${prefix}assets/css/tokens.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/base.css?v=20260830-site-map">
-    <link rel="stylesheet" href="${prefix}assets/css/layout.css?v=20260831-header-gems">
+    <link rel="stylesheet" href="${prefix}assets/css/layout.css?v=20260924-floating-top">
     <link rel="stylesheet" href="${prefix}assets/css/components.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260924-braided-ecosystem">
     <link rel="stylesheet" href="${prefix}assets/css/motion.css?v=20260830-site-map">
-    <script src="${prefix}assets/js/site.js?v=20260830-site-map" defer></script>
+    <script src="${prefix}assets/js/site.js?v=20260924-floating-top" defer></script>
   </head>
   <body class="page-${page.key}" id="top">
     <a class="skip-link" href="#main-content">Skip to the main story</a>
