@@ -5,6 +5,85 @@
     linear-gradient(145deg, #03050d, #0b1230 58%, #150d2f);
 }
 
+/* Four wider ecosystem threads */
+.ecosystem-section {
+  color: var(--opal-100);
+  background:
+    radial-gradient(circle at 84% 18%, rgba(255, 185, 104, 0.13), transparent 29%),
+    radial-gradient(circle at 10% 78%, rgba(61, 226, 218, 0.14), transparent 34%),
+    linear-gradient(145deg, #071321, #161232 58%, #261229);
+}
+
+.ecosystem-intro { max-width: 86rem; }
+.ecosystem-intro h2 { max-width: 14ch; }
+.ecosystem-intro p { max-width: 66ch; color: rgba(248, 247, 242, 0.79); }
+
+.ecosystem-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 2vw, 1.7rem);
+  margin-top: clamp(2.5rem, 5vw, 5rem);
+}
+
+.ecosystem-card {
+  position: relative;
+  display: flex;
+  min-height: 350px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+  overflow: hidden;
+  padding: clamp(1.8rem, 3.2vw, 3.4rem);
+  color: inherit;
+  border: 1px solid rgba(222, 235, 244, 0.27);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.035));
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 26px 60px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: transform 400ms var(--ease-royal), box-shadow 400ms ease, border-color 400ms ease;
+}
+
+.ecosystem-card::before {
+  position: absolute;
+  top: -42%;
+  right: -8%;
+  width: 65%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--ecosystem-light), transparent 69%);
+  filter: blur(6px);
+  opacity: 0.62;
+  pointer-events: none;
+  content: "";
+  transition: transform 500ms ease, opacity 500ms ease;
+}
+
+.ecosystem-card:hover,
+.ecosystem-card:focus-visible {
+  transform: translateY(-9px);
+  border-color: rgba(255, 255, 255, 0.72);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.42), 0 38px 80px rgba(0, 0, 0, 0.32);
+}
+.ecosystem-card:hover::before,
+.ecosystem-card:focus-visible::before { transform: translate(-9%, 9%) scale(1.12); opacity: 0.9; }
+.ecosystem-card > * { position: relative; }
+.ecosystem-card .ecosystem-number { color: rgba(248, 247, 242, 0.74); font-size: 0.88rem; font-weight: 750; letter-spacing: 0.12em; text-transform: uppercase; }
+.ecosystem-card strong { max-width: 18ch; font-family: var(--display); font-size: clamp(2rem, 3.8vw, 3.6rem); font-weight: 500; line-height: 1.04; }
+.ecosystem-card > span:not(.ecosystem-number) { max-width: 62ch; color: rgba(248, 247, 242, 0.84); }
+.ecosystem-card small { margin-top: auto; color: #fff2bc; font-weight: 750; }
+.ecosystem-place { --ecosystem-light: rgba(112, 243, 227, 0.61); }
+.ecosystem-hours { --ecosystem-light: rgba(255, 186, 89, 0.7); }
+.ecosystem-alignment { --ecosystem-light: rgba(162, 139, 255, 0.77); }
+.ecosystem-queens { --ecosystem-light: rgba(255, 110, 182, 0.7); }
+
+@media (max-width: 760px) {
+  .ecosystem-grid { grid-template-columns: 1fr; }
+  .ecosystem-card { min-height: 290px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ecosystem-card, .ecosystem-card::before { transition: none; }
+}
+
 /* Whole-person de-slop and connected civic paths */
 .deslop-spectrum-section {
   color: var(--ink-900);

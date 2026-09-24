@@ -26,6 +26,8 @@ This register records material supplied for the first website research pass and 
 
 - *AURA GEODE to Longevity* - compiled construction, personal atmosphere, sensory, biological-measure and digital-twin research directions. Its historical draft suggestions are source material, not instructions for this site.
 - *82 Claytons Road Anglican Partnership Proposal* - proposed Amity place and partnership for care, reflection, research and community learning; no accepted transfer or operating partnership is implied.
+- *Queens Venture Capital Planning Document* (23 September 2026) - proposed 500 Queens leadership, mentoring and investment programme. Its operating budgets and capital belong to a financial programme, separate from C-hours.
+- *UNGA81 Joyful Responsible Abundance Refined (New Reference Links)* (September 2026) - Luke's personal contribution connecting human self-reflection, artificial intelligence alignment, De-Slop and the Braided Economy. It is a personal contribution, not an official United Nations position.
 - *Decentralised AI for Australian Communities*.
 - *Decentralised Compute for Australian Communities*.
 - *Architectural Blueprint for Oceania*.
@@ -39,7 +41,7 @@ This register records material supplied for the first website research pass and 
 
 ## New connected civic source
 
-- *C-Hour Joyful Responsible Abundance Plan* - voluntary contribution record and community gratitude. One C-hour records a verified hour of voluntary human contribution, with no monetary equivalent.
+- *C-Hour Joyful Responsible Abundance Plan* (24 September 2026) - voluntary contribution, local reciprocity and connections with food, preventative wellbeing, community resilience and shared equipment. One C-hour records a verified hour of voluntary human contribution, with no monetary equivalent. Its Appendix B corrects older drafts that treated hours as currency, priced entitlements or substitutes for funded care and work.
 
 ## Review labels
 

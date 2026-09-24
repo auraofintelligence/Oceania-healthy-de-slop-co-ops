@@ -77,8 +77,10 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 - [Strange But True](https://auraofintelligence.github.io/strange-but-true/) is the wider public project family and contact doorway.
 - [Aura Matrix Studio](https://auraofintelligence.github.io/aura-matrix-studio/) is an emergent non-clinical public process for building a personal Aura of Intelligence through self-reflection and organising keywords and data for use with different artificial intelligence systems.
 - [Ready S.E.T. local compute](https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/index.html) connects the owner-held digital reflection path to community-scale local computing.
-- [82 Claytons Road, Amity](https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/) presents a proposed partnership and place, with agreements still open.
+- [82 Claytons Road, Amity](https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/) presents Luke's proposed land gift and Anglican aged-care partnership, with a possible setting for future Geode and digital-twin research.
 - [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) explores how voluntary contribution, local reciprocity and preventative wellbeing can be braided together while C-hours remain separate from money, prices and investment.
+- [Joyful Responsible Abundance](https://auraofintelligence.github.io/UNGA81-Luke-Hayes/) is Luke's personal contribution to the 81st United Nations General Assembly, linking human self-reflection with the design and alignment of artificial intelligence.
+- [500 Queens Venture Capital](https://auraofintelligence.github.io/500-Queens-VC-2026/index.html) is a separate proposal for women's executive leadership, investment influence and useful enterprises, including care and shared infrastructure.
 - [Aura guide](https://auraofintelligence.github.io/) is a wider doorway to the connected projects.
 
 ## Source work

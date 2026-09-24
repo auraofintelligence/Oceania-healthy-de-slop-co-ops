@@ -96,6 +96,19 @@ const pages = [
         </nav>
       </section>
 
+      <section class="world-section ecosystem-section" id="wider-braid">
+        <div class="wrap ecosystem-intro reveal">
+          <h2>Four threads in a healthier future</h2>
+          <p class="large-copy">The co-operative is one part of a wider adventure in Joyful Responsible Abundance. A possible place, voluntary contribution, personal reflection and women-led enterprise bring different strengths to the same human question: how do more of us live well?</p>
+        </div>
+        <div class="wrap ecosystem-grid">
+          <a class="ecosystem-card ecosystem-place reveal" href="https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/index.html"><span class="ecosystem-number">01 / Place</span><strong>82 Claytons Road</strong><span>Luke has invited the Anglican Diocese to explore a land gift and partnership for aged care, digital twins and future Geode research on Minjerribah.</span><small>Visit the proposal ↗</small></a>
+          <a class="ecosystem-card ecosystem-hours reveal" href="https://auraofintelligence.github.io/C-Hour-introduction/"><span class="ecosystem-number">02 / Participation</span><strong>C-Hour</strong><span>Voluntary contribution and locally chosen reciprocity braid food, movement, environmental care and disaster readiness into preventative wellbeing. One hour remains one hour, outside market exchange.</span><small>Explore C-Hour ↗</small></a>
+          <a class="ecosystem-card ecosystem-alignment reveal" href="https://auraofintelligence.github.io/UNGA81-Luke-Hayes/"><span class="ecosystem-number">03 / Reflection</span><strong>Human and AI alignment</strong><span>Luke's personal contribution to the 81st United Nations General Assembly invites many people to reflect on lives worth living, then bring that plurality into artificial intelligence design.</span><small>Read the contribution ↗</small></a>
+          <a class="ecosystem-card ecosystem-queens reveal" href="https://auraofintelligence.github.io/500-Queens-VC-2026/index.html"><span class="ecosystem-number">04 / Leadership</span><strong>500 Queens</strong><span>A plan to grow women's executive leadership, investment influence and useful enterprises, including care and shared infrastructure. Capital and paid work keep their own accounts.</span><small>Meet 500 Queens ↗</small></a>
+        </div>
+      </section>
+
       <section class="world-section album-section" id="album-journey">
         <div class="wrap editorial-split">
           <div class="section-title reveal">
@@ -375,7 +388,7 @@ const pages = [
         <div class="wrap section-heading reveal"><h2>Community life woven into wellbeing</h2><p>Food, movement, friendship, reflection and shared equipment grow through local relationships. These proposals offer different ways to bring them together.</p></div>
         <div class="wrap wellbeing-connections">
           <a class="reveal" href="https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/"><strong>82 Claytons Road, Amity</strong><span>Luke has invited the Diocese to explore a land gift and partnership bringing aged care, a welcoming local place and a future Geode and digital-twin research setting together.</span><small>Explore the proposal ↗</small></a>
-          <a class="reveal" href="https://auraofintelligence.github.io/C-Hour-introduction/"><strong>C-Hour introduction</strong><span>Voluntary community hours could encourage good health and preventative care through gardens, movement, learning, friendship and locally chosen access to shared wellbeing experiences. Each hour remains a record of time, without a dollar value; equipment and care have their own funding arrangements.</span><small>Explore C-Hour ↗</small></a>
+          <a class="reveal" href="https://auraofintelligence.github.io/C-Hour-introduction/"><strong>C-Hour introduction</strong><span>Voluntary community hours could encourage good health and preventative care through gardens, movement, learning, friendship and locally chosen access to shared wellbeing experiences. Each hour stays outside market exchange and monetisation; equipment and care have their own funding arrangements.</span><small>Explore C-Hour ↗</small></a>
           <a class="reveal" href="https://auraofintelligence.github.io/"><strong>Aura guide</strong><span>A wider doorway into the connected Aura projects and their different paths.</span><small>Explore the guide ↗</small></a>
         </div>
       </section>
@@ -556,6 +569,7 @@ const pages = [
           <div class="sovereign-copy reveal">
             <p class="large-copy">The proposed digital twin would grow beside its person. It is designed to help them notice threads across their own life while leaving room for mystery, change and everything that reaches beyond a record.</p>
             <p>The working design begins with owner-held files, understandable patterns and the person's choice about what becomes part of their reflection. A clinical version would follow its own research and device pathway.</p>
+            <p>Luke's <a href="https://auraofintelligence.github.io/UNGA81-Luke-Hayes/">Joyful Responsible Abundance contribution</a> connects that personal reflection with a bigger question: how might many different accounts of a good life inform the design of artificial intelligence? Their variety is part of the value.</p>
             <span class="status-mark status-working">Working proposal</span>
           </div>
         </div>
@@ -702,7 +716,7 @@ const pages = [
       <section class="world-section funding-currents-section">
         <div class="wrap section-heading reveal">
           <h2>Different resources carry different relationships</h2>
-          <p>A clear model keeps public value, member ownership, finance and everyday operation in separate currents.</p>
+          <p>A clear model keeps public value, member ownership, finance and everyday operation in separate currents. C-Hour recognises voluntary contribution without turning a person's time into a price.</p>
         </div>
         <div class="wrap funding-currents">
           <article class="funding-current current-members reveal"><span></span><div><h3>Member pathway</h3><p>Shares, prepaid access and local contribution may support ownership and participation.</p></div></article>
@@ -710,6 +724,7 @@ const pages = [
           <article class="funding-current current-finance reveal"><span></span><div><h3>Finance pathway</h3><p>Loans and service income sit beside realistic use, energy, maintenance and repayment assumptions.</p></div></article>
           <article class="funding-current current-operation reveal"><span></span><div><h3>Operating pathway</h3><p>Staffing, insurance, professional relationships, maintenance and governance remain visible year after year.</p></div></article>
         </div>
+        <div class="wrap proposal-note reveal"><span class="status-mark status-working">Braided proposal</span><p><a href="https://auraofintelligence.github.io/C-Hour-introduction/">C-Hour</a> connects food, movement, shared learning and preventative wellbeing with community contribution. Local groups may shape access to shared experiences through reciprocity. The hour remains a record of voluntary time, while equipment, professional care and operation have separate funding.</p></div>
       </section>
 
       <section class="world-section public-measures-section">
@@ -717,6 +732,7 @@ const pages = [
           <div class="public-measures-copy reveal"><h2>Public value is wider than a price tag</h2><p>Local access, skills, resilience, shared ownership, open evidence and regional capability each tell a different part of the story.</p></div>
           <div class="public-measures reveal"><span>Access</span><span>Local skills</span><span>Resilience</span><span>Shared assets</span><span>Open learning</span><span>Community choice</span></div>
         </div>
+        <div class="wrap proposal-note reveal"><span class="status-mark status-working">Separate capital path</span><p><a href="https://auraofintelligence.github.io/500-Queens-VC-2026/index.html">500 Queens Venture Capital</a> proposes women-led leadership and investment in useful enterprises, including care and shared infrastructure. Investment and paid work use financial accounts. C-Hour recognises voluntary participation in that wider life through its own non-monetary record.</p></div>
       </section>
 
       <section class="world-section horizon-section">
@@ -989,7 +1005,9 @@ const pages = [
           <a class="project-orbit orbit-hardware reveal" href="https://auraofintelligence.github.io/aura-matrix-studio/"><span aria-hidden="true"></span><strong>Aura Matrix Studio</strong><small>non-clinical self-reflection and personal data organisation</small></a>
           <a class="project-orbit orbit-vitality reveal" href="https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/index.html"><span aria-hidden="true"></span><strong>Ready S.E.T. local compute</strong><small>community-held cultural intelligence node</small></a>
           <a class="project-orbit orbit-dementia reveal" href="https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/"><span aria-hidden="true"></span><strong>82 Claytons Road</strong><small>proposed Amity care and research place</small></a>
-          <a class="project-orbit orbit-music reveal" href="https://auraofintelligence.github.io/C-Hour-introduction/"><span aria-hidden="true"></span><strong>C-Hour introduction</strong><small>voluntary human contribution and local gratitude</small></a>
+          <a class="project-orbit orbit-music reveal" href="https://auraofintelligence.github.io/C-Hour-introduction/"><span aria-hidden="true"></span><strong>C-Hour introduction</strong><small>contribution braided with preventative wellbeing</small></a>
+          <a class="project-orbit orbit-vitality reveal" href="https://auraofintelligence.github.io/UNGA81-Luke-Hayes/"><span aria-hidden="true"></span><strong>Joyful Responsible Abundance</strong><small>a personal contribution to the 81st United Nations General Assembly</small></a>
+          <a class="project-orbit orbit-strange reveal" href="https://auraofintelligence.github.io/500-Queens-VC-2026/index.html"><span aria-hidden="true"></span><strong>500 Queens</strong><small>women's leadership, capital and useful enterprises</small></a>
           <a class="project-orbit orbit-geode reveal" href="https://auraofintelligence.github.io/extreme-matter-atlas/"><span aria-hidden="true"></span><strong>Extreme Matter Atlas</strong><small>crystal structures, materials discovery and questions at the edge</small></a>
         </div>
       </section>
@@ -1102,7 +1120,7 @@ const pages = [
           <article class="map-pathway reveal"><h3>My digital self, held by me</h3><p>Meet the owner-held digital twin, its birth and repair story, and the research ideas around it.</p><nav aria-label="Digital self path"><a href="../your-digital-self/">Your Digital Self</a><a href="../a-protopian-gambit/">A Protopian Gambit</a><a href="../aura-geode/">Aura Geode</a><a href="../evidence/">Evidence</a></nav></article>
           <article class="map-pathway reveal"><h3>Aura Geode research</h3><p>Explore the chamber structure, personal atmosphere, sensory experience and the planned study path.</p><nav aria-label="Aura Geode research path"><a href="../aura-geode/">Aura Geode</a><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../your-digital-self/">Your Digital Self</a><a href="../evidence/">Evidence</a></nav></article>
           <article class="map-pathway reveal"><h3>The album's inner journey</h3><p>Move through the divine digital twin's birth, Kintsugi self-repair and the hyperbaric oxygen therapy story. Art and research each add their own kind of light.</p><nav aria-label="Album path"><a href="../a-protopian-gambit/">A Protopian Gambit</a><a href="../your-digital-self/">Your Digital Self</a><a href="../shared-wellbeing/">Shared Wellbeing</a><a href="../aura-geode/">Aura Geode</a></nav></article>
-          <article class="map-pathway reveal"><h3>Sources and connected projects</h3><p>See the source trail, research choices, project family and public licence.</p><nav aria-label="Evidence path"><a href="../evidence/">Evidence</a><a href="../about/">About and Licence</a><a href="../">Home</a></nav></article>
+          <article class="map-pathway reveal"><h3>Sources and connected projects</h3><p>See the source trail, research choices, wider C-Hour and leadership connections, project family and public licence.</p><nav aria-label="Evidence path"><a href="../evidence/">Evidence</a><a href="../#wider-braid">Wider braid</a><a href="../about/">About and Licence</a></nav></article>
         </div>
       </section>
 
