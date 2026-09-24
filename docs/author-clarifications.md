@@ -27,3 +27,9 @@ The draft A$35,000 unit target is for a mass-produced baseline chamber using mat
 Clarified 24 September 2026.
 
 Aura Matrix Studio is an emergent, non-clinical public process for building a personal Aura of Intelligence through self-reflection and organising keywords and data for use with different artificial intelligence systems. It is separate from a future clinical Geode study.
+
+## C-Hour and preventative wellbeing
+
+Clarified 24 September 2026.
+
+C-Hour is braided into the health co-operative idea. It encourages voluntary participation in food, movement, friendship, reflection, local resilience and other preventative wellbeing activities. Communities may shape reciprocal opportunities around shared equipment and experiences. A recorded hour has no monetary equivalent and does not price a health service; equipment, professional work and operating costs retain their own funding arrangements. Local access and reciprocity terms remain for the people involved to shape.

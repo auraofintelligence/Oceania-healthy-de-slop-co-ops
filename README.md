@@ -78,7 +78,7 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 - [Aura Matrix Studio](https://auraofintelligence.github.io/aura-matrix-studio/) is an emergent non-clinical public process for building a personal Aura of Intelligence through self-reflection and organising keywords and data for use with different artificial intelligence systems.
 - [Ready S.E.T. local compute](https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/index.html) connects the owner-held digital reflection path to community-scale local computing.
 - [82 Claytons Road, Amity](https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/) presents a proposed partnership and place, with agreements still open.
-- [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) explores voluntary human contribution and community gratitude without a monetary equivalent.
+- [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) explores how voluntary contribution, local reciprocity and preventative wellbeing can be braided together while C-hours remain separate from money, prices and investment.
 - [Aura guide](https://auraofintelligence.github.io/) is a wider doorway to the connected projects.
 
 ## Source work
