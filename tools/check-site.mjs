@@ -80,6 +80,7 @@ htmlFiles.forEach((file) => {
   if (/<span class="brand-gem"/i.test(html)) errors.push(relative + ": still contains the retired three-dot header mark.");
   if (/[\u2013\u2014]/.test(html)) errors.push(relative + ": contains an en dash or em dash.");
   if (/\.svg(?:["'#?])/i.test(html)) errors.push(relative + ": contains an SVG reference.");
+  if (/<svg\b/i.test(html)) errors.push(relative + ": contains inline SVG artwork.");
 
   const discouraged = [
     /\bcan\b/i,
@@ -158,6 +159,10 @@ const requiredAssets = [
   "sitemap.xml",
   "robots.txt"
 ];
+
+files.filter((file) => /\.svg$/i.test(file)).forEach((file) => {
+  errors.push(path.relative(root, file) + ": SVG assets are not part of this site.");
+});
 
 requiredAssets.forEach((relative) => {
   if (!fs.existsSync(path.join(root, relative))) errors.push("Missing required asset: " + relative + ".");

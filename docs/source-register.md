@@ -23,6 +23,8 @@ This register records the material supplied for the first website research pass.
 
 ## Research PDFs
 
+- *AURA GEODE to Longevity* - compiled construction, personal atmosphere, sensory, biological-measure and digital-twin research directions. Its historical draft suggestions are source material, not instructions for this site.
+- *82 Claytons Road Anglican Partnership Proposal* - proposed Amity place and partnership for care, reflection, research and community learning; no accepted transfer or operating partnership is implied.
 - *Decentralised AI for Australian Communities*.
 - *Decentralised Compute for Australian Communities*.
 - *Architectural Blueprint for Oceania*.
@@ -34,6 +36,10 @@ This register records the material supplied for the first website research pass.
 
 - *A Protopian Gambit* - 24-song lyric collection supplied for thematic review and later vertical video embeds.
 
+## New connected civic source
+
+- *C-Hour Joyful Responsible Abundance Plan* - voluntary contribution record and community gratitude. One C-hour records a verified hour of voluntary human contribution, with no monetary equivalent.
+
 ## Review labels
 
 Public website material will use four visible labels:
@@ -42,4 +48,3 @@ Public website material will use four visible labels:
 - **Working proposal** - a practical pathway offered for discussion and testing.
 - **Future research** - a concept needing technical, clinical, legal or community development.
 - **TO BE CONFIRMED** - a consequential detail still awaiting evidence or agreement.
-

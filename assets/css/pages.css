@@ -5,6 +5,153 @@
     linear-gradient(145deg, #03050d, #0b1230 58%, #150d2f);
 }
 
+/* Whole-person de-slop and connected civic paths */
+.deslop-spectrum-section {
+  color: var(--ink-900);
+  background: linear-gradient(145deg, #f6efe6, #e6f5f0 50%, #e9e2f3);
+}
+
+.deslop-spectrum {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.deslop-spectrum article {
+  min-height: 300px;
+  padding: clamp(1.4rem, 2.5vw, 2.5rem);
+  border: 1px solid rgba(12, 28, 50, 0.16);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.4));
+  box-shadow: 0 24px 52px rgba(16, 42, 61, 0.08);
+  transition: transform 350ms ease, box-shadow 350ms ease;
+}
+
+.deslop-spectrum article:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 34px 70px rgba(16, 42, 61, 0.16);
+}
+
+.deslop-spectrum article::before {
+  display: block;
+  width: 72px;
+  height: 5px;
+  margin-bottom: 3rem;
+  background: var(--aurora);
+  content: "";
+}
+
+.deslop-spectrum h3 { font-size: clamp(1.45rem, 2vw, 2rem); }
+.deslop-spectrum p,
+.deslop-deep-dive p { color: rgba(7, 19, 38, 0.73); }
+
+.deslop-deep-dive {
+  margin-top: 1rem;
+  padding: clamp(1.7rem, 3vw, 3rem);
+  background: linear-gradient(110deg, #fff5d7, #ffeced 50%, #e5f8f5);
+  border: 1px solid rgba(12, 28, 50, 0.16);
+}
+
+.deslop-deep-dive p { max-width: 90ch; }
+
+.wellbeing-connections-section {
+  color: var(--opal-100);
+  background: linear-gradient(140deg, #071b2c, #1a1535 62%, #26152f);
+}
+
+.wellbeing-connections {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.wellbeing-connections a {
+  display: grid;
+  min-height: 310px;
+  align-content: space-between;
+  gap: 1rem;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid rgba(190, 238, 242, 0.28);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.04));
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.18), 0 25px 60px rgba(0, 0, 0, 0.18);
+  transition: transform 350ms ease, border-color 350ms ease;
+}
+
+.wellbeing-connections a:hover,
+.wellbeing-connections a:focus-visible { transform: translateY(-7px); border-color: var(--lagoon-300); }
+.wellbeing-connections strong { font-family: var(--display); font-size: clamp(1.5rem, 2.2vw, 2.25rem); font-weight: 500; }
+.wellbeing-connections span { color: rgba(248, 247, 242, 0.76); }
+.wellbeing-connections small { color: var(--lagoon-300); font-weight: 700; }
+
+/* Geode research imagery */
+.geode-discovery-section {
+  color: var(--opal-100);
+  background: linear-gradient(145deg, #07111e, #181839 60%, #231429);
+}
+
+.geode-discovery-grid { display: grid; gap: clamp(2rem, 5vw, 5rem); }
+
+.geode-discovery-card {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  border: 1px solid rgba(169, 228, 232, 0.25);
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 30px 75px rgba(0, 0, 0, 0.22);
+}
+
+.geode-discovery-card:nth-child(even) { direction: rtl; }
+.geode-discovery-card:nth-child(even) > * { direction: ltr; }
+
+.geode-discovery-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  object-fit: cover;
+}
+
+.geode-discovery-card > div { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 1.4rem; padding: clamp(2rem, 4.8vw, 5rem); }
+.geode-discovery-card h3 { font-size: clamp(2rem, 3.5vw, 3.6rem); }
+.geode-discovery-card p { color: rgba(248, 247, 242, 0.78); }
+.geode-discovery-card a { color: var(--lagoon-300); font-weight: 700; text-underline-offset: 0.22em; }
+
+.geode-sensing-section {
+  color: var(--ink-900);
+  background: linear-gradient(140deg, #fff7e7, #dff2f0 54%, #e9e4f7);
+}
+
+.geode-sensing-stage { display: grid; align-items: center; gap: clamp(2rem, 6vw, 6rem); grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr); }
+.geode-sensing-stage h3 { margin-top: 2rem; font-size: clamp(1.6rem, 2.5vw, 2.5rem); }
+.geode-sensing-stage p { color: rgba(7, 19, 38, 0.75); }
+.geode-sensing-stage figure { overflow: hidden; margin: 0; background: #101a2b; box-shadow: 0 30px 70px rgba(7, 19, 38, 0.2); }
+.geode-sensing-stage img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.geode-sensing-stage figcaption { padding: 1rem 1.3rem; color: var(--opal-100); background: #101a2b; font-size: 0.9rem; }
+
+.matrix-studio-section {
+  color: var(--ink-900);
+  background: linear-gradient(140deg, #f9f4ea, #e4f3f0 50%, #ece2f1);
+}
+
+.matrix-studio-section .sovereign-copy p { color: rgba(7, 19, 38, 0.75); }
+
+@media (max-width: 1060px) {
+  .deslop-spectrum { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .wellbeing-connections { grid-template-columns: 1fr; }
+  .wellbeing-connections a { min-height: 220px; }
+}
+
+@media (max-width: 760px) {
+  .deslop-spectrum,
+  .geode-discovery-card,
+  .geode-sensing-stage { grid-template-columns: 1fr; }
+  .deslop-spectrum article { min-height: 220px; }
+  .geode-discovery-card:nth-child(even) { direction: ltr; }
+  .geode-discovery-card img { min-height: 0; aspect-ratio: 4 / 3; }
+  .geode-sensing-stage img { aspect-ratio: 4 / 3; }
+}
+
 .portal-section {
   color: var(--opal-100);
   background:

@@ -59,6 +59,8 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 - Product comparisons name the equipment, maker, intended use, relevant current records and local setting.
 - The Personal Atmosphere Delivery System is an engineering and device research direction. Existing equipment has its own named product pathway.
 - The Geode research path connects pressure design, breathing atmosphere, sensory experiences, owner-held records, participant choice and clinical study design.
+- The Geode work is a declared research direction. Individual studies make their measures and results visible, including oxygen delivery, selected wound healing, blood-cell telomere signals, sensory combinations and self-reflection.
+- De-slop also includes food, chosen elixirs, movement, stretching, rest, fasting, hot and cold experiences, altitude and personal digital reflection. A more involved programme is an option for people who want it.
 - Local people and institutions shape their own partnerships, agreements and cultural relationships.
 - Open details stay visible for the people involved to resolve together.
 
@@ -70,6 +72,11 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 - [Aura of Dementia](https://auraofintelligence.github.io/aura-dementia/) presents an early privacy-first care and research concept.
 - [i C. infinity Music Universe](https://auraofintelligence.github.io/i-C-infinity-music-universe/) holds the albums, songs, lyrics and videos connected with this work.
 - [Strange But True](https://auraofintelligence.github.io/strange-but-true/) is the wider public project family and contact doorway.
+- [Aura Matrix Studio](https://auraofintelligence.github.io/aura-matrix-studio/) is an emergent non-clinical public process for building a personal Aura of Intelligence through self-reflection and organising keywords and data for use with different artificial intelligence systems.
+- [Ready S.E.T. local compute](https://auraofintelligence.github.io/ready-set-co-op-cultural-intelligence-node/index.html) connects the owner-held digital reflection path to community-scale local computing.
+- [82 Claytons Road, Amity](https://auraofintelligence.github.io/Anglican-Diocese-82-Claytons-Amity/) presents a proposed partnership and place, with agreements still open.
+- [C-Hour introduction](https://auraofintelligence.github.io/C-Hour-introduction/) explores voluntary human contribution and community gratitude without a monetary equivalent.
+- [Aura guide](https://auraofintelligence.github.io/) is a wider doorway to the connected projects.
 
 ## Source work
 

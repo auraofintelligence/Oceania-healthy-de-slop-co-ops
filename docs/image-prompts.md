@@ -173,3 +173,49 @@ Preserved original: `assets/icons/source/favicon-connected-gems-original.png`
 Prompt:
 
 > Use case: logo-brand. Asset type: square master artwork for a website favicon and touch icon. Input image: the supplied Site Map hero is a visual reference for its connected faceted gems, black-pearl depth, opal colour, solar-gold light and luminous equal-world feeling. Primary request: distil that connected-gem constellation into one extremely clear, memorable favicon mark. Subject: six equally sized, large faceted jewel spheres arranged in an open circular constellation with no central ruler, linked by a few bold luminous solar-gold arcs; gems use lagoon aqua, opal white, orchid violet, hibiscus pink, emerald-teal and warm gold. Style/medium: premium polished 3D jewel emblem simplified for strong recognition at 16 by 16 pixels, with crisp edges and a bold silhouette. Composition/framing: perfectly centred square icon, the constellation fills about 82 percent of the canvas, generous safe margin, balanced from every direction, no horizon and no scene. Background: a simple near-black black-pearl circular medallion with transparent space outside the circle. Lighting/mood: luminous, joyful, precious and welcoming. Constraints: genuine transparent background outside the medallion; all six gems remain visually equal; connecting lines stay thick enough to survive tiny scaling; no fine filigree; no tiny satellite dots; no text, letters, numbers, labels, logos, crowns, thrones, flags, religious symbols, cultural motifs, borders, watermark or signature. Avoid: complex landscape, ocean scene, central hierarchy, corporate network icon, flat clip art, thin hairline connections, excessive glow, busy detail.
+
+## Aura Geode prototype and research artwork
+
+Generated 24 September 2026 with built-in OpenAI image generation. These are speculative concept designs, not photographs of built or certified products. The six original PNG files are preserved in `assets/images/source/`; the optimised WebP files are the public page assets. The descriptions below are the recreation prompt set for this artwork.
+
+### Steel-frame arrival
+
+Web: `assets/images/geode-prototype-steel-entry.webp`
+Original: `assets/images/source/geode-prototype-steel-entry-original.png`
+
+> Premium cinematic architectural product visualisation, wide landscape. Show a realistic faceted steel-frame hyperbaric oxygen chamber prototype in a luminous community research studio beside the sea. One ordinary adult is entering through a spacious accessible doorway, with another adult professional nearby. Make the human scale, entry mechanism, seating and pressure-vessel shell legible. Opal, polished steel, deep midnight blue, warm gold and subtle lagoon light. Optimistic, calm, sophisticated, technically plausible as an early concept, not a finished medical product. No text, numbers, logos, schematic lines, floating interface labels, flags, crowns, sacred motifs or watermark.
+
+### Mineral-shell session
+
+Web: `assets/images/geode-prototype-mineral-session.webp`
+Original: `assets/images/source/geode-prototype-mineral-session-original.png`
+
+> Wide cinematic cutaway architectural concept of a faceted mineral-composite hyperbaric Geode prototype with a person inside. Show the seated adult comfortably engaging with an integrated personal display, wearing a plausible personal breathing mask while calm sensory light glows around the interior. Outside shell and structural form remain visible; include space for supervision and a separate breathing supply concept. Rich mineral textures, opal seams, aqua and violet light, black-pearl depth, warm human expression. Make it a human-centred research design, not a claim of certification. No text, numbers, labels, logos, magical effects, medical result promises or watermark.
+
+### Modular exit and external monitoring
+
+Web: `assets/images/geode-prototype-modular-exit.webp`
+Original: `assets/images/source/geode-prototype-modular-exit-original.png`
+
+> Wide photorealistic future-design concept of a modular transparent hyperbaric chamber in a welcoming coastal research setting. An adult is stepping out after a session through a clear open doorway; another adult professional is present near an external monitoring console. Show real human scale, accessible circulation, modular sections and sensors outside the chamber. Premium editorial realism, translucent materials, brushed metal, opal highlights, soft solar-gold and lagoon light. Optimistic and calm, visibly a prototype rather than a marketed certified device. No readable interface, words, numbers, branding, crowns, religious or cultural motifs or watermark.
+
+### Oxygen, plasma and selected wound research
+
+Web: `assets/images/geode-plasma-wound-research.webp`
+Original: `assets/images/source/geode-plasma-wound-research-original.png`
+
+> Scientific editorial artwork in a wide landscape composition. Portray oxygen dissolving into blood plasma and travelling toward a small healing area of skin. Make the biological scale and gentle tissue-repair process visually legible through luminous red blood cells, liquid plasma, oxygen glints and skin layers, without suggesting instant healing or a universal treatment. High-end medical visualisation with black-pearl background, ruby, opal and aqua light. No labels, graphs, words, numbers, logos, frightening injury detail or watermark.
+
+### Blood-cell telomere research
+
+Web: `assets/images/geode-telomere-research.webp`
+Original: `assets/images/source/geode-telomere-research-original.png`
+
+> Premium wide scientific editorial visualisation about a measured research signal. Show chromosome ends and telomere structures alongside a carefully collected blood sample in a contemporary laboratory. Luminous microscopic detail, opal white, violet, aqua and warm gold on dark blue, with a sense of curiosity rather than a miracle cure. No claim of whole-body rejuvenation or age reversal. No text, numbers, charts, logos, people identifiable from real life or watermark.
+
+### Owner-held digital reflection
+
+Web: `assets/images/geode-local-twin.webp`
+Original: `assets/images/source/geode-local-twin-original.png`
+
+> Cinematic wide editorial scene after a chamber session. An ordinary adult sits peacefully at their own local laptop, reflecting on notes and chosen body observations while a gentle, equal-height abstract digital-twin visual appears on the screen. The person remains the centre of the scene, with the chamber softly visible in the background. Make the technology personal, local and non-coercive; warm coastal future architecture, opal, lagoon aqua, violet and solar-gold light. No readable text, data labels, diagnostic claims, logos, crowns, thrones, sacred symbols or watermark.
