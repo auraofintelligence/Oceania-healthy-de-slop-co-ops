@@ -268,9 +268,9 @@ const pages = [
     key: "shared-wellbeing",
     title: "Shared Wellbeing",
     shortTitle: "Shared Wellbeing",
-    description: "A careful public exploration of shared sauna access, supervised hyperbaric oxygen therapy, rest and reflection.",
+    description: "A bright community pathway for sauna, professionally supervised hyperbaric oxygen therapy, rest, reflection and shared learning.",
     heading: "Warmth. Breath.<br><span>Room to return to yourself.</span>",
-    lead: "Shared wellbeing begins with ordinary human needs, then asks where expensive equipment, professional relationships and community ownership may sit.",
+    lead: "Imagine a local place where warmth, professionally supported oxygen therapy, music and quiet reflection become easier to reach, with each person shaping their own experience.",
     hero: "hero-shared-wellbeing.webp",
     heroAlt: "Concept artwork of an ocean-side community wellbeing sanctuary with a sauna, quiet garden and separate consultation room.",
     theme: "wellbeing",
@@ -281,10 +281,10 @@ const pages = [
     body: `
       <section class="world-section pearl-section">
         <div class="wrap editorial-split">
-          <div class="section-title reveal"><h2>Wellbeing before machinery</h2></div>
+          <div class="section-title reveal"><h2>A place with room for the whole person</h2></div>
           <div class="sovereign-copy reveal">
-            <p class="large-copy">Food, movement, rest, reflection, relationships and a sense of belonging sit beside the technology story. Equipment is one possible part of a wider place, not the measure of a person's effort or worth.</p>
-            <p>De-slop is playful language for making room between a person and the noise around them. It is not a diagnosis or one universal recipe.</p>
+            <p class="large-copy">Food, movement, rest, reflection, relationships and belonging give the technology its human setting. Shared equipment could add another beautiful option to everyday wellbeing.</p>
+            <p>De-slop is playful language for finding space between a person and the noise around them. Each person brings their own pace, hopes and way of making meaning.</p>
           </div>
         </div>
       </section>
@@ -292,25 +292,25 @@ const pages = [
       <section class="world-section three-spaces-section" id="three-spaces">
         <div class="wrap section-heading reveal">
           <h2>Three spaces, three different relationships</h2>
-          <p>The visual world holds them together while the evidence and operating boundaries remain distinct.</p>
+          <p>Each space offers a different experience. A joined-up community place could make the journey feel welcoming and affordable.</p>
         </div>
         <div class="wrap three-spaces">
           <article class="space-panel sauna-panel reveal">
             <span class="space-light" aria-hidden="true"></span>
             <h3>Sauna and warmth</h3>
-            <p>Sauna types vary in heat source, temperature, accessibility, energy, maintenance and comfort. Particular products and operating arrangements remain to be identified.</p>
-            <span class="status-mark status-open">TO BE CONFIRMED</span>
+            <p>A shared sauna offers warmth, pause and company. Local groups could compare certified products, accessibility, running costs and comfort before choosing the setting that suits their people.</p>
+            <span class="status-mark status-working">Local choice</span>
           </article>
           <article class="space-panel hbot-panel reveal">
             <span class="space-light" aria-hidden="true"></span>
             <h3>Hyperbaric oxygen therapy</h3>
-            <p>The Australian public starting point places chamber use with qualified and trained health professionals in appropriately equipped clinics. Each product and intended use needs its own current record.</p>
+            <p>Professionally supervised chamber sessions offer a strong starting platform for access and research. One small randomised study in healthy older adults found improvements in attention and processing speed, inviting larger and more varied studies.</p>
             <span class="status-mark status-established">Established information</span>
           </article>
           <article class="space-panel reflection-panel reveal">
             <span class="space-light" aria-hidden="true"></span>
             <h3>Private reflection</h3>
-            <p>A quiet setting may hold music, journalling, personal records and a digital reflection on local hardware. Clinical software and general wellbeing follow different paths.</p>
+            <p>Music, journalling and a personal digital reflection could help someone notice what a session means in their own life. Their records begin on hardware they hold.</p>
             <span class="status-mark status-working">Working proposal</span>
           </article>
         </div>
@@ -320,10 +320,10 @@ const pages = [
         <div class="wrap safety-stage">
           <div class="safety-jewel reveal" aria-hidden="true"><span></span></div>
           <div class="safety-copy reveal">
-            <h2>The current Australian safety line is clear</h2>
-            <p>The Therapeutic Goods Administration advises hyperbaric chamber use under qualified and trained health professionals in appropriately equipped clinics. Its October 2025 notice warns against purchasing a chamber for home use.</p>
-            <p>This public site therefore keeps existing supervised services separate from the proposed Aura Geode and Personal Atmosphere Delivery System research.</p>
-            <a class="faceted-link faceted-link-light" href="https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/risk-fire-during-use-hyperbaric-chambers">Therapeutic Goods Administration safety notice <span aria-hidden="true">↗</span></a>
+            <h2>Professional care gives the research a home</h2>
+            <p>Qualified, trained health professionals and appropriately equipped clinics offer a practical Australian starting point for hyperbaric oxygen therapy. Product records, session design and clear participant information create a foundation for learning together.</p>
+            <p>That pathway opens two complementary tracks: shared access to existing services now, and an engineering and clinical study path for the Aura Geode and Personal Atmosphere Delivery System.</p>
+            <div class="inline-paths"><a class="faceted-link faceted-link-light" href="https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/risk-fire-during-use-hyperbaric-chambers">Australian chamber guidance <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://pubmed.ncbi.nlm.nih.gov/32589613/">Healthy-ageing study <span aria-hidden="true">↗</span></a></div>
           </div>
         </div>
       </section>
@@ -339,7 +339,7 @@ const pages = [
           <div class="song-copy reveal">
             <h2><em>60 Days Set in Stone</em> is the hyperbaric oxygen therapy song</h2>
             <p class="large-copy">The song carries a sixty-session chamber journey through pressure, measurement, self-reflection and digital-twin formation in art.</p>
-            <p>Its emotional and artistic meaning belongs here. Clinical benefits, protocols and personal suitability belong in the separate evidence and professional-care lane. The song is not presented as treatment evidence or an instruction.</p>
+            <p>Its sixty-session arc offers a way to imagine careful observation over time: what changes, what stays steady, and what the person notices. A research team could turn those questions into measures and comparisons of their own design.</p>
             <span class="status-mark status-art">Art beside evidence</span>
           </div>
         </div>
@@ -347,9 +347,9 @@ const pages = [
 
       <section class="world-section equipment-section">
         <div class="wrap editorial-split">
-          <div class="section-title reveal"><h2>Every product keeps its own name and record</h2></div>
+          <div class="section-title reveal"><h2>Real products, visible choices</h2></div>
           <div class="sovereign-copy reveal">
-            <p class="large-copy">A chamber, accessory, sauna or software product is not treated as part of one broad certification. The public comparison will show the manufacturer, model, intended use, current Australian Register of Therapeutic Goods entry where relevant, accessibility and operating setting.</p>
+            <p class="large-copy">A useful local comparison would name each chamber, accessory, sauna and software product, its maker, intended use, relevant Australian register entry, accessibility features and operating setting. That lets a community see exactly what it is considering.</p>
           </div>
         </div>
         <div class="wrap equipment-ledger reveal">
@@ -367,8 +367,8 @@ const pages = [
     title: "Aura Geode Research",
     shortTitle: "Aura Geode",
     description: "An open construction and research path for the proposed Aura Geode and Personal Atmosphere Delivery System.",
-    heading: "An imagined chrysalis.<br><span>Research lives in the open.</span>",
-    lead: "The Aura Geode is a proposed place where structure, atmosphere, reflection and local computing meet. This page honours the scale of the vision while every unresolved engineering and health question remains visible.",
+    heading: "A luminous chamber.<br><span>A universe of possibility.</span>",
+    lead: "The Aura Geode brings pressure engineering, a personal breathing atmosphere, sensory experience and owner-held computing into one ambitious research programme. Here is how the pieces could come together and earn real-world evidence.",
     hero: "hero-aura-geode.webp",
     heroAlt: "Imagined architectural artwork of an unoccupied translucent Geode chamber being studied by a small research team beside the ocean at night.",
     theme: "geode",
@@ -379,26 +379,26 @@ const pages = [
     body: `
       <section class="world-section geode-opening">
         <div class="wrap editorial-split">
-          <div class="section-title reveal"><h2>A future place, clearly named</h2></div>
+          <div class="section-title reveal"><h2>A chamber experience worth investigating</h2></div>
           <div class="sovereign-copy reveal">
-            <p class="large-copy">The Geode is a construction and research vision. No completed structure, certified Aura Geode product, operating clinic or approved treatment program is evidenced in the supplied material.</p>
-            <p>Existing health equipment belongs in its own named product and professional setting. The Geode belongs in an open research path, with its questions held in daylight.</p>
-            <span class="status-mark status-future">Future research</span>
+            <p class="large-copy">Imagine a session that brings professionally supported oxygen therapy together with chosen light, sound and private reflection. The Geode vision gives that experience a physical form, while a personal digital twin helps its owner notice patterns over time.</p>
+            <p>The supplied plans describe a design programme. Existing registered chambers offer a practical platform for early research; a purpose-built Geode follows through engineering, device review and human studies.</p>
+            <span class="status-mark status-future">Research design</span>
           </div>
         </div>
       </section>
 
       <section class="world-section geode-anatomy-section" id="geode-parts">
         <div class="wrap section-heading reveal">
-          <h2>Four relationships inside one imagined place</h2>
-          <p>Keeping the parts distinct leaves room for good engineering, personal choice and clear public understanding.</p>
+          <h2>Four parts of one experience</h2>
+          <p>Each part has its own job, giving designers clear ways to build, measure and improve the whole.</p>
         </div>
         <div class="wrap geode-anatomy">
           <div class="geode-core reveal" aria-hidden="true"><span></span><span></span><span></span><i></i></div>
-          <div class="geode-part geode-part-shell reveal"><span>01</span><h3>Structure</h3><p>A pressure-rated enclosure remains a design and testing question.</p></div>
-          <div class="geode-part geode-part-atmosphere reveal"><span>02</span><h3>Atmosphere</h3><p>Chamber pressure and a person's breathing atmosphere are separate design relationships.</p></div>
-          <div class="geode-part geode-part-reflection reveal"><span>03</span><h3>Reflection</h3><p>Music, journalling and private records belong to the person's own experience.</p></div>
-          <div class="geode-part geode-part-compute reveal"><span>04</span><h3>Local computing</h3><p>A digital reflection begins on owner-held hardware outside the chamber.</p></div>
+          <div class="geode-part geode-part-shell reveal"><span>01</span><h3>Structure</h3><p>Compare a fabricated frame and a mineral-composite shell through modelling, material tests and pressure-rated prototypes.</p></div>
+          <div class="geode-part geode-part-atmosphere reveal"><span>02</span><h3>Atmosphere</h3><p>Study chamber pressure and a separately controlled breathing supply as two coordinated systems.</p></div>
+          <div class="geode-part geode-part-reflection reveal"><span>03</span><h3>Sensory space</h3><p>Explore music, light and reflection in a way that suits the person and the approved equipment setting.</p></div>
+          <div class="geode-part geode-part-compute reveal"><span>04</span><h3>Local computing</h3><p>Build the personal record on owner-held hardware, with clear choices for sharing selected findings.</p></div>
         </div>
       </section>
 
@@ -411,10 +411,10 @@ const pages = [
             <span class="pads-letter">S</span><strong>System</strong>
           </div>
           <div class="pads-copy reveal">
-            <h2>A personal atmosphere is the proposal</h2>
-            <p class="large-copy">The proposed Personal Atmosphere Delivery System (PADS) uses a personal mask for a selected breathing gas while the larger chamber may remain pressurised with ordinary air.</p>
-            <p>Gas composition, pressure relationships, hardware, controls, intended purpose, product category, testing and certification remain unresolved. The supplied material does not identify a certified PADS product.</p>
-            <span class="status-mark status-open">TO BE CONFIRMED</span>
+            <h2>A personal atmosphere, designed around the person</h2>
+            <p class="large-copy">The Personal Atmosphere Delivery System (PADS) concept explores a personal mask with a controlled breathing supply while the wider chamber uses a separately managed atmosphere. That separation creates a clear engineering question with real promise for comfort, control and research.</p>
+            <p>One design route could define gas delivery, pressure behaviour, sensing, alarms and cleaning; model the full system; then test prototypes against the intended use and relevant device requirements. Named component records would help a combined experience move towards a human study.</p>
+            <span class="status-mark status-future">Device research pathway</span>
           </div>
         </div>
       </section>
@@ -422,16 +422,16 @@ const pages = [
       <section class="world-section material-section">
         <div class="wrap editorial-split">
           <div class="section-title reveal"><h2>Two construction directions</h2></div>
-          <div class="sovereign-copy reveal"><p class="large-copy">The drafts hold two different material imaginations. Neither is treated as settled engineering.</p></div>
+          <div class="sovereign-copy reveal"><p class="large-copy">The drafts offer two valuable starting points for a design comparison. Modelling, material samples and independent testing could show where each shines.</p></div>
         </div>
         <div class="wrap material-duet">
           <article class="material-path material-steel reveal">
             <span class="material-sample" aria-hidden="true"></span>
-            <div><h3>Steel frame</h3><p>A fabricated structural path with familiar industrial relationships and a separate inner environment.</p><span class="status-mark status-future">Future research</span></div>
+            <div><h3>Steel frame</h3><p>A fabricated structural path with familiar industrial methods, inspectable joints and a separately designed inner environment.</p><span class="status-mark status-future">Compare and test</span></div>
           </article>
           <article class="material-path material-mineral reveal">
             <span class="material-sample" aria-hidden="true"></span>
-            <div><h3>Mineral shell</h3><p>A proposed pressure-rated geopolymer and local mineral direction with a different testing journey.</p><span class="status-mark status-future">Future research</span></div>
+            <div><h3>Mineral shell</h3><p>A geopolymer-composite direction that invites strength, durability and manufacturing trials using locally relevant materials.</p><span class="status-mark status-future">Compare and test</span></div>
           </article>
         </div>
       </section>
@@ -439,17 +439,27 @@ const pages = [
       <section class="world-section research-gates-section">
         <div class="wrap research-gates-stage">
           <div class="research-gates-copy reveal">
-            <h2>The open research gates</h2>
-            <p>Each gate represents a relationship that deserves its own qualified people, records and review.</p>
+            <h2>From luminous idea to working evidence</h2>
+            <p>The source plans already sketch a route through engineering, participant experience and clinical comparison. Each stage makes the next one more informative.</p>
           </div>
           <div class="research-gates reveal">
-            <span>Pressure</span><span>Fire safety</span><span>Breathing gas</span><span>Materials</span><span>Accessibility</span><span>Human factors</span><span>Controls</span><span>Testing</span><span>Regulatory pathway</span>
+            <span>Pressure design</span><span>Oxygen and fire assessment</span><span>Breathing supply</span><span>Material trials</span><span>Accessible entry</span><span>Human factors</span><span>Controls and alarms</span><span>Prototype testing</span><span>Device review</span>
           </div>
           <div class="research-record reveal">
-            <span class="status-mark status-open">TO BE CONFIRMED</span>
-            <p>Engineering team, design standard, pressure testing, fire assessment, accessibility review, product identity, intended use and clinical relationship.</p>
+            <span class="status-mark status-future">Research sequence</span>
+            <p>First, model and test the enclosure and atmosphere system. Next, study comfort and usability with the right professional team. Then compare meaningful outcomes across agreed session designs, with ethics review and follow-up.</p>
           </div>
         </div>
+      </section>
+
+      <section class="world-section geode-method-section">
+        <div class="wrap section-heading reveal"><h2>What a joined-up study could discover</h2><p>Clear comparisons, meaningful measures and participant choice could turn a beautiful experience into useful shared learning.</p></div>
+        <div class="wrap geode-method-grid">
+          <article class="geode-method-card reveal"><span>01</span><h3>Start with a baseline</h3><p>Record what matters to participants before sessions: attention, sleep, day-to-day function, comfort and their own sense of restoration. Agree on validated measures and follow-up times.</p></article>
+          <article class="geode-method-card reveal"><span>02</span><h3>Compare the ingredients</h3><p>A study shaped with participants, clinicians and ethics reviewers could compare suitable controls with professionally supervised oxygen sessions, then explore whether added light, sound and chosen reflection change the experience or measured outcomes.</p></article>
+          <article class="geode-method-card reveal"><span>03</span><h3>Learn person by person</h3><p>Use optional, owner-held records to explore which session features suit which people. Report group results alongside comfort, accessibility and any unwanted effects, then refine the design.</p></article>
+        </div>
+        <div class="wrap geode-method-links reveal"><a class="faceted-link faceted-link-light" href="https://www.tga.gov.au/resources/resource/guidance/australian-clinical-trial-handbook">Australian clinical trial handbook <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://www.nhmrc.gov.au/research-policy/ethics/national-statement-ethical-conduct-human-research">Human research ethics <span aria-hidden="true">↗</span></a><a class="faceted-link faceted-link-light" href="https://pubmed.ncbi.nlm.nih.gov/32589613/">A healthy-ageing research lead <span aria-hidden="true">↗</span></a></div>
       </section>
 
       <section class="world-section geode-song-section">
@@ -457,9 +467,9 @@ const pages = [
           <div class="geode-song-rings reveal" aria-hidden="true"><span></span><span></span><span></span><strong>60<small>session art journey</small></strong></div>
           <div class="reveal">
             <h2><em>60 Days Set in Stone</em> gives the research a human interior</h2>
-            <p class="large-copy">The hyperbaric oxygen therapy song imagines sixty sessions of pressure, measurement, reflection and digital-twin formation. It is an artistic journey beside the research, not a clinical protocol or evidence of benefit.</p>
+            <p class="large-copy">The hyperbaric oxygen therapy song imagines sixty sessions of pressure, measurement, reflection and digital-twin formation. Its arc offers a vivid question for research: how might a sustained, personally meaningful experience change what people notice and measure over time?</p>
             <span class="status-mark status-art">Art beside evidence</span>
-            <div class="inline-paths"><a class="faceted-link faceted-link-light" href="../shared-wellbeing/#three-spaces">Shared wellbeing and current safety <span aria-hidden="true">→</span></a><a class="faceted-link faceted-link-light" href="https://auraofintelligence.github.io/aura-geode/">The wider Aura Geode project <span aria-hidden="true">↗</span></a></div>
+            <div class="inline-paths"><a class="faceted-link faceted-link-light" href="../shared-wellbeing/#three-spaces">Shared wellbeing pathways <span aria-hidden="true">→</span></a><a class="faceted-link faceted-link-light" href="https://auraofintelligence.github.io/aura-geode/">The wider Aura Geode project <span aria-hidden="true">↗</span></a></div>
           </div>
         </div>
       </section>
