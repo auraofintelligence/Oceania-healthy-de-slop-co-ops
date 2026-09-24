@@ -17,6 +17,19 @@ const expectedPages = [
   path.join("about", "index.html"),
   path.join("site-map", "index.html")
 ];
+const expectedJourney = [
+  "index.html",
+  path.join("shared-wellbeing", "index.html"),
+  path.join("aura-geode", "index.html"),
+  path.join("your-digital-self", "index.html"),
+  path.join("a-protopian-gambit", "index.html"),
+  path.join("co-operative-paths", "index.html"),
+  path.join("public-value", "index.html"),
+  path.join("oceania", "index.html"),
+  path.join("evidence", "index.html"),
+  path.join("about", "index.html"),
+  path.join("site-map", "index.html")
+];
 
 function walk(directory) {
   return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
@@ -47,6 +60,17 @@ const heroImages = new Set();
 
 expectedPages.forEach((relative) => {
   if (!fs.existsSync(path.join(root, relative))) errors.push("Missing expected page: " + relative);
+});
+
+expectedJourney.forEach((relative, index) => {
+  const file = path.join(root, relative);
+  if (!fs.existsSync(file)) return;
+  const html = fs.readFileSync(file, "utf8");
+  const journey = html.match(/<nav class="page-journey wrap"[\s\S]*?<\/nav>/)?.[0] || "";
+  const links = [...journey.matchAll(/<a[^>]*href="([^"]+)"/g)].map((match) => match[1]);
+  const actual = links.map((href) => path.relative(root, path.resolve(path.dirname(file), href, "index.html")));
+  const expected = [expectedJourney[(index - 1 + expectedJourney.length) % expectedJourney.length], expectedJourney[(index + 1) % expectedJourney.length]];
+  if (actual.length !== 2 || actual.some((target, linkIndex) => target !== expected[linkIndex])) errors.push(relative + ": previous/next journey does not match the visitor sequence.");
 });
 
 if (htmlFiles.length !== expectedPages.length) {
@@ -140,6 +164,10 @@ if (fs.existsSync(geodePage)) {
   if (!geode.includes("The Aura Geode is the sportscar concept")) errors.push("Aura Geode: baseline and bespoke models are not distinguished.");
   if (!geode.includes("Crystal resonance and etheric effects are part of the declared Geode research direction.")) errors.push("Aura Geode: material research direction is missing.");
   if (/The Geode programme records/i.test(geode)) errors.push("Aura Geode: planned measures are described as active recording.");
+  const geodeHtml = fs.readFileSync(geodePage, "utf8");
+  if (!geodeHtml.includes("oxysail.com/wp-content/themes/oxynova/assets/product-operations/main/1003.webp")) errors.push("Aura Geode: real seated supplier image is missing.");
+  if (geodeHtml.includes('class="material-image" src="../assets/images/geode-prototype-steel-entry.webp"')) errors.push("Aura Geode: retired luxury baseline artwork is still displayed.");
+  if (!geode.includes("A$35,000 project figure remains a draft target")) errors.push("Aura Geode: supplier listing and project price target are not distinguished.");
 }
 if (fs.existsSync(valuePage)) {
   const value = stripMarkup(fs.readFileSync(valuePage, "utf8"));

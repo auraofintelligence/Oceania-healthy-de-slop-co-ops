@@ -183,6 +183,8 @@ Generated 24 September 2026 with built-in OpenAI image generation. These are spe
 Web: `assets/images/geode-prototype-steel-entry.webp`
 Original: `assets/images/source/geode-prototype-steel-entry-original.png`
 
+Retired from the public baseline comparison on 24 September 2026. Its large faceted design looked like the bespoke Geode rather than a practical mass-produced seated chamber. The file remains in the project record; the live comparison now links to a real YF-1003 supplier photograph hosted by OxySail.
+
 > Premium cinematic architectural product visualisation, wide landscape. Show a realistic faceted steel-frame hyperbaric oxygen chamber prototype in a luminous community research studio beside the sea. One ordinary adult is entering through a spacious accessible doorway, with another adult professional nearby. Make the human scale, entry mechanism, seating and pressure-vessel shell legible. Opal, polished steel, deep midnight blue, warm gold and subtle lagoon light. Optimistic, calm, sophisticated, technically plausible as an early concept, not a finished medical product. No text, numbers, logos, schematic lines, floating interface labels, flags, crowns, sacred motifs or watermark.
 
 ### Mineral-shell session

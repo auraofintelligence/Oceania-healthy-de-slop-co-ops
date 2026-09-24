@@ -7,13 +7,13 @@ const publicOrigin = "https://auraofintelligence.github.io/Oceania-healthy-de-sl
 
 const worlds = [
   ["home", "Home", ""],
-  ["co-operative-paths", "Co-operative Paths", "co-operative-paths"],
   ["shared-wellbeing", "Shared Wellbeing", "shared-wellbeing"],
   ["aura-geode", "Aura Geode", "aura-geode"],
   ["your-digital-self", "Your Digital Self", "your-digital-self"],
+  ["a-protopian-gambit", "A Protopian Gambit", "a-protopian-gambit"],
+  ["co-operative-paths", "Co-operative Paths", "co-operative-paths"],
   ["public-value", "Public Value", "public-value"],
   ["oceania", "Many Places", "oceania"],
-  ["a-protopian-gambit", "A Protopian Gambit", "a-protopian-gambit"],
   ["evidence", "Evidence", "evidence"],
   ["about", "About", "about"],
   ["site-map", "Site Map", "site-map"]
@@ -27,14 +27,14 @@ const pages = [
     shortTitle: "Home",
     description: "A radiant regional world for community-shaped wellbeing, personal reflection and self-sovereign digital life across Oceania.",
     heading: "You arrive radiant.<br><span>Your world begins with you.</span>",
-    lead: "In this regional project, self-sovereign means the person remains at the centre of their own body, story, data and digital reflection. Shared infrastructure gathers around that dignity.",
+    lead: "Here, self-sovereign means your body, story, data and digital reflection remain yours. Neighbours may share the costly equipment, while each person keeps their own key.",
     hero: "hero-home-v2.webp",
     heroAlt: "Concept artwork of a radiant person overlooking equal jewel-like community spaces across an Oceania archipelago at dawn.",
     theme: "home",
-    primaryHref: "co-operative-paths/",
-    primaryLabel: "Co-operative paths",
-    secondaryHref: "shared-wellbeing/",
-    secondaryLabel: "Shared wellbeing",
+    primaryHref: "shared-wellbeing/",
+    primaryLabel: "Shared wellbeing",
+    secondaryHref: "co-operative-paths/",
+    secondaryLabel: "Co-operative paths",
     body: `
       <section class="world-section sovereign-intro" id="sovereign-centre">
         <div class="wrap editorial-split">
@@ -63,15 +63,15 @@ const pages = [
           <p>Each idea receives its own atmosphere, evidence and room for local variation. Ten project worlds are open, with a human Site Map as the eleventh doorway.</p>
         </div>
         <div class="wrap portal-archipelago">
-          <a class="image-portal portal-large reveal" href="co-operative-paths/">
+          <a class="image-portal portal-large reveal" href="shared-wellbeing/">
+            <img src="assets/images/hero-shared-wellbeing.webp" alt="" loading="lazy" decoding="async">
+            <span class="portal-shade"></span>
+            <span class="portal-copy"><strong>Shared Wellbeing</strong><small>Warmth, breath, food, movement and reflection.</small></span>
+          </a>
+          <a class="image-portal portal-tall reveal" href="co-operative-paths/">
             <img src="assets/images/hero-co-operative-paths.webp" alt="" loading="lazy" decoding="async">
             <span class="portal-shade"></span>
             <span class="portal-copy"><strong>Co-operative Paths</strong><small>Many agreements. Equal dignity.</small></span>
-          </a>
-          <a class="image-portal portal-tall reveal" href="shared-wellbeing/">
-            <img src="assets/images/hero-shared-wellbeing.webp" alt="" loading="lazy" decoding="async">
-            <span class="portal-shade"></span>
-            <span class="portal-copy"><strong>Shared Wellbeing</strong><small>Warmth, breath, rest and discovery.</small></span>
           </a>
           <a class="future-portal future-violet reveal" href="aura-geode/">
             <span class="portal-gem" aria-hidden="true"></span>
@@ -87,9 +87,9 @@ const pages = [
           </a>
         </div>
         <nav class="wrap world-ribbon reveal" aria-label="More site worlds">
-          <a href="public-value/"><span>06</span><strong>Public Value</strong></a>
-          <a href="oceania/"><span>07</span><strong>Many Places</strong></a>
-          <a href="a-protopian-gambit/"><span>08</span><strong>A Protopian Gambit</strong></a>
+          <a href="a-protopian-gambit/"><span>05</span><strong>A Protopian Gambit</strong></a>
+          <a href="public-value/"><span>07</span><strong>Public Value</strong></a>
+          <a href="oceania/"><span>08</span><strong>Many Places</strong></a>
           <a href="evidence/"><span>09</span><strong>Evidence</strong></a>
           <a href="about/"><span>10</span><strong>About and Licence</strong></a>
           <a href="site-map/"><span>11</span><strong>Site Map</strong></a>
@@ -290,7 +290,7 @@ const pages = [
       </section>
 
       <section class="world-section deslop-spectrum-section" id="whole-person">
-        <div class="wrap section-heading reveal"><h2>More than a chamber</h2><p>De-slop is a wide, personal landscape. A Geode session is one possible part of it, not a definition of wellbeing for everyone.</p></div>
+        <div class="wrap section-heading reveal"><h2>More than a chamber</h2><p>De-slop is a wide, personal landscape. The Geode is one bright room in a much larger house of wellbeing.</p></div>
         <div class="wrap deslop-spectrum">
           <article class="reveal"><h3>Everyday nourishment</h3><p>Food, shared meals, chosen elixirs, rest and time with people who matter.</p></article>
           <article class="reveal"><h3>Movement and recovery</h3><p>Stretching, exercise, play, warmth, sauna and cold experiences chosen for the person and the setting.</p></article>
@@ -454,8 +454,8 @@ const pages = [
         </div>
         <div class="wrap material-duet">
           <article class="material-path material-steel reveal">
-            <img class="material-image" src="../assets/images/geode-prototype-steel-entry.webp" alt="Concept design of an adult entering a faceted steel-frame pressure chamber while a professional waits nearby." width="1600" height="900" loading="lazy" decoding="async">
-            <div><h3>Shared-access baseline</h3><p>A mass-produced chamber concept using established hyperbaric materials and manufacturing methods, including approaches seen in Chinese-made chambers. A$35,000 is its draft unit-price target for design and manufacturing work.</p><span class="status-mark status-future">Draft price target</span></div>
+            <a class="material-supplier-photo" href="https://oxysail.com/products/yf1003-hard-shell-hyperbaric-oxygen-chamber/" aria-label="See the real YF-1003 seated chamber and supplier photos"><img class="material-image" src="https://oxysail.com/wp-content/themes/oxynova/assets/product-operations/main/1003.webp" alt="Supplier photograph of the real YF-1003 seated hard-shell chamber, shown as a design and price reference." loading="lazy" decoding="async"></a>
+            <div><h3>Shared-access baseline</h3><p>A real seated, single-person hard-shell example helps ground the mass-produced baseline. A listing for the OSAIL YF-1003 gives US$20,000 FOB for one unit, about A$28,200 at the Reserve Bank's 23 September 2026 rate. Ten or more units list at US$19,000 each, about A$26,800. FOB means loaded at a named Chinese port; shipping to Australia, insurance, import charges, installation and Australian device requirements sit beyond that price.</p><p>The maker presents this example for non-medical wellness use. A future clinical co-operative would need a separately suitable Australian device path. The A$35,000 project figure remains a draft target, not a supplier quote or landed price.</p><p class="supplier-credit">Supplier photo: OxySail. <a href="https://oxysail.com/products/yf1003-hard-shell-hyperbaric-oxygen-chamber/">View the chamber</a> · <a href="https://0a157c49b0e4f57d.en.made-in-china.com/product/HTBpmKVMaiRL/China-High-Quality-Single-Person-Seated-Hyperbaric-Oxygen-Chamber-for-Nursing-Homes.html">FOB listing</a> · <a href="https://github.com/auraofintelligence/Oceania-healthy-de-slop-co-ops/blob/main/docs/seated-chamber-supplier-reference.md">Price and source notes</a></p><span class="status-mark status-future">Real supplier reference</span></div>
           </article>
           <article class="material-path material-mineral reveal">
             <img class="material-image" src="../assets/images/geode-prototype-mineral-session.webp" alt="Concept design of a person inside a mineral-composite chamber using an integrated personal screen." width="1600" height="900" loading="lazy" decoding="async">
@@ -1061,25 +1061,25 @@ const pages = [
           <div class="map-group map-group-shared reveal" role="group" aria-label="Community and shared infrastructure">
             <div class="map-group-heading"><span>Community and shared infrastructure</span><h3>Shape what is shared</h3></div>
             <div class="map-worlds">
-              <a class="map-world" href="../co-operative-paths/"><span>02</span><strong>Co-operative Paths</strong><p>Local purpose, membership, ownership and place-shaped agreements.</p><small>Open world <b aria-hidden="true">→</b></small></a>
-              <a class="map-world" href="../shared-wellbeing/"><span>03</span><strong>Shared Wellbeing</strong><p>Sauna, professionally supervised hyperbaric oxygen therapy, reflection and community learning.</p><small>Open world <b aria-hidden="true">→</b></small></a>
-              <a class="map-world" href="../public-value/"><span>06</span><strong>Public Value</strong><p>Shared-cost illustrations and ways to explore a public investment case.</p><small>Open world <b aria-hidden="true">→</b></small></a>
-              <a class="map-world" href="../oceania/"><span>07</span><strong>Many Places Across Oceania</strong><p>Regional connection while law, culture, permission and terms stay with each place.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../shared-wellbeing/"><span>02</span><strong>Shared Wellbeing</strong><p>Food, movement, sauna, professionally supported oxygen care and reflection.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../co-operative-paths/"><span>06</span><strong>Co-operative Paths</strong><p>Local purpose, membership, ownership and place-shaped agreements.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../public-value/"><span>07</span><strong>Public Value</strong><p>Shared-cost illustrations and ways to explore a public investment case.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../oceania/"><span>08</span><strong>Many Places Across Oceania</strong><p>Regional connection while law, culture, permission and terms stay with each place.</p><small>Open world <b aria-hidden="true">→</b></small></a>
             </div>
           </div>
 
           <div class="map-group map-group-personal reveal" role="group" aria-label="Personal and future research">
             <div class="map-group-heading"><span>Personal and future research</span><h3>Meet the Geode and digital self</h3></div>
             <div class="map-worlds">
-              <a class="map-world" href="../aura-geode/"><span>04</span><strong>Aura Geode Research</strong><p>A joined-up chamber vision with clear engineering, sensory and human-study pathways.</p><small>Open world <b aria-hidden="true">→</b></small></a>
-              <a class="map-world" href="../your-digital-self/"><span>05</span><strong>Your Digital Self</strong><p>An owner-held digital twin, private reflection and sharing through chosen relationships.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../aura-geode/"><span>03</span><strong>Aura Geode Research</strong><p>A joined-up chamber vision with clear engineering, sensory and human-study pathways.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../your-digital-self/"><span>04</span><strong>Your Digital Self</strong><p>An owner-held digital twin, private reflection and sharing through chosen relationships.</p><small>Open world <b aria-hidden="true">→</b></small></a>
             </div>
           </div>
 
           <div class="map-group map-group-music reveal" role="group" aria-label="Music and meaning">
             <div class="map-group-heading"><span>Music and meaning</span><h3>Hear the inner journey</h3></div>
             <div class="map-worlds">
-              <a class="map-world" href="../a-protopian-gambit/"><span>08</span><strong>A Protopian Gambit</strong><p>Divine digital birth, Kintsugi self-repair and the sixty-session hyperbaric oxygen therapy story.</p><small>Open world <b aria-hidden="true">→</b></small></a>
+              <a class="map-world" href="../a-protopian-gambit/"><span>05</span><strong>A Protopian Gambit</strong><p>Divine digital birth, Kintsugi self-repair and the sixty-session hyperbaric oxygen therapy story.</p><small>Open world <b aria-hidden="true">→</b></small></a>
             </div>
           </div>
 
@@ -1218,9 +1218,14 @@ function renderHero(page, prefix) {
     </section>`;
 }
 
+const journeyOrder = ["home", "shared-wellbeing", "aura-geode", "your-digital-self", "a-protopian-gambit", "co-operative-paths", "public-value", "oceania", "evidence", "about", "site-map"];
+
 function renderJourney(pageIndex, prefix) {
-  const previous = pages[(pageIndex - 1 + pages.length) % pages.length];
-  const following = pages[(pageIndex + 1) % pages.length];
+  const current = pages[pageIndex];
+  const position = journeyOrder.indexOf(current.key);
+  if (position < 0) throw new Error(`Page missing from journey: ${current.key}`);
+  const previous = pages.find((page) => page.key === journeyOrder[(position - 1 + journeyOrder.length) % journeyOrder.length]);
+  const following = pages.find((page) => page.key === journeyOrder[(position + 1) % journeyOrder.length]);
   return `
     <nav class="page-journey wrap" aria-label="Continue through the site">
       <a href="${pageHref(previous.slug, prefix)}"><span>Previous page</span><strong>${previous.shortTitle}</strong></a>
@@ -1261,7 +1266,7 @@ function renderPage(page, pageIndex) {
     <link rel="stylesheet" href="${prefix}assets/css/base.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/layout.css?v=20260831-header-gems">
     <link rel="stylesheet" href="${prefix}assets/css/components.css?v=20260830-site-map">
-    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260830-site-map">
+    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260924-supplier-reference">
     <link rel="stylesheet" href="${prefix}assets/css/motion.css?v=20260830-site-map">
     <script src="${prefix}assets/js/site.js?v=20260830-site-map" defer></script>
   </head>
@@ -1288,6 +1293,7 @@ for (const [index, page] of pages.entries()) {
 }
 
 const sitemap = pages
+  .sort((a, b) => journeyOrder.indexOf(a.key) - journeyOrder.indexOf(b.key))
   .map((page) => "  <url><loc>" + publicOrigin + (page.slug ? page.slug + "/" : "") + "</loc></url>")
   .join("\n");
 

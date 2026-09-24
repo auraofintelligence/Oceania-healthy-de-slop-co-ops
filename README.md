@@ -61,6 +61,7 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 - The Geode research path connects pressure design, breathing atmosphere, sensory experiences, owner-held records, participant choice and clinical study design.
 - The Geode work is a declared research direction, while its trial remains a plan. Proposed study measures include oxygen delivery, sensory combinations and self-reflection; wound-healing and blood-cell telomere questions draw on separate published studies and would need suitable future protocols and participant groups.
 - The draft A$35,000 price target belongs to a proposed mass-produced shared-access chamber, not the bespoke Aura Geode. The Geode explores high-purity Minjerribah quartz sand, crystal and mineral blends, and research into claimed resonance and etheric effects. Its price and trial results remain open.
+- A [real seated supplier example and FOB price check](docs/seated-chamber-supplier-reference.md) grounds the baseline picture. The published China-port price is separate from an Australian delivered or clinical-device cost.
 - De-slop also includes food, chosen elixirs, movement, stretching, rest, fasting, hot and cold experiences, altitude and personal digital reflection. A more involved programme is an option for people who want it.
 - Local people and institutions shape their own partnerships, agreements and cultural relationships.
 - Open details stay visible for the people involved to resolve together.
@@ -84,7 +85,7 @@ This map is a guidepost. It leaves room for specialist sites where a topic needs
 
 The supplied planning papers, submissions, research PDFs and album lyrics were reviewed before public copy was written. The [source register](docs/source-register.md) lists the supplied material, while the [source audit](docs/source-audit.md) records shared ground, design alternatives and research routes.
 
-Every generated hero image, its preserved original and its full prompt are recorded in [image prompts](docs/image-prompts.md).
+Every generated hero image, its preserved original and its full prompt are recorded in [image prompts](docs/image-prompts.md). The seated baseline example instead links to a real supplier photograph and its separate [source notes](docs/seated-chamber-supplier-reference.md).
 
 ## Licence
 

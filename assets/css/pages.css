@@ -1244,6 +1244,33 @@
   box-shadow: 0 24px 48px rgba(7, 19, 38, 0.18);
 }
 
+.material-supplier-photo {
+  display: block;
+  overflow: hidden;
+  background: #f4f7f8;
+}
+
+.material-supplier-photo .material-image {
+  object-fit: contain;
+  transition: transform 400ms ease;
+}
+
+.material-supplier-photo:hover .material-image,
+.material-supplier-photo:focus-visible .material-image {
+  transform: scale(1.035);
+}
+
+.material-path .supplier-credit {
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+}
+
+.supplier-credit a {
+  color: #174c77;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
 .material-path h3 {
   margin-top: 3rem;
 }
