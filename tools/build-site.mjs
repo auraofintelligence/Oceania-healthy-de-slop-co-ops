@@ -46,15 +46,10 @@ const pages = [
             <p>Self-sovereignty grows through chosen relationships. A digital twin here means a growing reflection of a person's records, memories, choices and patterns, held first on hardware that person chooses.</p>
           </div>
         </div>
-        <div class="wrap sovereign-orbit reveal" data-sovereign-orbit>
-          <div class="orbit-core"><span>You</span><small>whole from the beginning</small></div>
-          <button type="button" class="orbit-facet facet-body" data-orbit="body">Body</button>
-          <button type="button" class="orbit-facet facet-story" data-orbit="story">Story</button>
-          <button type="button" class="orbit-facet facet-data" data-orbit="data">Data</button>
-          <button type="button" class="orbit-facet facet-memory" data-orbit="memory">Memory</button>
-          <button type="button" class="orbit-facet facet-permission" data-orbit="permission">Permission</button>
-          <p class="orbit-reading" data-orbit-reading aria-live="polite">Each part remains close enough to feel like yours.</p>
-        </div>
+        <figure class="wrap sovereign-photo reveal">
+          <img src="assets/images/sovereign-modern-wellbeing.webp" alt="Concept artwork of a person using their own computer in a calm, contemporary coastal wellbeing centre" loading="lazy" decoding="async">
+          <figcaption>Shared spaces grow around a person while their private reflections remain in their own hands. Concept artwork.</figcaption>
+        </figure>
       </section>
 
       <section class="world-section portal-section" id="worlds">
@@ -74,13 +69,13 @@ const pages = [
             <span class="portal-copy"><strong>Co-operative Paths</strong><small>Many agreements. Equal dignity.</small></span>
           </a>
           <a class="future-portal future-violet reveal" href="aura-geode/">
-            <span class="portal-gem" aria-hidden="true"></span>
+            <img class="future-portal-image" src="assets/images/hero-aura-geode.webp" alt="" loading="lazy" decoding="async">
             <h3>Aura Geode Research</h3>
             <p>Pressure engineering, a personal breathing atmosphere, sensory experience and owner-held computing in one research world.</p>
             <span class="status-mark status-future">Future research</span>
           </a>
           <a class="future-portal future-opal reveal" href="your-digital-self/">
-            <span class="portal-gem" aria-hidden="true"></span>
+            <img class="future-portal-image" src="assets/images/sovereign-modern-wellbeing.webp" alt="" loading="lazy" decoding="async">
             <h3>Your Digital Self</h3>
             <p>A plain-language path into local hardware, private reflection and a digital twin that grows with its person.</p>
             <span class="status-mark status-working">Working proposal</span>
@@ -173,7 +168,7 @@ const pages = [
 
       <section class="world-section evidence-gateway">
         <div class="wrap evidence-stage">
-          <div class="evidence-prism reveal" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <img class="evidence-image reveal" src="assets/images/hero-evidence.webp" alt="Concept artwork representing curiosity and careful research" loading="lazy" decoding="async">
           <div class="reveal">
             <h2>Every idea has a visible home</h2>
             <p>Current public records, working proposals, future research and locally shaped details each have a visible place throughout the site.</p>
@@ -320,19 +315,19 @@ const pages = [
         </div>
         <div class="wrap three-spaces">
           <article class="space-panel sauna-panel reveal">
-            <span class="space-light" aria-hidden="true"></span>
+            <img src="../assets/images/wellbeing-sauna-concept.webp" alt="Concept artwork of a modern coastal sauna and quiet recovery room" loading="lazy" decoding="async">
             <h3>Sauna and warmth</h3>
             <p>A shared sauna offers warmth, pause and company. Local groups could compare certified products, accessibility, running costs and comfort before choosing the setting that suits their people.</p>
             <span class="status-mark status-working">Local choice</span>
           </article>
           <article class="space-panel hbot-panel reveal">
-            <span class="space-light" aria-hidden="true"></span>
+            <img src="../assets/images/wellbeing-clinical-concept.webp" alt="Concept artwork of a seated person speaking with a clinician beside a seated hyperbaric chamber" loading="lazy" decoding="async">
             <h3>Hyperbaric oxygen therapy</h3>
             <p>Existing professionally supervised chamber services offer a starting platform for future access and research plans. A separate, small randomised study in healthy older adults reported improvements in attention and processing speed, inviting larger and more varied studies.</p>
             <span class="status-mark status-established">Published study lead</span>
           </article>
           <article class="space-panel reflection-panel reveal">
-            <span class="space-light" aria-hidden="true"></span>
+            <img src="../assets/images/sovereign-modern-wellbeing.webp" alt="Concept artwork of a person reviewing private reflections on their own computer" loading="lazy" decoding="async">
             <h3>Private reflection</h3>
             <p>Music, journalling and a personal digital reflection could help someone notice what a session means in their own life. In this proposal, their records would begin on hardware they hold.</p>
             <span class="status-mark status-working">Working proposal</span>
@@ -342,7 +337,7 @@ const pages = [
 
       <section class="world-section safety-section">
         <div class="wrap safety-stage">
-          <div class="safety-jewel reveal" aria-hidden="true"><span></span></div>
+          <figure class="safety-image reveal"><img src="../assets/images/wellbeing-clinical-concept.webp" alt="Concept artwork of a contemporary consultation beside a seated hyperbaric chamber" loading="lazy" decoding="async"><figcaption>Concept setting, not a supplier model or active trial.</figcaption></figure>
           <div class="safety-copy reveal">
             <h2>Professional care gives the research a home</h2>
             <p>Qualified, trained health professionals and appropriately equipped clinics offer a practical Australian starting point for hyperbaric oxygen therapy. Product records, session design and clear participant information create a foundation for learning together.</p>
@@ -1223,7 +1218,6 @@ function renderHero(page, prefix) {
     <section class="sovereign-hero hero-${page.theme}" aria-labelledby="page-title">
       <img class="hero-image" src="${prefix}assets/images/${page.hero}" alt="${page.heroAlt}" fetchpriority="high" decoding="async">
       <div class="hero-veil"></div>
-      <div class="hero-facets" aria-hidden="true"><span></span><span></span><span></span></div>
       <div class="wrap hero-content">
         <h1 id="page-title">${page.heading}</h1>
         <p>${page.lead}</p>
@@ -1283,10 +1277,10 @@ function renderPage(page, pageIndex) {
     <link rel="stylesheet" href="${prefix}assets/css/tokens.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/base.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/layout.css?v=20260924-floating-top">
-    <link rel="stylesheet" href="${prefix}assets/css/components.css?v=20260830-site-map">
-    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260924-braided-ecosystem">
+    <link rel="stylesheet" href="${prefix}assets/css/components.css?v=20260924-modern-images">
+    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260924-modern-images">
     <link rel="stylesheet" href="${prefix}assets/css/motion.css?v=20260830-site-map">
-    <script src="${prefix}assets/js/site.js?v=20260924-floating-top" defer></script>
+    <script src="${prefix}assets/js/site.js?v=20260924-modern-images" defer></script>
   </head>
   <body class="page-${page.key}" id="top">
     <a class="skip-link" href="#main-content">Skip to the main story</a>

@@ -90,6 +90,8 @@
   background: linear-gradient(145deg, #f6efe6, #e6f5f0 50%, #e9e2f3);
 }
 
+.deslop-spectrum-section .section-heading p { color: rgba(7, 19, 38, 0.74); }
+
 .deslop-spectrum {
   display: grid;
   gap: 1rem;
@@ -656,69 +658,54 @@
 
 .three-spaces {
   display: grid;
-  align-items: start;
-  gap: 1rem;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
+  align-items: stretch;
+  gap: clamp(1rem, 2vw, 1.5rem);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .space-panel {
-  position: relative;
-  min-height: 480px;
+  display: flex;
   overflow: hidden;
-  padding: clamp(2rem, 5vw, 4rem);
+  flex-direction: column;
+  padding: 0 0 2rem;
   border: 1px solid var(--line-dark);
-  clip-path: polygon(var(--facet-medium) 0, 100% 0, 100% calc(100% - var(--facet-medium)), calc(100% - var(--facet-medium)) 100%, 0 100%, 0 var(--facet-medium));
+  border-radius: 26px;
   box-shadow: var(--royal-shadow);
 }
 
+.space-panel img {
+  display: block;
+  width: 100%;
+  height: clamp(200px, 20vw, 280px);
+  object-fit: cover;
+}
+
+.sauna-panel img { object-position: 24% center; }
+.hbot-panel img { object-position: 70% center; }
+.reflection-panel img { object-position: 75% center; }
+
 .space-panel h3 {
-  max-width: 500px;
-  margin-top: 11rem;
-  font-size: clamp(2.7rem, 5vw, 4.9rem);
+  margin: 1.6rem 1.7rem 0.7rem;
+  font-size: clamp(2rem, 3vw, 2.8rem);
 }
 
 .space-panel p {
-  max-width: 620px;
+  margin: 0 1.7rem 1.5rem;
   color: rgba(248, 247, 242, 0.72);
 }
 
+.space-panel .status-mark { align-self: flex-start; margin: auto 1.7rem 0; }
+
 .sauna-panel {
-  grid-column: 1 / span 7;
   background: linear-gradient(145deg, #632116, #2e1021 56%, #100a1c);
 }
 
 .hbot-panel {
-  min-height: 620px;
-  grid-column: 7 / span 6;
-  margin-top: 8rem;
   background: linear-gradient(145deg, #0a4556, #0d1d42 58%, #141130);
 }
 
 .reflection-panel {
-  min-height: 430px;
-  grid-column: 2 / span 8;
-  margin-top: -7rem;
   background: linear-gradient(145deg, #39206a, #161237 55%, #082c3e);
-}
-
-.space-light {
-  position: absolute;
-  top: 2.2rem;
-  right: 2.2rem;
-  width: 150px;
-  aspect-ratio: 1;
-  background: var(--opal-metal);
-  clip-path: polygon(50% 0, 88% 17%, 100% 58%, 68% 100%, 22% 88%, 0 43%, 16% 12%);
-  filter: drop-shadow(0 0 30px rgba(255, 232, 170, 0.3));
-}
-
-.space-light::after {
-  position: absolute;
-  inset: 8px;
-  background: inherit;
-  clip-path: inherit;
-  content: "";
-  filter: brightness(0.35) saturate(1.5);
 }
 
 .safety-section {
@@ -729,34 +716,30 @@
 .safety-stage {
   display: grid;
   align-items: center;
-  gap: clamp(4rem, 10vw, 11rem);
-  grid-template-columns: minmax(260px, 0.75fr) minmax(0, 1.25fr);
+  gap: clamp(2rem, 5vw, 5rem);
+  grid-template-columns: minmax(280px, 1fr) minmax(0, 1fr);
 }
 
-.safety-jewel {
-  position: relative;
-  width: min(370px, 80vw);
-  aspect-ratio: 1;
-  justify-self: center;
-  background: conic-gradient(from 30deg, #b9fff7, #58c9d6, #7891ff, #c39cff, #b9fff7);
-  clip-path: polygon(50% 0, 84% 10%, 100% 46%, 84% 86%, 45% 100%, 8% 78%, 0 38%, 18% 8%);
-  box-shadow: 0 35px 90px rgba(7, 19, 38, 0.28);
+.safety-image {
+  overflow: hidden;
+  margin: 0;
+  border-radius: 24px;
+  background: #dce8e8;
+  box-shadow: 0 24px 55px rgba(7, 19, 38, 0.16);
 }
 
-.safety-jewel::before {
-  position: absolute;
-  inset: 10%;
-  background: radial-gradient(circle at 45% 38%, #eefeff, #22677a 35%, #0b1d3b 68%);
-  clip-path: inherit;
-  content: "";
+.safety-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: 70% center;
 }
 
-.safety-jewel span {
-  position: absolute;
-  z-index: 1;
-  inset: 24%;
-  border: 1px solid rgba(255, 255, 255, 0.68);
-  clip-path: inherit;
+.safety-image figcaption {
+  padding: 0.8rem 1rem;
+  color: rgba(7, 19, 38, 0.72);
+  font-size: 0.95rem;
 }
 
 .safety-copy p {
@@ -968,9 +951,7 @@
   .sauna-panel,
   .hbot-panel,
   .reflection-panel {
-    min-height: 480px;
-    grid-column: auto;
-    margin-top: 0;
+    min-height: 0;
   }
 }
 
@@ -1045,13 +1026,7 @@
     font-size: 1.12rem;
   }
 
-  .space-panel {
-    min-height: 450px !important;
-  }
-
-  .space-panel h3 {
-    margin-top: 9rem;
-  }
+  .space-panel img { height: 260px; }
 
   .portrait-song {
     width: min(280px, 76vw);

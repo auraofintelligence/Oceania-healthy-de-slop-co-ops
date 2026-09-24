@@ -221,3 +221,28 @@ Web: `assets/images/geode-local-twin.webp`
 Original: `assets/images/source/geode-local-twin-original.png`
 
 > Cinematic wide editorial scene after a chamber session. An ordinary adult sits peacefully at their own local laptop, reflecting on notes and chosen body observations while a gentle, equal-height abstract digital-twin visual appears on the screen. The person remains the centre of the scene, with the chamber softly visible in the background. Make the technology personal, local and non-coercive; warm coastal future architecture, opal, lagoon aqua, violet and solar-gold light. No readable text, data labels, diagnostic claims, logos, crowns, thrones, sacred symbols or watermark.
+
+## Peaceful modern wellbeing imagery, 24 September 2026
+
+Generated with built-in OpenAI image generation. These are concept artworks, not photographs of operating centres, named suppliers or certified equipment. Original PNGs remain in `assets/images/source/`; optimised WebP files serve the site.
+
+### Person-held computing in a contemporary wellbeing centre
+
+Web: `assets/images/sovereign-modern-wellbeing.webp`
+Original: `assets/images/source/sovereign-modern-wellbeing-original.png`
+
+> Premium cinematic editorial image for a futuristic yet peaceful Australian longevity and self-sovereign computing website, wide landscape. A contemporary coastal Queensland wellbeing and research centre at late afternoon with elegant low-carbon architecture, warm white stone, glass, opal aqua light and restrained gold accents. An adult uses their own compact personal computer and local storage to review wellness reflections, while a realistic sauna and consultation spaces appear behind. Dignified, aspirational and serene, never a hippie commune, rustic retreat, spiritual ceremony, luxury hotel or spaceship. No text, logos, floating interfaces, medical claims, polygons or crystal symbolism.
+
+### Seated chamber and clinical conversation
+
+Web: `assets/images/wellbeing-clinical-concept.webp`
+Original: `assets/images/source/wellbeing-clinical-concept-original.png`
+
+> Premium architectural editorial concept for a forward-looking Australian longevity and preventative-wellbeing website. A seated adult speaks with a qualified clinician beside a realistic, modest single-person seated hyperbaric oxygen therapy chamber with transparent door and straightforward controls. Coastal daylight, subtle wearable sensor and a compact computer suggest personally held data. Human-scale, welcoming contemporary medical design, not a vast bespoke spaceship. No text, logos, mystical symbols, geodes, crystals, rustic decor or medical claims. Concept art, not a supplier photograph.
+
+### Contemporary sauna and recovery room
+
+Web: `assets/images/wellbeing-sauna-concept.webp`
+Original: `assets/images/source/wellbeing-sauna-concept-original.png`
+
+> Wide editorial architectural concept for an Australian future wellbeing cooperative. A peaceful contemporary sauna and recovery suite designed for ordinary community access, with restrained timber, pale stone, glass, efficient lighting and ocean light. One person rests on the lower sauna bench and another rests outside. Serene, bright, inclusive, practical and future-ready. No text, logos, mystical symbols, geodes, crystals, icons or medical equipment.

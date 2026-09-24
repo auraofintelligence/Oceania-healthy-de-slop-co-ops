@@ -102,25 +102,6 @@
     revealTargets.forEach((target) => revealObserver.observe(target));
   }
 
-  const orbit = document.querySelector("[data-sovereign-orbit]");
-  if (orbit) {
-    const reading = orbit.querySelector("[data-orbit-reading]");
-    const orbitMeanings = {
-      body: "The body remains a living home, not a remote asset.",
-      story: "A person's own words give shape to the record.",
-      data: "Personal records begin close to the person they describe.",
-      memory: "Memory holds ambiguity, feeling and change over time.",
-      permission: "Sharing begins with a separate choice and relationship."
-    };
-    orbit.querySelectorAll("[data-orbit]").forEach((button) => {
-      button.addEventListener("click", () => {
-        orbit.querySelectorAll("[data-orbit]").forEach((item) => item.classList.remove("is-active"));
-        button.classList.add("is-active");
-        reading.textContent = orbitMeanings[button.dataset.orbit];
-      });
-    });
-  }
-
   const agreement = document.querySelector("[data-agreement-prism]");
   if (agreement) {
     const title = agreement.querySelector("[data-agreement-title]");
