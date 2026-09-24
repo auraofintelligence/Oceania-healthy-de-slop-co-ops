@@ -246,3 +246,12 @@ Web: `assets/images/wellbeing-sauna-concept.webp`
 Original: `assets/images/source/wellbeing-sauna-concept-original.png`
 
 > Wide editorial architectural concept for an Australian future wellbeing cooperative. A peaceful contemporary sauna and recovery suite designed for ordinary community access, with restrained timber, pale stone, glass, efficient lighting and ocean light. One person rests on the lower sauna bench and another rests outside. Serene, bright, inclusive, practical and future-ready. No text, logos, mystical symbols, geodes, crystals, icons or medical equipment.
+
+### Modern co-operative planning hero
+
+Web: `assets/images/hero-co-operative-paths-v2.webp`
+Original: `assets/images/source/hero-co-operative-paths-v2-original.png`
+
+Replaces the earlier ceremonial-circle concept on the live co-operative page. The earlier asset remains in project history.
+
+> Full-width cinematic website hero. A future-ready coastal Australian health co-operative in a calm contemporary building with glass, pale stone, restrained timber, brushed metal and opal daylight. A diverse small group of ordinary adults of different ages make practical plans together around a modern table, with equal conversation and no leader or ritual. Through glass, a professionally designed sauna, quiet movement area and modest seated oxygen chamber appear in separate rooms. Peaceful, modern and optimistic about living healthier for longer. Darker architectural space on the left for a white heading. No text, logos, watermarks, geodes, crystals, polygons, mystical ceremony, luxury-resort extravagance or floating interfaces.

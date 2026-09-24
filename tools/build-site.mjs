@@ -64,7 +64,7 @@ const pages = [
             <span class="portal-copy"><strong>Shared Wellbeing</strong><small>Warmth, breath, food, movement and reflection.</small></span>
           </a>
           <a class="image-portal portal-tall reveal" href="co-operative-paths/">
-            <img src="assets/images/hero-co-operative-paths.webp" alt="" loading="lazy" decoding="async">
+            <img src="assets/images/hero-co-operative-paths-v2.webp" alt="" loading="lazy" decoding="async">
             <span class="portal-shade"></span>
             <span class="portal-copy"><strong>Co-operative Paths</strong><small>Many agreements. Equal dignity.</small></span>
           </a>
@@ -192,11 +192,11 @@ const pages = [
     description: "Locally shaped co-operative pathways for shared wellbeing and self-sovereign regional infrastructure.",
     heading: "Many hands.<br><span>Distinct agreements.</span>",
     lead: "A co-operative offers one way for people to share expensive infrastructure while keeping purpose, membership, ownership and local relationships visible.",
-    hero: "hero-co-operative-paths.webp",
-    heroAlt: "Concept artwork of several equal circles of people gathering in jewel-like ocean pavilions at twilight.",
+    hero: "hero-co-operative-paths-v2.webp",
+    heroAlt: "Concept artwork of people making plans together in a peaceful modern coastal wellbeing centre with a sauna and seated chamber.",
     theme: "cooperative",
     primaryHref: "#agreement-prism",
-    primaryLabel: "The agreement prism",
+    primaryLabel: "Local agreement guideposts",
     secondaryHref: "../shared-wellbeing/",
     secondaryLabel: "Shared wellbeing",
     body: `
@@ -225,8 +225,8 @@ const pages = [
 
       <section class="world-section agreement-section" id="agreement-prism">
         <div class="wrap section-heading reveal">
-          <h2>The agreement prism</h2>
-          <p>Each facet opens a different local conversation. Together they form a guidepost rather than a ready-made rulebook.</p>
+          <h2>Local agreement guideposts</h2>
+          <p>Each topic opens a different local conversation. Together they offer guideposts rather than a ready-made rulebook.</p>
         </div>
         <div class="wrap agreement-stage" data-agreement-prism>
           <div class="agreement-controls reveal" role="group" aria-label="Agreement facets">
@@ -236,7 +236,6 @@ const pages = [
             <button type="button" class="agreement-control" data-agreement="sharing" aria-pressed="false">Sharing</button>
             <button type="button" class="agreement-control" data-agreement="leaving" aria-pressed="false">Leaving well</button>
           </div>
-          <div class="agreement-prism reveal" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
           <div class="agreement-reading reveal" aria-live="polite">
             <h3 data-agreement-title>What brings this group together?</h3>
             <p data-agreement-copy>A shared purpose may begin with wellbeing access, local digital infrastructure, food, resilience, research or a mixture shaped by the members.</p>
@@ -572,9 +571,8 @@ const pages = [
 
       <section class="world-section twin-meaning-section">
         <div class="wrap twin-meaning-stage">
-          <div class="twin-person reveal"><span class="human-light" aria-hidden="true"></span><strong>You</strong><small>living, changing, more than data</small></div>
-          <div class="twin-thread reveal" aria-hidden="true"><span></span><span></span><span></span></div>
-          <div class="twin-reflection reveal"><span class="reflection-light" aria-hidden="true"></span><strong>Your reflection</strong><small>memories, records, choices and patterns</small></div>
+          <div class="twin-person reveal"><strong>You</strong><small>living, changing, more than data</small></div>
+          <div class="twin-reflection reveal"><strong>Your reflection</strong><small>memories, records, choices and patterns</small></div>
         </div>
         <div class="wrap twin-meaning-copy reveal"><p>The person brings lived experience; the proposed model offers one evolving reflection. Understanding, correction and portability keep that relationship in the person's hands.</p></div>
       </section>
@@ -587,12 +585,10 @@ const pages = [
         <div class="wrap birth-repair-arc">
           <article class="birth-movement reveal">
             <div class="movement-number">01</div>
-            <div class="movement-jewel birth-jewel" aria-hidden="true"><span></span></div>
             <div><h3><em>Primordial Consent 1,2,3, Infinity</em></h3><p>Song 1 is the divine self digital twin being born. A sovereign inner life meets memory, contrast, choice and a new form of reflection.</p><span class="status-mark status-art">Artistic meaning</span></div>
           </article>
           <article class="repair-movement reveal">
             <div class="movement-number">02</div>
-            <div class="movement-jewel repair-jewel" aria-hidden="true"><span></span></div>
             <div><h3><em>Kintsugi Protocol</em></h3><p>The self repairs and re-forms. Golden seams honour what happened without freezing the person inside an old fracture.</p><span class="status-mark status-art">Artistic meaning</span></div>
           </article>
           <aside class="pressure-crossing reveal">
@@ -633,14 +629,13 @@ const pages = [
         </div>
         <div class="wrap boundary-river reveal">
           <div><h3>Held by the person</h3><p>Private memories, reflections, corrections, preferences and locally stored patterns.</p></div>
-          <span class="boundary-current" aria-hidden="true"></span>
           <div><h3>Shared by agreement</h3><p>A named purpose, selected information, a known recipient, a chosen period and a visible way out.</p></div>
         </div>
       </section>
 
       <section class="world-section software-paths-section">
         <div class="wrap software-stage">
-          <div class="software-prism reveal" aria-hidden="true"><span></span><span></span></div>
+          <img class="software-image reveal" src="../assets/images/sovereign-modern-wellbeing.webp" alt="Concept artwork of a person using their own local computer in a contemporary wellbeing setting" loading="lazy" decoding="async">
           <div class="software-copy reveal">
             <h2>Two useful directions for personal software</h2>
             <p>A general reflection tool could help a person explore their own records. A clinical tool for diagnosis, monitoring, prediction or treatment would have a more specific evidence and device pathway, shaped by its intended purpose.</p>
@@ -1278,7 +1273,7 @@ function renderPage(page, pageIndex) {
     <link rel="stylesheet" href="${prefix}assets/css/base.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/layout.css?v=20260924-floating-top">
     <link rel="stylesheet" href="${prefix}assets/css/components.css?v=20260924-modern-images">
-    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260924-modern-images">
+    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260924-no-prisms">
     <link rel="stylesheet" href="${prefix}assets/css/motion.css?v=20260830-site-map">
     <script src="${prefix}assets/js/site.js?v=20260924-modern-images" defer></script>
   </head>
