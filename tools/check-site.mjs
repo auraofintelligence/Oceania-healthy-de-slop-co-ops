@@ -175,6 +175,11 @@ if (fs.existsSync(geodePage)) {
 if (fs.existsSync(valuePage)) {
   const value = stripMarkup(fs.readFileSync(valuePage, "utf8"));
   if (!value.includes("draft A$35,000 mass-produced chamber target")) errors.push("Public Value: baseline price target is not distinguished.");
+  for (const figure of ["7 people", "A$5,000", "14 people", "A$2,500", "21 people", "A$1,667", "35 people", "A$1,000"]) {
+    if (!value.includes(figure)) errors.push(`Public Value: shared-cost progression is missing ${figure}.`);
+  }
+  if (!value.includes("separate A$500 operating fee") || !value.includes("later loan funds would be used")) errors.push("Public Value: operating fee and unresolved later-member loans are not explained.");
+  if (value.includes("A separate shared-cost thought experiment")) errors.push("Public Value: the source table's arithmetic is still presented as unrelated.");
   if (/A\$35,000 Geode/i.test(value)) errors.push("Public Value: baseline target is wrongly assigned to the Geode.");
   if (/Grant, guarantee or other support/i.test(value)) errors.push("Public Value: guarantees are wrongly treated as cash contributions.");
 }

@@ -156,11 +156,11 @@ const pages = [
           <div class="value-number reveal">
             <span>About</span>
             <strong>A$1,000</strong>
-            <small>indicative protocol cost in one 35-member source table</small>
+            <small>illustrative hardware share with 35 people</small>
           </div>
           <div class="value-copy reveal">
             <h2>What shared access could bring within reach</h2>
-            <p>One draft source table shows an indicative A$1,000 protocol cost per member at 35 members. It also shows a separate A$5,000 initial loan per member and A$500 operating fee per 60-day protocol. A proposed A$35,000 mass-produced chamber is a different model from the bespoke Aura Geode. The member-financing details still invite revision.</p>
+            <p>The draft starts with seven people sharing a proposed A$35,000 standard chamber: A$5,000 each. With 35 people sharing that same hardware amount, the equivalent share falls to A$1,000 each. A proposed A$500 operating fee for each 60-day protocol sits separately. <a href="public-value/">See how the numbers move</a>.</p>
             <span class="status-mark status-working">Working proposal</span>
           </div>
         </div>
@@ -676,19 +676,30 @@ const pages = [
         <div class="wrap editorial-split">
           <div class="section-title reveal"><h2>Beautiful access, visible arithmetic</h2></div>
           <div class="sovereign-copy reveal">
-            <p class="large-copy">One draft source table places an indicative protocol cost near A$1,000 per member at 35 members. It also shows a separate A$5,000 initial loan per member and A$500 operating fee per 60-day protocol.</p>
-            <p>These figures invite a fuller local model: named equipment, staffing, energy, insurance, professional care, repayments and public support. A clear version could show where shared ownership makes the biggest difference.</p>
+             <p class="large-copy">One proposed A$35,000 standard chamber, shared by more people: seven founders bring the equipment share to A$5,000 each; 35 members bring it to A$1,000 each.</p>
+             <p>The source table calls these changing amounts a “protocol cost at scale”. The visible calculation divides the hardware target. A separate A$500 operating fee per 60-day protocol, loan repayments and other local costs belong in the fuller access price.</p>
             <span class="status-mark status-working">Working proposal</span>
           </div>
         </div>
+         <div class="wrap value-scale reveal" aria-label="How the draft equipment share changes as membership grows">
+           <div><span>7 people</span><strong>A$5,000</strong><small>each toward A$35,000</small></div>
+           <div><span>14 people</span><strong>A$2,500</strong><small>each toward A$35,000</small></div>
+           <div><span>21 people</span><strong>A$1,667</strong><small>each, rounded</small></div>
+           <div><span>35 people</span><strong>A$1,000</strong><small>each toward A$35,000</small></div>
+         </div>
+         <div class="wrap value-price-notes reveal">
+           <p><strong>Getting started:</strong> the draft proposes an A$5,000 loan for each of seven founders. Together, those loans cover the A$35,000 chamber target. Its example models 7% interest over 36 months, or A$154.39 a month per founder.</p>
+           <p><strong>Keeping it running:</strong> the draft lists A$500 per 60-day protocol for operations. It also imagines returning any co-operative surplus to members as rebates, which could help repay loans. Staffing, energy, insurance and professional care need their own local budget.</p>
+         </div>
+         <p class="wrap value-finance-note reveal">The source table repeats the A$5,000 loan in its later membership rows without showing how those later loan funds would be used. Each co-operative's finance plan would settle that detail before anyone treats the A$1,000 share as a complete access price. The A$35,000 target is for the proposed mass-produced chamber, not the bespoke Aura Geode.</p>
       </section>
 
       <section class="world-section affordability-section" id="affordability-explorer">
         <div class="wrap affordability-stage" data-affordability>
           <div class="affordability-copy reveal">
-            <h2>A separate shared-cost thought experiment</h2>
-            <p>These editable fields divide the draft A$35,000 mass-produced chamber target among 35 people. This baseline is separate from the higher-spec Aura Geode, whose price is still open. The result is an illustrative hardware share, not the source table's A$1,000 protocol cost, A$5,000 initial loan per member or A$500 operating fee per 60-day protocol. The full financing model remains open for revision.</p>
-            <span class="status-mark status-working">Separate thought experiment</span>
+             <h2>Try the shared-equipment arithmetic</h2>
+             <p>The draft table's A$1,000 figure at 35 people matches A$35,000 divided by 35. These controls begin with the draft A$35,000 mass-produced chamber target. Change the people, asset target or direct capital support to explore another local arrangement. This result is an equipment share, not a full protocol quote: the A$500 proposed operating fee, loan terms and other running costs remain separate. The bespoke Aura Geode has no set price.</p>
+             <span class="status-mark status-working">Editable illustration</span>
           </div>
           <form class="affordability-controls reveal" aria-label="Editable affordability illustration">
             <label><span>People sharing the asset</span><input type="number" inputmode="numeric" min="1" step="1" value="35" data-value-members></label>
@@ -925,7 +936,7 @@ const pages = [
         <div class="wrap conflict-ledger-stage">
           <div class="conflict-copy reveal"><h2>Choices that open new work</h2><p>The drafts offer more than one route in several places. Each choice invites a source check, design comparison or local conversation.</p></div>
           <div class="conflict-ledger reveal">
-            <div><strong>Affordability</strong><span>A$1,000 indicative protocol cost, A$5,000 initial loan per member and separate A$500 operating fee per 60-day protocol in one 35-member draft table</span></div>
+             <div><strong>Affordability</strong><span>One A$35,000 standard chamber divides to A$5,000 each for seven people or A$1,000 each for 35. The draft also lists a separate A$500 operating fee per 60-day protocol; later-member loan terms are still open.</span></div>
             <div><strong>Health setting</strong><span>earlier home-use language and later supervised clinical setting</span></div>
             <div><strong>Two chamber models</strong><span>A$35,000 draft mass-produced baseline and a higher-spec quartz-sand Aura Geode research concept whose price remains open</span></div>
             <div><strong>Personal data</strong><span>local owner-held files and earlier cloud Passport ideas</span></div>
@@ -1268,7 +1279,7 @@ function renderPage(page, pageIndex) {
     <link rel="stylesheet" href="${prefix}assets/css/base.css?v=20260830-site-map">
     <link rel="stylesheet" href="${prefix}assets/css/layout.css?v=20260924-floating-top">
     <link rel="stylesheet" href="${prefix}assets/css/components.css?v=20260924-no-placeholders">
-    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260924-no-placeholders">
+    <link rel="stylesheet" href="${prefix}assets/css/pages.css?v=20260928-price-clarity">
     <link rel="stylesheet" href="${prefix}assets/css/motion.css?v=20260830-site-map">
     <script src="${prefix}assets/js/site.js?v=20260924-modern-images" defer></script>
   </head>
